@@ -1,0 +1,64 @@
+@import @/styles/helpers
+
+.gallery
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    +m
+        display: block
+
+.image
+    &:nth-child(4n + 1),
+    &:nth-child(4n + 4)
+        width: rem(620)
+        height: rem(405)
+        +w
+            width: rem(560)
+        +d
+            width: 53%
+        +m
+            width: 100%
+            height: rem(240)
+    &:nth-child(4n + 2),
+    &:nth-child(4n + 3)
+        width: rem(510)
+        height: rem(630)
+        +d
+            width: 43%
+        +t
+            height: rem(500)
+        +m
+            width: 100%
+            height: rem(400)
+    &:nth-child(4n + 2)
+        margin-top: rem(160)
+        +d
+            margin-top: rem(120)
+        +t
+            margin-top: rem(65)
+        +m
+            margin-top: 0
+    &:nth-child(4n + 3)
+        margin-top: rem(-265)
+        +d
+            margin-top: rem(-225)
+        +t
+            margin-top: rem(-100)
+        +m
+            margin-top: 0
+    &:nth-child(4n + 4)
+        margin-top: rem(120)
+        +d
+            margin-top: rem(80)
+        +t
+            margin-top: rem(65)
+        +m
+            margin-top: 0
+    &:nth-child(4n + 5)
+        width: rem(510)
+        +d
+            width: 43%
+        +m
+            width: 100%
+    &:not(:last-child)
+        margin-bottom: rem(48)

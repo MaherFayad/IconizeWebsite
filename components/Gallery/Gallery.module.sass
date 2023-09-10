@@ -1,0 +1,62 @@
+@import @/styles/helpers
+
+.gallery
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    +d
+        margin: rem(-20)
+    +m
+        display: block
+        margin: 0
+
+.item
+    width: rem(550)
+    +w
+        width: rem(540)
+    +d
+        width: calc(50% - rem(40))
+        margin: 0 rem(20)
+    +m
+        width: 100%
+        margin: 0
+    &:nth-child(2n)
+        margin-top: rem(120)
+        +w
+            margin-top: rem(80)
+        +d
+            margin-top: rem(40)
+        +m
+            margin-top: 0
+    &:not(:last-child)
+        +m
+            margin-bottom: rem(48)
+
+.image
+    height: rem(560)
+    +d
+        height: rem(500)
+    +t
+        height: rem(400)
+    +m
+        height: rem(360)
+
+.title
+    margin-top: rem(16)
+    color: $n6
+    +m
+        +bodyXS
+    &:before
+        content: ""
+        position: relative
+        top: rem(-1)
+        display: inline-block
+        width: rem(10)
+        height: rem(10)
+        margin-right: rem(10)
+        background: $s10
+        border-radius: 50%
+        +m
+            width: rem(8)
+            height: rem(8)
+            margin-right: rem(8)

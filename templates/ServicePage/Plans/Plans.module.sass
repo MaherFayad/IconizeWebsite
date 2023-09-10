@@ -1,0 +1,55 @@
+@import @/styles/helpers
+
+.title
+    max-width: rem(730)
+    margin-bottom: rem(96)
+    +d
+        margin-bottom: rem(72)
+    +m
+        margin-bottom: rem(64)
+
+.list
+    +d
+        margin-bottom: rem(-40)
+
+.item
+    display: flex
+    align-items: flex-start
+    padding: rem(48) 0
+    border-top: rem(1) solid $n10
+    +t
+        display: block
+        padding: rem(40) 0
+
+.number
+    min-width: rem(60)
+    margin: rem(3) rem(32) auto 0
+    padding: rem(5) 0 rem(4)
+    text-align: center
+    +d
+        min-width: rem(48)
+    +t
+        margin: 0 0 rem(24)
+
+.subtitle
+    flex-shrink: 0
+    width: rem(290)
+    margin-left: auto
+    font-weight: 500
+    +t
+        width: 100%
+        margin: 0 0 rem(32)
+    +m
+        margin-bottom: rem(24)
+
+.content
+    max-width: rem(510)
+    margin-left: rem(150)
+    +bodyL
+    +d
+        margin-left: rem(80)
+    +t
+        max-width: 100%
+        margin-left: 0
+    +m
+        +bodyM

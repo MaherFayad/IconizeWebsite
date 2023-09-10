@@ -1,0 +1,103 @@
+.section-main
+    min-height: rem(816)
+    padding-top: rem(184)
+    padding-bottom: rem(82)
+    +d
+        min-height: rem(768)
+    +t
+        min-height: auto
+        padding-top: rem(164)
+    +m
+        padding-top: rem(136)
+
+.section-pd
+    padding-top: rem(160)
+    padding-bottom: rem(160)
+    +w
+        padding-top: rem(128)
+        padding-bottom: rem(128)
+    +t
+        padding-top: rem(96)
+        padding-bottom: rem(96)
+
+.section-pd128
+    padding-top: rem(128)
+    padding-bottom: rem(128)
+    +t
+        padding-top: rem(96)
+        padding-bottom: rem(96)
+
+.section-separator
+    position: relative
+    padding-bottom: rem(160)
+    +w
+        padding-bottom: rem(128)
+    +t
+        padding-bottom: rem(96)
+    &:after
+        content: ""
+        position: absolute
+        left: 50%
+        bottom: 0
+        width: rem(1280)
+        height: rem(1)
+        transform: translateX(-50%)
+        background: $p2
+        +r(1439)
+            left: rem(80)
+            right: rem(80)
+            width: auto
+            transform: translateX(0)
+        +w
+            left: rem(64)
+            right: rem(64)
+        +d
+            left: rem(48)
+            right: rem(48)
+        +t
+            left: rem(32)
+            right: rem(32)
+        +m
+            left: rem(20)
+            right: rem(20)
+
+.section-mb120
+    margin-bottom: rem(120)
+    +d
+        margin-bottom: rem(96)
+    &.section-separator
+        padding-bottom: rem(120)
+        +d
+            padding-bottom: rem(96)
+
+.section-mb136
+    margin-bottom: rem(136)
+    +w
+        margin-bottom: rem(128)
+    +d
+        margin-bottom: rem(96)
+
+.section-mb144
+    margin-bottom: rem(144)
+    +w
+        margin-bottom: rem(128)
+    +t
+        margin-bottom: rem(96)
+
+.section-mb160
+    margin-bottom: rem(160)
+    +w
+        margin-bottom: rem(128)
+    +t
+        margin-bottom: rem(96)
+
+.section-brown
+    background: $p10
+    color: $n0
+
+.section-black
+    background: $n10
+    color: $n0
+    .section-separator
+        &:after
+            background: $n5

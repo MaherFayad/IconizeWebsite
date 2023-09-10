@@ -1,0 +1,54 @@
+@import @/styles/helpers
+
+.field
+    &.fieldNumber
+        position: relative
+        padding-left: rem(72)
+        +m
+            padding-left: 0
+
+.number
+    position: absolute
+    top: 0
+    left: 0
+    width: rem(48)
+    padding: rem(3) 0 rem(1)
+    text-align: center
+    +m
+        position: relative
+        margin-bottom: rem(20)
+
+.label
+    +bodyL
+    color: $n0
+    +m
+        +bodyM
+
+.wrap
+    position: relative
+    
+.input
+    width: 100%
+    height: rem(62)
+    border-width: 0 0 rem(1)
+    border-style: solid
+    border-color: $p6
+    background: transparent
+    border-radius: 0
+    +bodyM
+    color: $n0
+    transition: border-color .2s
+    +m
+        height: rem(56)
+        +bodyS
+    &::placeholder
+        color: $p4
+    &:focus
+        border-color: $s2
+    &.error
+        border-color: #F07E60
+
+.errorText
+    margin-top: rem(12)
+    text-align: right
+    color: #F07E60

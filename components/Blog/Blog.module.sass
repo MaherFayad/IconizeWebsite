@@ -1,0 +1,156 @@
+@import @/styles/helpers
+
+.blog
+    display: flex
+    padding: rem(80) 0 rem(88)
+    border-top: rem(1) solid $n5
+    color: $n10
+    transition: color .2s
+    +d
+        padding: rem(56) 0 rem(64)
+    +t
+        display: block
+        padding: rem(48) 0
+    +rmin(1024)
+        &:hover
+            color: $p4
+            .preview
+                img
+                    transform: scale(1.1)
+            .arrow
+                background: $p4
+                svg
+                    transform: rotate(45deg)
+                    fill: $n0
+    &.blogLight
+        color: $n0
+        .arrow
+            svg
+                fill: $n0
+        .category
+            background: $n9
+            color: $n4
+        .date
+            color: $n6
+        +rmin(1024)
+            &:hover
+                color: $p4
+    &.blogCell
+        display: block
+        padding: 0
+        border: none
+        +t
+            padding: rem(48) 0
+            border-top: rem(1) solid $n5
+        .preview
+            width: 100%
+            margin-bottom: rem(32)
+            +t
+                margin-bottom: rem(24)
+        .details
+            padding-left: 0
+
+.preview
+    position: relative
+    flex-shrink: 0
+    width: rem(510)
+    height: rem(360)
+    overflow: hidden
+    +r(1179)
+        width: rem(420)
+    +t
+        width: 100%
+        height: rem(400)
+        margin-bottom: rem(24)
+    +m
+        height: rem(240)
+    &:before
+        content: ""
+        position: absolute
+        inset: 0
+        z-index: 2
+        background: rgba(#88725E, .2)
+    img
+        transition: transform 1s
+
+.details
+    position: relative
+    display: flex
+    flex-direction: column
+    padding-left: rem(110)
+    +w
+        padding-left: rem(72)
+    +d
+        padding-left: rem(48)
+    +t
+        padding-left: 0
+
+.title
+    margin-bottom: auto
+    padding-right: rem(120)
+    +d
+        padding-right: rem(80)
+    +t
+        padding-right: rem(64)
+
+.arrow
+    position: absolute
+    top: rem(-4)
+    right: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-shrink: 0
+    width: rem(80)
+    height: rem(80)
+    border-radius: 50%
+    background: transparent
+    transition: background .3s
+    +d
+        top: 0
+        width: rem(64)
+        height: rem(64)
+    +t
+        top: rem(-2)
+        width: rem(48)
+        height: rem(48)
+    svg
+        position: relative
+        z-index: 2
+        width: rem(36)
+        height: rem(36)
+        transition: all .3s
+        +d
+            width: rem(28)
+            height: rem(28)
+        +t
+            width: rem(24)
+            height: rem(24)
+
+.line
+    display: flex
+    align-items: center
+    margin-top: rem(32)
+    +m
+        flex-wrap: wrap
+
+.category
+    margin-right: rem(29)
+    padding: rem(6) rem(14) rem(4)
+    border-radius: rem(20)
+    background: #EEEEEE
+    +subtitleS
+    text-transform: uppercase
+    color: $n5
+    +m
+        margin-right: rem(12)
+        padding: rem(4) rem(10) rem(2)
+        +subtitleXS
+        letter-spacing: 0
+
+.date
+    color: $n6
+    +m
+        +bodyXS
+
+    

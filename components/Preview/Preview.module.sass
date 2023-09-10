@@ -1,0 +1,65 @@
+@import @/styles/helpers
+
+.container
+    &.wide
+        max-width: 100%
+        padding: 0
+
+.inner
+    position: relative
+    height: rem(760)
+    overflow: hidden
+    +r(1179)
+        height: rem(630)
+    +t
+        height: rem(550)
+    +m
+        height: rem(490)
+    &.wide
+        height: rem(860)
+        +w
+            height: rem(760)
+        +r(1179)
+            height: rem(700)
+        +t
+            height: rem(620)
+        +m
+            height: rem(560)
+
+.video
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    min-width: 100%
+    min-height: 100%
+    width: auto
+    height: auto
+    object-fit: cover
+
+.overlay
+    position: absolute
+    inset: 0
+    z-index: 1
+    background: rgba(#88725E, .2)
+    pointer-events: none
+
+.title
+    margin-top: rem(16)
+    color: $n6
+    +m
+        +bodyXS
+    &:before
+        content: ""
+        position: relative
+        top: rem(-1)
+        display: inline-block
+        width: rem(10)
+        height: rem(10)
+        margin-right: rem(10)
+        background: $s10
+        border-radius: 50%
+        +m
+            width: rem(8)
+            height: rem(8)
+            margin-right: rem(8)

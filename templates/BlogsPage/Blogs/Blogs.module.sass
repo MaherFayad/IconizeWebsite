@@ -1,0 +1,22 @@
+@import @/styles/helpers
+
+.section
+    position: relative
+
+.anchor
+    position: absolute
+    top: rem(-130)
+    left: 0
+    right: 0
+    +m
+        top: rem(-62)
+
+.button
+    margin-top: rem(32)
+    +w
+        margin-top: rem(16)
+    &:after
+        transform: rotate(90deg)
+    &:hover
+        &:after
+            transform: rotate(135deg)

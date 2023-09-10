@@ -1,0 +1,22 @@
+// modal
+.modal-enter
+    opacity: 0
+    & > div
+        transform: translateY(10px)
+
+.modal-enter-active
+    opacity: 1
+    transition: opacity .2s
+    & > div
+        transform: translateY(0)
+        transition: transform .2s
+
+.modal-exit
+    opacity: 1
+
+.modal-exit-active
+    opacity: 0
+    transition: opacity .2s
+    & > div
+        transform: translateY(rem(10))
+        transition: transform .2s

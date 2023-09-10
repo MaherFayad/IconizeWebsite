@@ -1,0 +1,55 @@
+@import @/styles/helpers
+
+.label
+    margin-bottom: rem(40)
+    +t
+        margin-bottom: rem(32)
+
+.subtitle
+    max-width: rem(604)
+    margin-bottom: rem(96)
+    +t
+        margin-bottom: rem(64)
+    +m
+        +bodyXL
+
+.list
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: rem(-96)
+    +d
+        margin: rem(-72) rem(-36) 0
+    +t
+        display: block
+        margin: 0
+
+.item
+    flex-shrink: 0
+    width: rem(510)
+    margin-top: rem(96)
+    +d
+        flex: 0 0 calc(50% - rem(72))
+        width: calc(50% - rem(72))
+        margin: rem(72) rem(36) 0
+    +t
+        width: 100%
+        margin: 0
+        &:not(:last-child)
+            margin-bottom: rem(56)
+
+.title
+    max-width: rem(400)
+    margin-bottom: rem(40)
+    +d
+        margin-bottom: rem(24)
+        font-size: rem(56)
+        line-height: rem(64)
+    +t
+        max-width: 100%
+        font-size: rem(48)
+        line-height: rem(64)
+
+.content
+    +m
+        +bodyS

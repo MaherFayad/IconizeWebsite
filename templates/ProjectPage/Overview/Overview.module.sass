@@ -1,0 +1,36 @@
+@import @/styles/helpers
+
+.label
+    margin-bottom: rem(40)
+    +t
+        margin-bottom: rem(32)
+
+.row
+    display: flex
+    justify-content: space-between
+    +t
+        display: block
+
+.title,
+.content
+    width: rem(510)
+
+.title
+    +d
+        flex-shrink: 0
+        width: rem(460)
+    +t
+        width: 100%
+        margin-bottom: rem(56)
+    +m
+        +bodyXL
+
+.content
+    +d
+        width: auto
+        padding-left: rem(40)
+    +t
+        padding-left: 0
+    p
+        &:not(:last-child)
+            margin-bottom: rem(24)

@@ -1,0 +1,118 @@
+@import @/styles/helpers
+
+.label
+    margin-bottom: rem(40)
+    +t
+        margin-bottom: rem(32)
+
+.info
+    max-width: rem(1100)
+    margin-bottom: rem(96)
+    +t
+        margin-bottom: rem(68)
+    +m
+        +bodyL
+        letter-spacing: 0
+
+.item
+    display: flex
+    align-items: flex-start
+    padding: rem(40) 0
+    border-top: rem(1) solid $n10
+    color: $n10
+    transition: padding .3s, color .3s
+    +t
+        padding: rem(32) 0
+    +m
+        flex-wrap: wrap
+    &:hover
+        +rmin(1024)
+            padding: rem(48) 0
+            color: $p4
+            .arrow
+                svg
+                    transform: rotate(45deg)
+                    fill: $n0
+                &:before
+                    transform: scale(1)
+
+.number
+    flex-shrink: 0
+    min-width: rem(54)
+    margin: rem(16) rem(40) 0 0
+    padding: rem(5) 0 rem(4)
+    text-align: center
+    +t
+        margin: rem(4) rem(32) 0 0
+    +m
+        min-width: rem(44)
+        margin: 0 rem(100) rem(14) 0
+        padding: rem(3) 0 rem(2)
+
+.title
+    flex-grow: 1
+    font-size: rem(80)
+    line-height: 1.15
+    text-transform: uppercase
+    font-weight: 500
+    letter-spacing: -.02em
+    +d
+        font-size: rem(64)
+    +t
+        font-size: rem(40)
+    +m
+        flex: 0 0 calc(100% - rem(48))
+        width: calc(100% - rem(48))
+        padding-right: rem(20)
+        +h7R
+
+.arrow
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    align-self: center
+    flex-shrink: 0
+    width: rem(96)
+    height: rem(96)
+    margin-left: rem(40)
+    +d
+        width: rem(64)
+        height: rem(64)
+    +t
+        width: rem(48)
+        height: rem(48)
+    +m
+        align-self: flex-start
+        margin-top: rem(-4)
+        margin-left: 0
+    svg
+        position: relative
+        z-index: 2
+        width: rem(46)
+        height: rem(46)
+        transition: all .3s
+        +d
+            width: rem(36)
+            height: rem(36)
+        +t
+            width: rem(32)
+            height: rem(32)
+        +m
+            width: rem(24)
+            height: rem(24)
+    &:before
+        content: ""
+        position: absolute
+        inset: 0
+        transform: scale(0)
+        border-radius: 50%
+        background: $p4
+        transition: transform .3s
+
+.button
+    margin-top: rem(50)
+    +d
+        margin-top: rem(32)
+    +m
+        margin-top: rem(24)

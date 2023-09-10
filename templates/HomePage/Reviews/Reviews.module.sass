@@ -1,0 +1,81 @@
+@import @/styles/helpers
+
+.section
+    +m
+        margin-bottom: rem(64)
+
+.container
+    display: flex
+    align-items: flex-start
+    +d
+        display: block
+
+.label
+    flex-shrink: 0
+    margin-right: rem(64)
+    +d
+        margin: 0 0 rem(32)
+
+.wrap
+    position: relative
+    max-width: rem(950)
+    margin-left: auto
+    padding-bottom: rem(2)
+    +w
+        max-width: rem(900)
+    +d
+        max-width: 100%
+        margin-left: 0
+        padding-bottom: 0
+
+.slide
+    position: relative
+    padding-left: rem(110)
+    box-sizing: border-box
+    +m
+        padding: rem(92) 0 rem(104)
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: rem(60)
+        height: rem(52)
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='52' fill='none' viewBox='0 0 60 52'%3E%3Cpath d='M55 0C40 1.6 34.2 9.4 34.2 22.8v28.8h25.6V23.2H48v-2.6c0-6.6 4.4-8 11.6-8.8L55 0zM20.8 0C5.8 1.6 0 9.4 0 22.8v28.8h25.6V23.2H13.8v-2.6c0-6.6 4.4-8 11.6-8.8L20.8 0z' fill='%239f8f7f'/%3E%3C/svg%3E")
+        background-repeat: no-repeat
+        background-position: 0 0
+        background-size: 100% 100%
+
+.author
+    display: flex
+    align-items: center
+    margin-top: rem(96)
+    padding-right: rem(200)
+    +w
+        margin-top: rem(72)
+    +m
+        margin-top: rem(40)
+        padding-right: 0
+
+.avatar
+    position: relative
+    width: rem(72)
+    height: rem(72)
+    margin-right: rem(24)
+    +m
+        width: rem(64)
+        height: rem(64)
+        margin-right: rem(16)
+
+.details
+    flex-grow: 1
+
+.title
+    margin-bottom: rem(4)
+    +t
+        +bodyL
+
+.position
+    color: #888888
+    +m
+        +bodyS

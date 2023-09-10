@@ -1,0 +1,127 @@
+@import @/styles/helpers
+
+.footer
+    padding: rem(128) 0 rem(72)
+    background: $p10
+    color: $n0
+    +d
+        padding-top: rem(120)
+    +t
+        padding: rem(96) 0 rem(56) 
+    &.footerEmpty
+        padding-top: 0
+
+.row
+    position: relative
+    margin-bottom: rem(98)
+    +d
+        margin-bottom: rem(72)
+    +m
+        display: block
+        margin-bottom: rem(96)
+    .button
+        position: absolute
+        top: rem(32)
+        right: rem(82)
+        z-index: 2
+        +w
+            right: rem(40)
+        +t
+            top: 0
+            right: 0
+        +m
+            position: relative
+            top: auto
+            right: auto
+            margin: rem(48) 0 0
+        &:hover
+            svg
+                transform: translate(-50%,-50%) rotate(45deg)
+
+.title
+    flex-grow: 1
+    +m
+        +h5B
+        letter-spacing: 0
+    span
+        display: flex
+        +m
+            display: block
+
+.word
+    position: relative
+    display: inline-block
+    overflow: hidden
+
+.separator
+    height: rem(1)
+    margin-bottom: rem(48)
+    background: rgba($n0, .5)
+    +m
+        margin-bottom: rem(32)
+
+.line
+    display: flex
+    align-items: center
+    margin-bottom: rem(78)
+    +d
+        margin-bottom: rem(56)
+    +m
+        display: block
+        margin-bottom: rem(64)
+
+.navigation
+    display: flex
+    margin-right: auto
+    +m
+        flex-wrap: wrap
+        margin: rem(-24) 0 rem(64)
+
+.link
+    position: relative
+    display: flex
+    align-items: center
+    +bodyS
+    color: $n0
+    +m
+        margin-top: rem(22)
+    &:after
+        content: ""
+        position: absolute
+        left: 0
+        bottom: rem(-2)
+        width: 0
+        height: rem(1)
+        background: $n0
+        transition: width .2s
+    &:hover
+        &:after
+            width: 100%
+    &:not(:last-child)
+        margin-right: rem(40)
+        +t
+            margin-right: rem(32)
+        +m
+            margin-right: rem(40)
+
+.foot
+    display: flex
+    align-items: center
+    +bodyS
+    color: $p4
+    +m
+        flex-direction: column
+        align-items: flex-start
+        +bodyXS
+
+.policy,
+.author
+    color: $p4
+    transition: color .2s
+    &:hover
+        color: $n0
+
+.policy
+    margin: 0 auto 0 rem(80)
+    +m
+        margin: rem(24) 0 rem(48)

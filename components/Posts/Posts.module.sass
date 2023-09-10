@@ -1,0 +1,54 @@
+@import @/styles/helpers
+
+.container
+    +m
+        position: relative
+        padding-bottom: rem(84)
+
+.head
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: rem(80)
+    padding-bottom: rem(80)
+    border-bottom: rem(1) solid $n5
+    +d
+        margin-bottom: rem(64)
+        padding-bottom: rem(64)
+    +t
+        margin-bottom: rem(64)
+        padding-bottom: 0
+        border: none
+
+.button
+    +m
+        position: absolute
+        left: rem(20)
+        bottom: 0
+
+.title
+    margin-right: rem(40)
+    +t
+        margin: 0
+
+.list
+    display: flex
+    flex-wrap: wrap
+    margin: rem(-88) rem(-44) 0
+    +d
+        margin: rem(-60) rem(-20) 0
+    +t
+        display: block
+        margin: 0
+
+.item
+    flex: 0 0 calc(50% - rem(88))
+    width: calc(50% - rem(88))
+    margin: rem(88) rem(44) 0
+    +d
+        flex: 0 0 calc(50% - rem(40))
+        width: calc(50% - rem(40))
+        margin: rem(60) rem(20) 0
+    +t
+        width: 100%
+        margin: 0

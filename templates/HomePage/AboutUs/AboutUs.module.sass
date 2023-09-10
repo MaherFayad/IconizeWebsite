@@ -1,0 +1,61 @@
+@import @/styles/helpers
+
+.section
+    +m
+        margin-top: rem(-24)
+
+.container
+    position: relative
+    display: flex
+    align-items: flex-start
+    +t
+        display: block
+
+.anchor
+    position: absolute
+    top: rem(-130)
+    left: 0
+    right: 0
+    +m
+        top: rem(-96)
+
+.label
+    flex-shrink: 0
+    margin-top: rem(16)
+    margin-right: rem(40)
+    +t
+        margin: 0 0 rem(32)
+
+.wrap
+    max-width: rem(840)
+    margin-left: auto
+
+.title
+    margin-bottom: rem(64)
+    +t
+        margin-bottom: rem(56)
+
+.list
+    display: flex
+    margin-bottom: rem(64)
+    +t
+        margin-bottom: rem(56)
+    +m
+        display: block
+        +bodyS
+    li
+        &:nth-child(1)
+            flex-shrink: 0
+            width: rem(290)
+            +m
+                width: 100%
+                margin-bottom: rem(32)
+        &:nth-child(2)
+            flex-grow: 1
+            padding-left: rem(110)
+            +d
+                padding-left: rem(72)
+            +t
+                padding-left: rem(40)
+            +m
+                padding-left: 0

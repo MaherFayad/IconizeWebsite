@@ -1,0 +1,82 @@
+@import @/styles/helpers
+
+.head
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: rem(80)
+    padding-bottom: rem(80)
+    border-bottom: rem(1) solid $p2
+    +t
+        display: block
+        margin-bottom: rem(64)
+        padding-bottom: rem(64)
+
+.title,
+.text
+    width: rem(510)
+
+.title
+    +d
+        flex-grow: 1
+        width: auto
+        padding-right: rem(48)
+    +t
+        margin-bottom: rem(40)
+        padding-right: 0
+
+.text
+    +d
+        flex-shrink: 0
+        width: rem(400)
+    +t
+        width: 100%
+
+.list
+    display: flex
+    margin: rem(-80) rem(-55) 0
+    +w
+        margin: rem(-80) rem(-35) 0
+    +d
+        margin: rem(-60) rem(-20) 0
+    +t
+        display: block
+        margin: 0
+
+.item
+    flex: 0 0 calc(33.333% - rem(110))
+    width: calc(33.333% - rem(110))
+    margin: rem(80) rem(55) 0
+    +w
+        flex: 0 0 calc(33.333% - rem(70))
+        width: calc(33.333% - rem(70))
+        margin: rem(80) rem(35) 0
+    +d
+        flex: 0 0 calc(33.333% - rem(40))
+        width: calc(33.333% - rem(40))
+        margin: rem(60) rem(20) 0
+    +t
+        width: 100%
+        margin: 0
+        &:not(:last-child)
+            margin-bottom: rem(56)
+
+.subtitle
+    margin-bottom: rem(32)
+    +m
+        margin-bottom: rem(24)
+
+.number
+    min-width: rem(60)
+    margin-bottom: rem(32)
+    padding: rem(5) 0 rem(4)
+    text-align: center
+    +d
+        margin-bottom: rem(24)
+    +m
+        min-width: rem(48)
+        padding: rem(3) 0 rem(2)
+
+.content
+    +m
+        +bodyS

@@ -1,0 +1,67 @@
+@import @/styles/helpers
+
+.section
+    position: relative
+
+.anchor
+    position: absolute
+    top: rem(-130)
+    left: 0
+    right: 0
+    +m
+        top: rem(-100)
+    
+.head
+    display: flex
+    margin-bottom: rem(96)
+    +d
+        margin-bottom: rem(72)
+    +t
+        display: block
+        margin-bottom: rem(60)
+
+.label
+    flex-shrink: 0
+    margin: rem(16) rem(40) 0 0
+    +t
+        margin: 0 0 rem(32)
+
+.details
+    max-width: rem(840)
+    width: 100%
+    margin-left: auto
+
+.description
+    margin-top: rem(16)
+    +m
+        +bodyS
+
+.list
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: rem(-120)
+    +d
+        margin-bottom: rem(-80)
+    +t
+        margin-bottom: rem(-56)
+    +m
+        display: block
+
+.button
+    margin-top: rem(96)
+    +t
+        margin-top: rem(56)
+
+.more
+    margin-top: rem(160)
+    +w
+        margin-top: rem(120)
+    +d
+        margin-top: rem(96)
+    +t
+        margin-top: rem(56)
+    &:after
+        transform: rotate(90deg)
+    &:hover
+        &:after
+            transform: rotate(135deg)

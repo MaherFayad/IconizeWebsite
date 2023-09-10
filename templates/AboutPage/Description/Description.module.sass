@@ -1,0 +1,70 @@
+@import @/styles/helpers
+
+.list
+    display: flex
+    flex-wrap: wrap
+    +t
+        display: block
+
+.image
+    height: rem(520)
+    &:nth-child(1)
+        width: calc(100% - rem(550))
+        +d
+            width: calc(100% - rem(500))
+        +t
+            width: rem(550)
+        +m
+            width: 100%
+            height: rem(240)
+    &:nth-child(2)
+        width: rem(400)
+        margin: rem(160) 0 0 rem(150)
+        +w
+            margin: rem(140) 0 0 rem(110)
+        +d
+            width: rem(450)
+            margin: rem(80) 0 0 rem(50)
+        +t
+            width: rem(550)
+            margin: rem(64) 0 0 auto
+        +m
+            width: 80%
+            height: rem(346)
+    &:nth-child(3)
+        width: rem(550)
+        margin: rem(40) 0 0 rem(110)
+        +w
+            margin-left: rem(60)
+        +d
+            width: rem(480)
+            margin-top: rem(64)
+            margin-left: 0
+        +t
+            width: rem(550)
+            margin: rem(64) 0 0
+        +m
+            width: 80%
+            height: rem(240)
+    
+.blockquote
+    align-self: flex-end
+    width: calc(100% - rem(660))
+    padding-left: rem(110)
+    margin-bottom: rem(60)
+    +w
+        width: calc(100% - rem(610))
+        padding-left: rem(64)
+    +d
+        width: calc(100% - rem(480))
+        padding-left: rem(40)
+    +t
+        width: 100%
+        margin-top: rem(64)
+        margin-bottom: 0
+        padding: 0
+
+.quote
+    width: rem(64)
+    height: rem(52)
+    margin-bottom: rem(40)

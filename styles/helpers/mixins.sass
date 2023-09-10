@@ -1,0 +1,127 @@
+// to vw
+@function vw($px-vw, $base-vw: 1440) 
+    @return ($px-vw * 100vw) / $base-vw
+
+// to REM
+@function rem($value) 
+    @return calc($value / 20) + rem
+    
+// titles
+=h1
+    font-size: rem(200)
+    line-height: rem(200)
+    font-weight: 700
+    letter-spacing: -.02em
+
+=h2
+    font-size: rem(160)
+    line-height: rem(160)
+    font-weight: 500
+    letter-spacing: -.02em
+
+=h3
+    font-size: rem(96)
+    line-height: rem(120)
+    font-weight: 500
+    letter-spacing: -.02em
+
+=h4R
+    font-size: rem(80)
+    line-height: rem(100)
+    font-weight: 400
+    letter-spacing: -.01em
+
+=h4B
+    font-size: rem(80)
+    line-height: rem(100)
+    font-weight: 500
+    letter-spacing: -.01em
+
+=h5R
+    font-size: rem(64)
+    line-height: rem(80)
+    font-weight: 400
+    letter-spacing: -.01em
+
+=h5B
+    font-size: rem(64)
+    line-height: rem(80)
+    font-weight: 500
+    letter-spacing: -.01em
+
+=h6R
+    font-size: rem(48)
+    line-height: rem(64)
+    font-weight: 400
+    letter-spacing: -.01em
+
+=h6B
+    font-size: rem(48)
+    line-height: rem(64)
+    font-weight: 500
+    letter-spacing: -.01em
+
+=h7R
+    font-size: rem(32)
+    line-height: rem(42)
+    font-weight: 400
+    letter-spacing: -.01em
+
+=h7B
+    font-size: rem(32)
+    line-height: rem(42)
+    font-weight: 500
+    letter-spacing: -.01em
+    
+// text
+=subtitleM
+    font-size: rem(20)
+    line-height: rem(25)
+    font-weight: 700
+    letter-spacing: .05em
+
+=subtitleS
+    font-size: rem(18)
+    line-height: rem(22)
+    font-weight: 500
+    letter-spacing: .05em
+
+=subtitleXS
+    font-size: rem(16)
+    line-height: rem(20)
+    font-weight: 500
+    letter-spacing: .05em
+
+=bodyXL
+    font-size: rem(28)
+    line-height: rem(38)
+
+=bodyL
+    font-size: rem(24)
+    line-height: rem(34)
+
+=bodyM
+    font-size: rem(20)
+    line-height: rem(30)
+
+=bodyS
+    font-size: rem(18)
+    line-height: rem(24)
+    letter-spacing: .02em
+
+=bodyXS
+    font-size: rem(16)
+    line-height: rem(22)
+    letter-spacing: .02em
+
+=buttonM
+    font-size: rem(18)
+    line-height: rem(22)
+    font-weight: 500
+    letter-spacing: .05em
+
+=buttonS
+    font-size: rem(16)
+    line-height: rem(20)
+    font-weight: 500
+    letter-spacing: .05em

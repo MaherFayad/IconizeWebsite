@@ -1,0 +1,61 @@
+@import @/styles/helpers
+
+.section
+    padding-bottom: rem(216)
+    +m
+        padding-bottom: rem(148)
+
+.container
+    display: flex
+    +t
+        display: block
+
+.list
+    flex-grow: 1
+    padding-right: rem(100)
+    +w
+        padding-right: rem(64)
+    +d
+        padding-right: rem(40)
+    +t
+        margin-bottom: rem(48)
+        padding: 0
+
+.item
+    &:not(:last-child)
+        margin-bottom: rem(24)
+
+.category
+    color: $p4
+    +m
+        +bodyS
+
+.value
+    margin-top: rem(8)
+    +bodyXL
+    +m
+        +bodyM
+
+.title
+    max-width: rem(720)
+    margin-top: rem(-8)
+    font-weight: 500
+    +d
+        font-size: rem(64)
+        line-height: rem(72)
+    +r(1179)
+        max-width: rem(570)
+    +t
+        max-width: 100%
+        margin-top: 0
+        font-size: rem(48)
+    +m
+        font-size: rem(40)
+        line-height: rem(46)
+
+.preview
+    margin-top: rem(-136)
+    +t
+        margin-top: rem(-136)
+    +m
+        margin: rem(-68) 0 rem(96)

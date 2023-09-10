@@ -1,0 +1,106 @@
+@import @/styles/helpers
+
+.section
+    min-height: auto
+    padding-bottom: rem(200)
+    +d
+        padding-bottom: rem(160)
+    +t
+        padding-bottom: rem(120)
+    +m
+        padding-bottom: rem(96)
+
+.row
+    position: relative
+    display: flex
+    +m
+        display: block
+    &:nth-child(2)
+        +t
+            display: block
+    &:not(:last-child)
+        margin-bottom: rem(120)
+        +d
+            margin-bottom: rem(96)
+
+.anchor
+    position: absolute
+    top: rem(-120)
+    left: 0
+    right: 0
+    +m
+        top: rem(-104)
+
+.wrap
+    flex-grow: 1
+    padding-right: rem(150)
+    +d
+        padding-right: rem(80)
+    +t
+        padding-right: rem(40)
+    +m
+        margin-bottom: rem(48)
+        padding-right: 0
+
+.title
+    margin-bottom: rem(72)
+    +d
+        margin-bottom: rem(56)
+    +m
+        margin-bottom: rem(48)
+        font-size: rem(64)
+        line-height: rem(80)
+
+.content
+    +bodyL
+    +m
+        +bodyM
+
+.button
+    margin: rem(48) rem(50) 0 0
+    flex-shrink: 0
+    +w
+        margin-top: rem(24)
+    +d
+        margin: rem(16) rem(24) 0 0
+    +t
+        margin: 0
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.sidebar
+    flex-shrink: 0
+    width: rem(290)
+    margin-left: rem(260)
+    +w
+        margin-left: rem(160)
+    +d
+        margin-left: rem(80)
+    +t
+        width: 100%
+        margin: rem(96) 0 0
+
+.item
+    &:not(:last-child)
+        margin-bottom: rem(64)
+        +t
+            margin-bottom: rem(48)
+
+.category
+    margin-bottom: rem(16)
+    +subtitleM
+    color: $p4
+    +m
+        +subtitleS
+
+.text
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    +bodyL
+    +m
+        +bodyM
+
+.phone
+    color: $n0

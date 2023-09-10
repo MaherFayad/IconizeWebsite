@@ -1,0 +1,27 @@
+@import @/styles/helpers
+
+.socials
+    display: flex
+    align-items: center
+
+.social
+    font-size: 0
+    transition: transform .2s
+    svg
+        fill: $n0
+        +m
+            width: rem(20)
+            height: rem(20)
+    &:hover
+        transform: translateY(rem(-2))
+    &:not(:last-child)
+        margin-right: rem(24)
+        +m
+            margin-right: rem(32)
+    &.socialDark
+        svg
+            fill: $n6
+    &.socialSmall
+        svg
+            width: rem(20)
+            height: rem(20)

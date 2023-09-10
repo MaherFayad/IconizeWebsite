@@ -1,0 +1,32 @@
+@import @/styles/helpers
+
+.container
+    display: flex
+    +d
+        display: block
+
+.title
+    flex-grow: 1
+    margin-right: rem(150)
+    +w
+        margin-right: rem(80)
+    +d
+        max-width: rem(840)
+        margin: 0 0 rem(56)
+
+.wrap
+    flex-shrink: 0
+    width: rem(510)
+    padding-top: rem(16)
+    +w
+        width: rem(460)
+    +d
+        width: 100%
+        max-width: rem(840)
+        padding-top: 0
+
+.content
+    margin-bottom: rem(56)
+    +bodyL
+    +m
+        +bodyM

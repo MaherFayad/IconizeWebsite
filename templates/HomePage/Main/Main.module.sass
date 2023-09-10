@@ -1,0 +1,129 @@
+@import @/styles/helpers
+
+.section
+    min-height: rem(860)
+    padding-top: rem(176)
+    +w
+        min-height: rem(800)
+    +d
+        min-height: rem(768)
+    +t
+        min-height: auto
+        padding-top: rem(164)
+    +m
+        padding: rem(120) 0 rem(70)
+
+.container
+    display: flex
+    align-items: flex-end
+    +m
+        display: block
+
+.wrap
+    flex-grow: 1
+    padding-right: rem(150)
+    +d
+        max-width: rem(720)
+        margin-right: auto
+        padding-right: rem(96)
+    +t
+        padding-right: rem(64)
+    +m
+        margin-bottom: rem(48)
+        padding-right: 0
+
+.title
+    margin-bottom: rem(62)
+    +t
+        margin-bottom: rem(46)
+    +m
+        margin-bottom: rem(38)
+
+.word
+    position: relative
+    display: block
+    overflow: hidden
+    padding-bottom: rem(10)
+
+.info
+    +bodyL
+    +m
+        +bodyM
+
+.actions
+    padding: 0 rem(20) rem(14) 0
+    text-align: right
+    +w
+        padding-right: 0
+    +m
+        padding: 0
+        text-align: left
+
+.button
+    margin: 0 rem(30) rem(126) 0
+    +d
+        margin-bottom: rem(156)
+    +r(1179)
+        margin-right: 0
+    +m
+        margin-bottom: rem(46)
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.scroll
+    display: inline-flex
+    align-items: center
+    font-size: rem(18)
+    letter-spacing: .1em
+    line-height: 1.6
+    font-weight: 500
+    color: $n0
+    transition: color .2s
+    +t
+        font-size: rem(16)
+    &:hover
+        color: $n1
+
+.mouse
+    position: relative
+    width: rem(24)
+    height: rem(34)
+    margin-left: rem(12)
+    border-radius: rem(12)
+    border: rem(2) solid $n0
+    +m
+        width: rem(16)
+        height: rem(24)
+        margin-left: rem(8)
+        border-width: rem(1)
+
+.line
+    position: absolute
+    top: 0
+    left: calc(50% - rem(1))
+    width: rem(2)
+    height: rem(14)
+    overflow: hidden
+    border-radius: rem(1)
+    +m
+        left: calc(50% - rem(.5))
+        width: rem(1)
+        height: rem(10)
+    &:before
+        content: ""
+        position: absolute
+        top: rem(-10)
+        left: 0
+        right: 0
+        height: rem(10)
+        background: $n0
+        border-radius: rem(1)
+        animation: mouse 1.4s linear infinite
+
+@keyframes mouse
+    0%,
+    40%
+        transform: translateY(0)
+    100%
+        transform: translateY(calc(100% + rem(15)))

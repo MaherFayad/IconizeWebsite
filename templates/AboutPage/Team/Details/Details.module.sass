@@ -1,0 +1,53 @@
+@import @/styles/helpers
+
+.details
+    display: flex
+    +m
+        display: block
+
+.preview
+    position: relative
+    flex-shrink: 0
+    width: rem(360)
+    min-height: rem(440)
+    +m
+        width: auto
+        height: rem(335)
+        min-height: 100%
+
+.wrap
+    padding: rem(32) rem(40)
+    +t
+        padding: rem(24)
+    +m
+        padding: rem(16) rem(16) rem(24)
+
+.title
+    margin-bottom: rem(8)
+
+.line
+    display: flex
+    align-items: flex-start
+    margin-bottom: rem(40)
+    padding-bottom: rem(20)
+    border-bottom: rem(1) solid $n1
+    +t
+        margin-bottom: rem(24)
+
+.socials
+    margin-left: auto
+    .social
+        &:not(:last-child)
+            margin-right: rem(16)
+
+.position
+    margin-right: rem(16)
+    +subtitleS
+    color: $n6
+    +m
+        +subtitleXS
+
+.description
+    +bodyS
+    +m
+        +bodyXS

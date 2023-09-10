@@ -1,0 +1,55 @@
+@import @/styles/helpers
+
+.section
+    padding-top: rem(120)
+    +t
+        padding-top: rem(96)
+
+.label
+    margin-bottom: rem(40)
+    +t
+        margin-bottom: rem(32)
+
+.title
+    max-width: rem(950)
+    margin-bottom: rem(120)
+    +w
+        margin-bottom: rem(96)
+    +t
+        margin-bottom: rem(80)
+
+.list
+    display: flex
+    flex-wrap: wrap
+    margin: 0 rem(-50)
+    +w
+        margin: 0 rem(-30)
+    +d
+        margin: 0 rem(-20)
+    +t
+        margin: 0 rem(-20) rem(-48)
+    +m
+        display: block
+        margin: 0
+
+.item
+    flex: 0 0 calc(33.333% - rem(100))
+    width: calc(33.333% - rem(100))
+    margin: 0 rem(50)
+    +w
+        flex: 0 0 calc(33.333% - rem(60))
+        width: calc(33.333% - rem(60))
+        margin: 0 rem(30)
+    +d
+        flex: 0 0 calc(33.333% - rem(40))
+        width: calc(33.333% - rem(40))
+        margin: 0 rem(20)
+    +t
+        flex: 0 0 calc(50% - rem(40))
+        width: calc(50% - rem(40))
+        margin: 0 rem(20) rem(48)
+    +m
+        width: 100%
+        margin: 0
+        &:not(:last-child)
+            margin-bottom: rem(48)

@@ -1,0 +1,51 @@
+@import @/styles/helpers
+
+.section
+    min-height: auto
+    padding-bottom: rem(120)
+    +t
+        padding-bottom: rem(96)
+
+.container
+    display: flex
+    +t
+        display: block
+
+.title
+    flex-shrink: 0
+    width: rem(510)
+    font-weight: 500
+    +d
+        width: rem(450)
+    +t
+        margin-bottom: rem(40)
+    +m
+        width: 100%
+
+.wrap
+    flex-grow: 1
+    padding-left: rem(150)
+    +w
+        padding-left: rem(100)
+    +d
+        padding-left: rem(40)
+    +t
+        padding-left: 0
+
+.subtitle
+    margin-bottom: rem(32)
+    font-weight: 500
+    +m
+        margin-bottom: rem(16)
+        +bodyXL
+
+.content
+    margin-bottom: rem(48)
+    +bodyL
+    +m
+        margin-bottom: rem(40)
+        +bodyM
+
+.preview
+    .inner
+        height: rem(760)

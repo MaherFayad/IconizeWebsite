@@ -1,0 +1,59 @@
+@import @/styles/helpers
+
+.item
+    &:nth-child(3n + 2)
+        margin-top: rem(65)
+        +t
+            margin-top: 0
+    &:nth-child(3n + 3)
+        margin-top: rem(130)
+        +t
+            margin-top: 0
+    +rmin(1024)
+        &:hover
+            .preview
+                img
+                    transform: scale(1.07)
+            .title
+                color: $p4
+
+.preview
+    position: relative
+    margin-bottom: rem(40)
+    aspect-ratio: .9
+    overflow: hidden
+    cursor: pointer
+    +t
+        margin-bottom: rem(24)
+    img
+        transition: transform .7s
+
+.line
+    display: flex
+    align-items: flex-start
+
+.title
+    margin-right: auto
+    cursor: pointer
+    transition: color .2s
+    +d
+        +bodyXL
+
+.socials
+    margin-top: rem(10)
+    margin-left: rem(16)
+    +d
+        margin-top: rem(8)
+    .social
+        &:not(:last-child)
+            margin-right: rem(16)
+
+.position
+    margin-top: rem(16)
+    +subtitleS
+    text-transform: uppercase
+    color: $n4
+    +d
+        +subtitleXS
+    +m
+        margin-top: rem(8)

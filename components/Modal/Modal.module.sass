@@ -1,0 +1,54 @@
+@import @/styles/helpers
+    
+.modal
+    display: flex
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    padding: rem(32) rem(64)
+    background: rgba(#000000, .9)
+    overflow: auto
+    z-index: 990
+    +d
+        padding: rem(64) rem(32)
+    +m
+        padding: rem(40) rem(20)
+
+.container
+    position: relative
+    width: 100%
+    max-width: rem(880)
+    margin: auto
+    background: $n0
+
+.close
+    position: absolute
+    top: 0
+    right: rem(-64)
+    font-size: 0
+    z-index: 10
+    +d
+        top: rem(-48)
+        right: 0
+    +m
+        top: rem(-32)
+    svg
+        width: rem(40)
+        height: rem(40)
+        fill: $n0
+        transition: fill .2s
+        +m
+            width: rem(24)
+            height: rem(24)
+    &:hover
+        svg
+            fill: $p2
+
+.video
+    .container
+        max-width: rem(1060)
+        padding: 0
+        background: black
+        font-size: 0

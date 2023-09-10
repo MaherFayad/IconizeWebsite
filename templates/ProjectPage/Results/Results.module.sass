@@ -1,0 +1,78 @@
+@import @/styles/helpers
+
+.row
+    display: flex
+    align-items: flex-start
+    +t
+        display: block
+
+.label
+    margin: rem(16) rem(40) 0 0
+    +t
+        margin: 0 0 rem(32)
+
+.wrap
+    max-width: rem(840)
+    width: 100%
+    margin-left: auto
+
+.title
+    margin-bottom: rem(40)
+
+.box
+    display: flex
+    align-items: flex-start
+    +m
+        display: block
+    &:not(:last-child)
+        margin-bottom: rem(40)
+
+.number
+    flex-shrink: 0
+    min-width: rem(48)
+    margin-right: rem(24)
+    padding: rem(3) 0 rem(2)
+    text-align: center
+    +m
+        margin: 0 0 rem(16)
+
+.content
+     +bodyXL
+     +m
+        +bodyL
+
+.list
+    display: flex
+    margin-top: rem(96)
+    padding-top: rem(108)
+    border-top: rem(1) solid $n5
+    +t
+        margin-top: rem(80)
+        padding-top: rem(72)
+    +m
+        display: block
+
+.item
+    flex: 0 0 33.333%
+    padding-right: rem(40)
+    +m
+        width: 100%
+        padding: 0
+        &:not(:last-child)
+            margin-bottom: rem(48)
+
+.value
+    margin-bottom: rem(24)
+    +t
+        font-size: rem(64)
+        line-height: rem(80)
+    +m
+        margin-bottom: rem(8)
+        font-size: rem(64)
+        line-height: rem(80)
+
+.description
+    max-width: rem(220)
+    +m
+        max-width: 100%
+        +bodyS

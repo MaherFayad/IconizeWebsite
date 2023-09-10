@@ -1,0 +1,119 @@
+@import @/styles/helpers
+
+.section
+    padding-bottom: rem(300)
+    +m
+        padding-bottom: rem(200)
+
+.container
+    display: flex
+    align-items: flex-end
+    +t
+        display: block
+
+.title
+    flex-grow: 1
+    font-weight: 500
+    margin-right: rem(110)
+    +w
+        margin-right: rem(60)
+    +d
+        margin-right: rem(40)
+    +t
+        margin: 0 0 rem(48)
+
+.info
+    flex-shrink: 0
+    width: rem(510)
+    +bodyL
+    +w
+        width: rem(400)
+        padding-bottom: rem(16)
+    +t
+        width: 100%
+    +m
+        +bodyM
+
+.gallery
+    position: relative
+    margin-top: rem(-240)
+    +m
+        margin-top: rem(-170)
+    &:hover
+        .button
+            transform: translate(0,-50%)
+
+.images
+    display: flex
+    -webkit-overflow-scrolling: touch
+    overflow: auto
+    scrollbar-width: none
+    -ms-overflow-style: none
+    &::-webkit-scrollbar
+        display: none
+        width: 0
+        height: 0
+    &:before,
+    &:after
+        content: ""
+        flex-shrink: 0
+        width: rem(80)
+        +w
+            width: rem(64)
+        +d
+            width: rem(48)
+        +t
+            width: rem(32)
+        +m
+            width: rem(20)
+
+.image
+    flex-shrink: 0
+    &:nth-child(2n+1)
+        width: rem(480)
+        height: rem(320)
+        +w
+            width: rem(420)
+        +m
+            width: rem(300)
+            height: rem(200)
+    &:nth-child(2n)
+        width: rem(420)
+        height: rem(560)
+        +d
+            width: rem(350)
+            height: rem(460)
+        +m
+            width: rem(270)
+            height: rem(360)
+    &:nth-child(4n+1)
+        margin-top: rem(80)
+        +d
+            margin-top: rem(56)
+    &:nth-child(4n+3)
+        align-self: flex-end
+        margin-bottom: rem(80)
+        +d
+            margin-bottom: rem(56)
+    &:not(:last-child)
+        margin-right: rem(80)
+        +w
+            margin-right: rem(48)
+        +m
+            margin-right: rem(24)
+
+.button
+    position: absolute
+    top: 50%
+    right: rem(80)
+    z-index: 2
+    transform: translate(calc(100% + rem(80)),-50%)
+    pointer-events: none
+    transition: transform .5s
+    +t
+        right: rem(32)
+        transform: translate(0,-50%)
+    +m
+        top: 0
+        right: rem(20)
+        transform: translate(0,0)

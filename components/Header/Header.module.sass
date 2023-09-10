@@ -1,0 +1,200 @@
+@import @/styles/helpers
+
+.header
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 30
+    transition: all .2s
+    &:after
+        content: ""
+        position: absolute
+        left: 50%
+        bottom: 0
+        z-index: -1
+        width: rem(1280)
+        height: rem(1)
+        transform: translateX(-50%)
+        background: $p6
+        pointer-events: none
+        +r(1439)
+            left: rem(80)
+            right: rem(80)
+            width: auto
+            transform: translateX(0)
+        +w
+            left: rem(64)
+            right: rem(64)
+        +d
+            left: rem(48)
+            right: rem(48)
+        +t
+            left: rem(32)
+            right: rem(32)
+        +m
+            left: rem(20)
+            right: rem(20)
+            z-index: 8
+    &.visible
+        background: $n0
+        &:after
+            left: 0
+            right: 0
+            width: auto
+            transform: translateX(0)
+            background: $n1
+        .link
+            color: $n10
+            &:after
+                background: $n10
+    &.active
+        +m
+            background: $n0
+            &:after
+                left: 0
+                right: 0
+                background: $n1
+            .wrap
+                visibility: visible
+                opacity: 1
+            .link
+                color: $n10
+                &.active
+                    color: $p8
+                    &:after
+                        background: $p8
+                    &:before
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M4.594 3.51a11.38 11.38 0 0 0 3.333 2.315c1.231.559 2.537.88 3.844.944s2.587-.129 3.769-.57 2.242-1.119 3.121-1.997l.031.031h0l1.061 1.061h0l.031.031c-.878.878-1.557 1.939-1.997 3.121s-.634 2.463-.57 3.769.385 2.612.945 3.844a11.38 11.38 0 0 0 2.315 3.333l-1.084 1.084c-4.003-4.003-4.196-9.122-1.631-13.19L5.611 19.436 4.55 18.376 16.701 6.225C12.632 8.791 7.513 8.597 3.51 4.594L4.594 3.51z' fill='%23735B52' fill-rule='evenodd'/%3E%3C/svg%3E")
+        
+.container
+    display: flex
+    align-items: center
+    +m
+        height: rem(64)
+
+.logo
+    margin-right: auto
+    +m
+        position: relative
+        z-index: 8
+
+.wrap
+    +m
+        position: fixed
+        top: rem(64)
+        left: 0
+        right: 0
+        bottom: 0
+        display: flex
+        flex-direction: column
+        padding: rem(24) rem(20) rem(40)
+        background: $n0
+        visibility: hidden
+        opacity: 0
+        overflow: auto
+        transition: all .2s
+    .socials
+        display: none
+        justify-content: center
+        margin-top: auto
+        +m
+            display: flex
+        .social
+            &:not(:last-child)
+                margin-right: rem(56)
+
+.navigation
+    display: flex
+    +m
+        display: block
+        margin-bottom: rem(40)
+
+.link
+    position: relative
+    display: flex
+    align-items: center
+    height: rem(80)
+    +bodyS
+    color: $n0
+    transition: color .2s
+    +m
+        padding-right: rem(48)
+        font-size: rem(24)
+        &:before
+            content: ""
+            position: absolute
+            top: 50%
+            right: rem(8)
+            width: rem(24)
+            height: rem(24)
+            transform: translateY(-50%)
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M4.594 3.51a11.38 11.38 0 0 0 3.333 2.315c1.231.559 2.537.88 3.844.944s2.587-.129 3.769-.57 2.242-1.119 3.121-1.997l.031.031h0l1.061 1.061h0l.031.031c-.878.878-1.557 1.939-1.997 3.121s-.634 2.463-.57 3.769.385 2.612.945 3.844a11.38 11.38 0 0 0 2.315 3.333l-1.084 1.084c-4.003-4.003-4.196-9.122-1.631-13.19L5.611 19.436 4.55 18.376 16.701 6.225C12.632 8.791 7.513 8.597 3.51 4.594L4.594 3.51z' fill='%23121212' fill-rule='evenodd'/%3E%3C/svg%3E")
+            background-repeat: no-repeat
+            background-position: 50% 50%
+            background-size: rem(24) auto
+            border-radius: 50%
+            transition: all .3s
+    &:after
+        content: ""
+        position: absolute
+        left: 0
+        bottom: rem(27)
+        width: 0
+        height: rem(1)
+        background: $n0
+        transition: width .2s
+        +m
+            bottom: 0
+            width: 100%
+            background: $n10
+    &:hover,
+    &.active
+        &:after
+            width: 100%
+    &.active
+        +m
+            color: $p10
+    &:not(:last-child)
+        margin-right: rem(40)
+        +t
+            margin-right: rem(32)
+        +m
+            margin-right: 0
+        
+.burger
+    display: none
+    position: relative
+    z-index: 8
+    flex: 0 0 rem(24)
+    width: rem(24)
+    height: rem(24)
+    +m
+        display: block
+    &:before,
+    &:after
+        content: ""
+        position: absolute
+        top: rem(11)
+        left: rem(2)
+        height: rem(2)
+        background: $p4
+        border-radius: rem(2)
+        transition: width .2s, transform .2s, background .2s
+    &:before
+        width: rem(20)
+        transform: translateY(rem(-5))  
+    &:after
+        right: rem(2)
+        left: auto
+        width: rem(12)
+        transform: translateY(rem(5))
+    &.active
+        &:before,
+        &:after
+            background: $n10
+        &:before
+            transform: translateY(0) rotate(-45deg)
+        &:after
+            width: rem(20)
+            transform: translateY(0) rotate(45deg)

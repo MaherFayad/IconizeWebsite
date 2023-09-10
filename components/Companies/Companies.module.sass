@@ -1,0 +1,48 @@
+@import @/styles/helpers
+
+.title
+    max-width: rem(704)
+    margin-bottom: rem(96)
+    +d
+        margin-bottom: rem(64)
+    +m
+        margin-bottom: rem(48)
+
+.info
+    margin-bottom: rem(82)
+    text-align: center
+    +t
+        margin-bottom: rem(48)
+    +m
+        text-align: left
+        +bodyL
+
+.list
+    display: flex
+    flex-wrap: wrap
+    margin: rem(-64) rem(-40) 0
+    +d
+        margin: rem(-56) rem(-30) 0
+    +t
+        margin: rem(-64) rem(-40) 0
+    +m
+        margin: rem(-34) rem(-20) 0
+
+.preview
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    flex: 0 0 calc(20% - rem(80))
+    height: rem(48)
+    margin: rem(64) rem(40) 0
+    +d
+        flex: 0 0 calc(20% - rem(60))
+        margin: rem(56) rem(30) 0
+    +t
+        flex: 0 0 calc(33.333% - rem(80))
+        margin: rem(64) rem(40) 0
+    +m
+        flex: 0 0 calc(33.333% - rem(40))
+        height: rem(34)
+        margin: rem(34) rem(20) 0

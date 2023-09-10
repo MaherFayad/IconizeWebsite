@@ -1,0 +1,84 @@
+@import @/styles/helpers
+
+.field
+    position: relative
+    &.fieldNumber
+        padding-left: rem(72)
+        +m
+            padding-left: 0
+    &.active
+        z-index: 10
+
+.number
+    position: absolute
+    top: 0
+    left: 0
+    width: rem(48)
+    padding: rem(3) 0 rem(1)
+    text-align: center
+    +m
+        position: relative
+        margin-bottom: rem(20)
+
+.label
+    +bodyL
+    color: $n0
+    +m
+        +bodyM
+
+.select
+    position: relative
+    z-index: 5
+
+.toggle
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    height: rem(62)
+    border-width: 0 0 rem(1)
+    border-style: solid
+    border-color: $p6
+    +bodyM
+    color: $n0
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+    transition: border-color .2s
+    +m
+        height: rem(56)
+        +bodyS
+    &.active
+        border-color: transparent
+        svg
+            transform: scale(1, -1)
+    svg
+        margin-left: rem(16)
+        width: rem(20)
+        height: rem(20)
+        fill: $p4
+        transition: transform .2s
+
+.title
+    color: $p4
+
+.dropdown
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    padding: rem(8) 0
+    background: $n0
+
+.option
+    width: 100%
+    padding: rem(8) rem(10)
+    text-align: left
+    +bodyM
+    color: $n10
+    transition: background .2s, color .2s
+    +m
+        +bodyS
+    &:hover
+        background: rgba($n1, .3)
+    &.active
+        background: none
+        color: $p10

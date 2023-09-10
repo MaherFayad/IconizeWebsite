@@ -1,0 +1,59 @@
+@import @/styles/helpers
+
+.button
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: rem(240)
+    height: rem(240)
+    padding: rem(22)
+    border-radius: 50%
+    background: $s10
+    +d
+        width: rem(200)
+        height: rem(200)
+        padding: rem(15)
+    svg
+        position: absolute
+        top: 50%
+        left: 50%
+        width: rem(64)
+        height: rem(64)
+        transform: translate(-50%,-50%)
+        fill: $p10
+        transition: transform .3s
+        +d
+            width: rem(48)
+            height: rem(48)
+    &:hover
+        .preview
+            transform: rotate(-90deg)
+    &.buttonSmall
+        width: rem(176)
+        height: rem(176)
+        padding: rem(15)
+        +m
+            width: rem(112)
+            height: rem(112)
+            padding: rem(8)
+        svg
+            width: rem(48)
+            height: rem(48)
+            +m
+                width: rem(32)
+                height: rem(32)
+
+.preview
+    width: 100%
+    height: 100%
+    transition: transform .3s
+
+.image
+    animation: rotate 30s linear infinite
+
+@keyframes rotate
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)

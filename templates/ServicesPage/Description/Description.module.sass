@@ -1,0 +1,31 @@
+@import @/styles/helpers
+
+.container
+    display: flex
+    justify-content: space-between
+    +d
+        display: block
+
+.col
+    width: rem(510)
+    +d
+        width: 100%
+    &:nth-child(1)
+        +d
+            margin-bottom: rem(48)
+    &:nth-child(2)
+        padding-top: rem(16)
+        +d
+            padding-top: 0
+
+.content
+    margin-bottom: rem(56)
+    +d
+        max-width: rem(840)
+    +m
+        +bodyS
+    p
+        &:not(:last-child)
+            margin-bottom: rem(40)
+            +m
+                margin-bottom: rem(32)

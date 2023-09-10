@@ -1,0 +1,95 @@
+@import @/styles/helpers
+
+.section
+    position: relative
+    padding-bottom: 0
+    &:after
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        height: rem(340)
+        background: $n0
+        +m
+            height: rem(560)
+
+.title
+    max-width: rem(860)
+    margin-bottom: rem(112)
+    font-weight: 500
+    +d
+        margin-bottom: rem(72)
+    +t
+        margin-bottom: rem(48)
+    +m
+        word-break: break-word
+
+.row
+    position: relative
+    z-index: 2
+    display: flex
+    +t
+        align-items: flex-end
+    +m
+        display: block
+
+.image
+    flex-grow: 1
+    min-height: rem(680)
+    +d
+        min-height: rem(600)
+    +t
+        min-height: rem(440)
+    +m
+        min-height: rem(400)
+        height: rem(400)
+        margin-bottom: rem(72)
+
+.wrap
+    display: flex
+    flex-direction: column
+    flex-shrink: 0
+    width: rem(510)
+    margin-left: rem(110)
+    padding-top: rem(16)
+    +d
+        width: rem(420)
+        margin-left: rem(64)
+    +t
+        width: rem(320)
+        margin-left: rem(32)
+    +m
+        margin: 0
+        padding: 0
+
+.content
+    margin-bottom: rem(82)
+    +bodyL
+    +m
+        margin-bottom: rem(72)
+        +bodyM
+    &.contentDesktop
+        +t
+            display: none
+    &.contentMobile
+        display: none
+        +t
+            display: block
+
+.details
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    min-height: rem(340)
+    margin-top: auto
+    +d
+        min-height: rem(300)
+    +m
+        min-height: 100%
+
+.info
+    margin-bottom: rem(40)
+    font-weight: 500
+    color: $n10
