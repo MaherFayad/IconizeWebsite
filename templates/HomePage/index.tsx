@@ -20,7 +20,9 @@ const HomePage = () => {
     const scrollToRef = useRef<any>(null);
 
     return (
+        
         <Layout>
+
             <Main scrollToRef={scrollToRef} />
             <Preview
                 className="section-mb120"
