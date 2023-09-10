@@ -28,8 +28,8 @@ const HomePage = () => {
                 wide
             />
             <AboutUs scrollToRef={scrollToRef} />
-            <Services items={services} />
             <Advantages />
+            <Services items={services} />
             <Projects
                 className="section-mb160 section-separator"
                 title="Take a look at our most successful projects"

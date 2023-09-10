@@ -4,19 +4,19 @@ import styles from "./Advantages.module.sass";
 
 const list = [
     {
-        title: "Years of Experience",
+        title: "Projects completed",
+        value: "500+",
+    },
+    {
+        title: "Year on year growth",
+        value: "200%",
+    },
+    {
+        title: "Funded",
         value: "10+",
     },
     {
-        title: "Satisfied Customers",
-        value: "150+",
-    },
-    {
-        title: "Awards Won",
-        value: "10+",
-    },
-    {
-        title: "Completed Projects",
+        title: "Funded",
         value: "200+",
     },
 ];
@@ -28,7 +28,7 @@ const Advantages = ({}: AdvantagesProps) => (
         className={cn("section-mb160 section-pd section-black", styles.section)}
     >
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>WHY CHOOSE US</div>
+            <div className={cn("label", styles.label)}>Achievements at a Glance</div>
             <div className={cn("section-mb120", styles.row)}>
                 <div className={styles.wrap}>
                     <div className={cn("h5", styles.title)}>
@@ -43,22 +43,8 @@ const Advantages = ({}: AdvantagesProps) => (
                 </div>
                 <div className={styles.content}>
                     <p>
-                        More than 30 campaign managers and specialists on the
-                        Keeper team will plan and design a powerful campaign
-                        specifically for you. Our expertise is in developing
-                        competitive advantages. We have faith in capability. To
-                        help you differentiate your business from the
-                        competition, we employ cutting-edge strategies, digital
-                        tools, design, and creative thinking.
-                    </p>
-                    <p>
-                        We do more than just build websites and Facebook pages
-                        and buy advertising space; we are a communication
-                        agency. We introduce your name, item, or service to the
-                        consumer. To help your business succeed, we work in
-                        branding, digital marketing, art direction, and
-                        printing.
-                    </p>
+                    At Iconize Inc., we believe in measurable success. Our commitment to excellence is reflected in the numbers - real, tangible results that showcase our dedication to helping businesses thrive in the digital world.                    </p>
+
                 </div>
             </div>
             <div className={styles.list}>
