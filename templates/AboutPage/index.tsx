@@ -21,7 +21,7 @@ const AboutPage = () => {
                 wide
             />
             <Values />
-            <Team items={team} />
+            {/* <Team items={team} /> */}
             <Companies
                 className="section-mb160"
                 title="Trusted with more than 150 Companies since 2012"

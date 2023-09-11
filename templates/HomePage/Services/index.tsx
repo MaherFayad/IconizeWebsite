@@ -14,11 +14,7 @@ const Services = ({ items }: ServicesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>OUR SERVICE</div>
             <div className={cn("h7", styles.info)}>
-                As a 360-degree agency, we provide a variety of services. Our
-                devoted team is made up of experts in a variety of disciplines,
-                including digital advertising, design, copywriting, web design,
-                and more. Please feel free to contact us if there is anything we
-                can do to assist you as you peruse the services we offer below.
+                Elevating Your Software Vision: Our Expertise Spans Strategy, Research, Design, Development, Code Security, and Beyond!
             </div>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (

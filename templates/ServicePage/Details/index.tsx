@@ -26,7 +26,7 @@ const Details = ({}: DetailsProps) => (
         <div className={"container"}>
             <div className={styles.head}>
                 <div className={cn("h5", styles.title)}>
-                    The Performance Strategy System
+                    Ready to Bring Your Ideas to Life?
                 </div>
                 <div className={styles.text}>
                     Keeper uses a special method called The Performance Strategy

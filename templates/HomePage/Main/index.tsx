@@ -35,7 +35,7 @@ const Main = ({ scrollToRef }: MainProps) => {
                     </div>
                     <div className={styles.info}>
                     <b>Elevate Your Business with Iconize.</b> <br></br>
-                    Iconize Inc. - Your Trusted Partner for Innovative Solutions
+                    Iconize - Your Trusted Partner for Innovative Solutions
                     </div>
                 </div>
                 <div className={styles.actions}>

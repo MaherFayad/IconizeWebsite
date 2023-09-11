@@ -3,24 +3,24 @@ import styles from "./Values.module.sass";
 
 const list = [
     {
-        title: "We have a strong passion.",
+        title: "We Value Accessibility",
         content:
-            'The boundaries between "work" and "play" aren&apos;t always obvious. We are all connected and motivated by our curiosity and creativity. Staying in your comfort zone is never a good idea in our opinion.',
+            'We create tech solutions that are inclusive and accessible to everyone',
     },
     {
-        title: "We enjoy learning.",
+        title: "We're Ethical Always",
         content:
-            "We enjoy learning, particularly from one another. We are always improving our abilities in design, development, and copywriting as well as learning how to use new platforms and features. Because lifelong learners are the best learners.",
+            "integrity is our compass; we navigate the tech world with honesty and transparency.",
     },
     {
         title: "We leave egos at the door.",
         content:
-            "We challenge ideas and offer candid criticism, but we also emphasize the points in which we agree. We will challenge things in order to produce better work, but never merely out of curiosity. There isn't time for that.",
+            "We challenge ideas, give candid feedback, and focus on what we agree on. Our goal? Better work, not just curiosity. Time's too valuable for that.",
     },
     {
-        title: "We support one another.",
+        title: "We Embrace Diversity",
         content:
-            "Our days are spent constructing sites and strengthening one another. An opportunity to interact, work together, and recognize our clients and coworkers arises with each new project. We're in this together and for the long haul.",
+            "We celebrate uniqueness and foster a diverse, inclusive environment where every voice matters.",
     },
 ];
 
@@ -31,8 +31,7 @@ const Values = ({}: ValuesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>OUR VALUES</div>
             <div className={cn("h7", styles.subtitle)}>
-                Here are the four guidelines we stick to protect you in these
-                shifting environments.
+                These values capture the essence of Iconize Inc. – friendly, forward-thinking, and committed to making a positive impact
             </div>
             <div className={styles.list}>
                 {list.map((item, index) => (

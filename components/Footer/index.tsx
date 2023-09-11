@@ -48,7 +48,7 @@ const socials = [
     },
 ];
 
-const TEXTS = ["great", "new", "big"];
+const TEXTS = ["Change", "Progress", "a Revolution"];
 
 type FooterProps = {
     empty?: boolean;
@@ -72,8 +72,8 @@ const Footer = ({ empty }: FooterProps) => {
                     <>
                         <div className={styles.row}>
                             <div className={cn("h2", styles.title)}>
-                                <span>Let’s start</span>
-                                <span>something</span>
+                                <span>Ready</span>
+                                <span>to Ignite</span>
                                 <span>
                                     <span className={styles.word}>
                                         <TextTransition
@@ -82,8 +82,8 @@ const Footer = ({ empty }: FooterProps) => {
                                         >
                                             {TEXTS[index % TEXTS.length]}&nbsp;
                                         </TextTransition>
+                                    ?
                                     </span>
-                                    together
                                 </span>
                             </div>
                             <ButtonCircle
@@ -114,7 +114,7 @@ const Footer = ({ empty }: FooterProps) => {
                 )}
                 <div className={styles.foot}>
                     <div className={styles.copyright}>
-                        © 2022 Keeper, All rights reserved
+                        © 2023 Iconize, All rights reserved
                     </div>
                     <a
                         className={styles.policy}
@@ -130,7 +130,7 @@ const Footer = ({ empty }: FooterProps) => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Made by Slab! Design Studio
+                        Made by Iconize Designer
                     </a>
                 </div>
             </div>

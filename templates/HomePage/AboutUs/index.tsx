@@ -7,7 +7,7 @@ type AboutUsProps = {
 };
 
 const AboutUs = ({ scrollToRef }: AboutUsProps) => (
-    <div className={cn("section-separator section-mb160", styles.section)}>
+    <div className={styles.section}>
         <div className={styles.anchor} ref={scrollToRef}></div>
         <div className={cn("container", styles.container)}>
             <div className={cn("label", styles.label)}>ABOUT US</div>

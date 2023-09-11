@@ -8,12 +8,7 @@ const Story = ({}: StoryProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>OUR STORY</div>
             <div className={cn("h6", styles.content)}>
-                The only option available to businesses and organizations in the
-                age of algorithms, artificial intelligence, and word-of-mouth is
-                perfection. A team of strategists, designers, branding
-                specialists, business model experts, and service designers has
-                been assembled by Keeper. We support our clients in excelling at
-                what they do. or grow even more.
+                Our story is one of relentless innovation, where each line of code and every pixel designed is infused with our passion for technology. From humble beginnings to becoming a driving force in the digital landscape, Iconize Inc. has always been about transforming ideas into reality, one project at a time. Our journey is your journey, and together, we're crafting a future where innovation knows no bounds.
             </div>
         </div>
     </div>

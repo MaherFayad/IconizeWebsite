@@ -23,11 +23,13 @@ const Layout = ({ background, emptyFooter, children }: LayoutProps) => {
     return (
         <>
             <Head>
-                <title>Keeper</title>
+                <title>
+                    Iconize
+                </title>
             </Head>
             <div
                 className={styles.layout}
-                style={{ backgroundColor: background }}
+                style={{ backgroundColor: "#F6F6EE" }}
             >
                 <Header />
                 <div className={styles.inner}>{children}</div>

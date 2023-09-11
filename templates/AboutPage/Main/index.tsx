@@ -14,8 +14,10 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        We have put together a special combination of strategy,
-                        marketing, design, and digital expertise.
+                        We have put together a special
+                        combination of strategy,
+                        marketing, design, and digital
+                        expertise.
                     </div>
                 </div>
             </div>
