@@ -24,11 +24,11 @@ const HomePage = () => {
         <Layout>
 
             <Main scrollToRef={scrollToRef} />
-            <Preview
+            {/* <Preview
                 className="section-mb120"
                 video="/videos/video-1.mp4"
                 wide
-            />
+            /> */}
             <AboutUs scrollToRef={scrollToRef} />
             <Advantages />
             <Services items={services} />
