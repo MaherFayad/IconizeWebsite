@@ -1,50 +1,51 @@
 export const services = [
     {
         id: "0",
-        title: "MARKETING AND COMMUNICATION PLAN",
+        title: "Research and Analysis",
         description:
-            "The secret to getting returns on your investments is to have an integrated marketing and communication strategy. We will identify your path to success using Keeper's Performance Strategy System.",
+            `Before the Code Begins
+            In the ever-evolving digital landscape, informed decisions are key to success. We kickstart your project with meticulous research and analysis, delving deep into market trends, user preferences, and potential challenges. Our team identifies opportunities for innovation and creates a roadmap that guarantees your software aligns with your business goals.`    
     },
     {
         id: "1",
-        title: "BRANDING",
+        title: "UX/UI Design",
         description:
-            "Your business deserves to be noticed. Keeper accomplishes this with more than just a logo. We assist you in finding the best positioning to use the power of storytelling to deploy a complete visual and verbal universe.",
+            `User-Centric Excellence
+            A great software project starts with a remarkable user experience (UX) and user interface (UI) design. Our talented designers craft intuitive interfaces that captivate users and ensure seamless navigation. We believe in beauty with purpose, and our designs are both visually stunning and highly functional.`    
     },
     {
         id: "2",
-        title: "DIGITAL CAMPAIGNS",
+        title: "Software Development",
         description:
-            "Using a digital campaign that is specifically targeted, transmit the right message to the right audience at the right time. Keeper is the ideal collaborator for such a project.",
+            `Turning Concepts into Code
+            Our development team is the backbone of Iconize Inc. With years of expertise in various programming languages and technologies, we breathe life into your software vision. From web applications to mobile apps and everything in between, we transform concepts into robust, scalable, and secure software solutions.`    
     },
     {
         id: "3",
-        title: "PROGRAMMATIC ADVERTISING",
+        title: "Quality Assurance",
         description:
-            "Utilize the speed and power of computers to run intelligent, adaptive campaigns that humans could only hope to imagine.",
+            `No Compromise on Excellence
+            Our commitment to quality is unwavering. Our QA experts rigorously test every aspect of your software, identifying and rectifying any issues before deployment. This meticulous approach ensures a bug-free, smooth user experience and long-term reliability.`    
     },
     {
         id: "4",
-        title: "MARKETING AS A SERVICE",
+        title: "Maintenance and Support",
         description:
-            "Your business deserves the very best in traditional and digital marketing. Keeper gives you monthly access to the entire team so you can get great results.",
+            `Beyond Launch
+            Our relationship doesn't end at deployment. We provide ongoing support and maintenance services, ensuring your software remains up-to-date, secure, and optimized for peak performance. As technology evolves, we evolve with it, keeping your software relevant in a fast-paced world.`    
     },
     {
         id: "5",
-        title: "WEBSITE",
+        title: "Consulting and Strategy",
         description:
-            "Websites come in a variety of styles. The key is picking the appropriate one for your business and target market. We'll create the most effective web experience for you and inject creativity into your project.",
+            `Your Trusted Advisors
+            Have an idea but unsure how to proceed? We offer consulting services to help you define a clear strategy for your software project. We advise on technology choices, scalability options, and potential pitfalls, ensuring your project is set up for success from day one.`    
     },
     {
         id: "6",
-        title: "INNOVATION SPIRIT",
+        title: "Code Security and Cybersecurity",
         description:
-            "Investigate and learn how to start a new company and how to develop a competitive advantage business model. Keeper assists you in honing your value proposition and ensures a good fit with your target market, whether it be present or potential.",
-    },
-    {
-        id: "7",
-        title: "PUBLIC RELATIONS",
-        description:
-            "Brands require PR in order to effectively influence public opinion. At Keeper, we give our clients the tools they need to excel in their PR campaigns.",
+            `Defending Your Digital Fortress
+            In today's interconnected world, security is paramount. Our cybersecurity experts fortify your software, protecting it from digital threats. We leave no stone unturned in safeguarding your data, ensuring your users trust you with their information.`    
     },
 ];

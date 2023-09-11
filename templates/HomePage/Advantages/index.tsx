@@ -43,7 +43,7 @@ const Advantages = ({}: AdvantagesProps) => (
                 </div>
                 <div className={styles.content}>
                     <p>
-                    At Iconize Inc., we believe in measurable success. Our commitment to excellence is reflected in the numbers - real, tangible results that showcase our dedication to helping businesses thrive in the digital world.                    </p>
+                    At Iconize, we believe in measurable success. Our commitment to excellence is reflected in the numbers - real, tangible results that showcase our dedication to helping businesses thrive in the digital world.                    </p>
 
                 </div>
             </div>
