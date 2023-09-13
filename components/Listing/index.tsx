@@ -30,22 +30,7 @@ const Listing = ({ title, links, scrollToRef }: ListingProps) => {
         >
             <div className={cn("container", styles.container)}>
                 <div className={cn("h4", styles.title)}>{title}</div>
-                <div className={styles.links}>
-                    {links.map((link, index) => (
-                        <button
-                            className={cn(styles.link, {
-                                [styles.active]: link.value === active,
-                            })}
-                            key={index}
-                            onClick={() => handleClick(link.value)}
-                        >
-                            <span className={styles.text}>{link.title}</span>
-                            <span className={styles.counter}>
-                                {link.counter}
-                            </span>
-                        </button>
-                    ))}
-                </div>
+                
             </div>
         </div>
     );

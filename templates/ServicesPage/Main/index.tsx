@@ -24,12 +24,6 @@ const Main = ({}: MainProps) => {
                     <div className={cn("h4", styles.title)}>
                         Ready to Bring Your Ideas to Life?
                     </div>
-                    <div className={styles.info}>
-                        Keeper performs a thorough analysis of your situation in
-                        order to select a strategic approach that fits your
-                        activities and to establish the ideal timing for
-                        implementation.
-                    </div>
                 </div>
             </div>
             <div className={cn("section-mb160", styles.gallery)}>

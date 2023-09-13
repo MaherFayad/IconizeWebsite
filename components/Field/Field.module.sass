@@ -4,6 +4,8 @@
     &.fieldNumber
         position: relative
         padding-left: rem(72)
+        color: $n0
+
         +m
             padding-left: 0
 
@@ -14,6 +16,7 @@
     width: rem(48)
     padding: rem(3) 0 rem(1)
     text-align: center
+    color: $n0
     +m
         position: relative
         margin-bottom: rem(20)
@@ -33,8 +36,9 @@
     border-width: 0 0 rem(1)
     border-style: solid
     border-color: $p6
-    background: transparent
-    border-radius: 0
+    padding-left: rem(16)
+    background: $n3
+    border-radius: rem(2)
     +bodyM
     color: $n0
     transition: border-color .2s
@@ -42,13 +46,13 @@
         height: rem(56)
         +bodyS
     &::placeholder
-        color: $p4
+        color: $p10
     &:focus
-        border-color: $s2
+        border-color: #333333
     &.error
         border-color: #F07E60
 
 .errorText
     margin-top: rem(12)
     text-align: right
-    color: #F07E60
+    color: #333333

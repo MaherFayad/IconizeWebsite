@@ -91,7 +91,7 @@ const Form = ({}: FormProps) => {
             <Field
                 className={styles.field}
                 number="02"
-                label="What’s your email address?"
+                label="What’s your professional email address?"
                 placeholder="example@email.com"
                 type="email"
                 value={email}
@@ -117,24 +117,7 @@ const Form = ({}: FormProps) => {
                 onChange={(e: any) => setCompany(e.target.value)}
                 required
             />
-            <Select
-                className={styles.field}
-                number="05"
-                label="What’s services are you looking for?"
-                title="Choose from a list here"
-                value={service}
-                onChange={handleChangeService}
-                options={optionsService}
-            />
-            <Select
-                className={styles.field}
-                number="06"
-                label="What have you budgeted for this project?"
-                title="Choose from a list here"
-                value={budget}
-                onChange={handleChangeBudget}
-                options={optionsBudget}
-            />
+           
             <Field
                 className={styles.field}
                 number="07"
