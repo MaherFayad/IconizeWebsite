@@ -43,7 +43,7 @@ export const services = [
         description_H3: `Coding Excellence - Our expert developers transform ideas into robust, scalable software solutions.`,
         details_H1: `The Software Development Process: From Concept to Deployment`,
         details_H2:`Navigating the Key Steps for Successful Software Development`,
-        list1_title: `Requirements Gathering and Analysis`,
+        list1_title: `Requirements Gathering`,
         list1_content: `This initial step involves understanding and documenting the needs and expectations of the software. It includes gathering requirements from stakeholders, analyzing them, and defining the scope of the project. This step helps establish a clear vision and goals for the software.`,
         list2_title: `Design and Development`,
         list2_content: `Once the requirements are gathered, the next step is to design the software architecture and create a plan for implementation. This involves creating a high-level design, breaking it down into smaller components, and assigning tasks to developers. The development phase involves writing code, testing it, and integrating the components to build the software.`,
@@ -81,7 +81,7 @@ export const services = [
         list1_content: `Immerse your audience in captivating virtual and augmented worlds with our VR and AR solutions. From interactive training simulations to engaging marketing experiences, we create immersive environments that leave a lasting impact.`,
         list2_title: `Architectural Visualization (Archviz)`,
         list2_content: `Transform architectural concepts into vivid, photorealistic visualizations. Our Archviz expertise helps architects, real estate professionals, and developers showcase their designs with unparalleled clarity and realism.`,
-        list3_title: `Games Art`,
+        list3_title: `Games Art and design`,
         list3_content: `Dive into the world of gaming with our Games Art services. From character design to 3-D modeling, we breathe life into gaming experiences, ensuring every pixel is a work of art.`,    
     },
     {
@@ -98,7 +98,7 @@ export const services = [
         list1_content: `The first step in maintenance and support is to identify and report issues or bugs that are encountered by users or discovered through monitoring and testing. This involves setting up a system or ticketing mechanism to receive and track reported issues. Users can submit problem reports, and the support team can proactively monitor the system for any anomalies or performance issues.`,
         list2_title: `Issue Analysis and Resolution`,
         list2_content: `TOnce issues are reported, the maintenance team analyzes and investigates the problems to determine their root causes. This may involve examining error logs, reviewing code, or conducting further testing. Once the cause is identified, the team works on developing a resolution or a fix to address the issue. This step includes implementing the fix, testing it, and ensuring it does not introduce any new problems or conflicts.`,
-        list3_title: `System Monitoring and Proactive Maintenance`,
+        list3_title: `Proactive Maintenance`,
         list3_content: `Maintenance and support also involve ongoing monitoring of the system to identify and address issues before they impact users. This includes monitoring system performance, error logs, and user feedback to identify potential areas of improvement. Proactive maintenance tasks, such as regular updates, security patches, and performance optimizations, are performed to ensure the system remains stable, secure, and reliable.`,   
     },
     {
@@ -113,7 +113,7 @@ export const services = [
         details_H2:`Navigating the Essential Steps to Drive Growth, Innovation, and Success`,
         list1_title: `Needs Assessment and Analysis`,
         list1_content: `The first step in consulting and strategy is to conduct a comprehensive needs assessment. This involves understanding the client's goals, challenges, and requirements. Through interviews, data analysis, and research, consultants gather information to gain insights into the current state of the organization. This step helps identify areas for improvement, potential opportunities, and the overall strategic direction.`,
-        list2_title: `Strategy Development and Planning`,
+        list2_title: `Strategy Development`,
         list2_content: `Once the needs assessment is complete, the next step is to develop a tailored strategy and plan. Consultants collaborate with the client to define clear objectives, establish measurable goals, and outline the steps needed to achieve them. This includes formulating strategies, identifying key initiatives, and creating a roadmap for implementation. The plan encompasses various aspects such as organizational structure, resource allocation, market positioning, and operational processes.`,
         list3_title: `Implementation and Evaluation`,
         list3_content: `After the strategy is defined and the plan is in place, the focus shifts to executing the strategy. Consultants work closely with the client to implement the recommended changes, initiatives, and processes. This involves providing guidance, support, and expertise throughout the implementation phase. Additionally, regular evaluation and monitoring are conducted to measure the progress, identify any deviations, and make necessary adjustments to ensure the strategy's effectiveness.`,    
@@ -121,7 +121,7 @@ export const services = [
     {
         id: "7",
         title: "Code Security and Cybersecurity",
-        
+
         description:
             `Defending Your Digital Fortress In today's interconnected world, security is paramount. Our cybersecurity experts fortify your software, protecting it from digital threats. We leave no stone unturned in safeguarding your data, ensuring your users trust you with their information.`,
         description_H1: `Consulting & Strategy`,
@@ -129,7 +129,7 @@ export const services = [
         description_H3: `fortify your software, protecting it from digital threats`,
         details_H1: `Building a Strong Cybersecurity Foundation`,
         details_H2:`Three Essential Steps to Safeguard Your Organization`,
-        list1_title: `Risk Assessment and Identification`,
+        list1_title: `Risk Assessment`,
         list1_content: `Begin by conducting a comprehensive risk assessment to identify potential cybersecurity threats and vulnerabilities within your organization's systems and processes. This step involves evaluating your assets, such as data, hardware, and software, to determine their value and sensitivity. Identify potential threats from external sources (e.g., hackers, malware) and internal sources (e.g., employee negligence).`,
         list2_title: `Implement Security Measures`,
         list2_content: `Once you've identified risks and vulnerabilities, implement appropriate security measures and controls to mitigate these risks. This includes measures like deploying firewalls, intrusion detection systems, antivirus software, and encryption technologies. Additionally, establish strong access controls, enforce password policies, and regularly update and patch software to address known vulnerabilities.`,
