@@ -17,15 +17,15 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta
-                        content="Keeper - Digital Agency Website"
-                        name="Perfect design for Digital Agency Website"
+                        content="Iconize"
+                        name="Your Trusted Partner for Innovative Solutions"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                         property="og:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Iconize"
                         property="og:description"
                     />
                     <meta
@@ -38,14 +38,14 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:site_name"
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                         property="twitter:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Iconize"
                         property="twitter:description"
                     />
                     <meta
