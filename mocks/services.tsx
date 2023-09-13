@@ -118,4 +118,22 @@ export const services = [
         list3_title: `Implementation and Evaluation`,
         list3_content: `After the strategy is defined and the plan is in place, the focus shifts to executing the strategy. Consultants work closely with the client to implement the recommended changes, initiatives, and processes. This involves providing guidance, support, and expertise throughout the implementation phase. Additionally, regular evaluation and monitoring are conducted to measure the progress, identify any deviations, and make necessary adjustments to ensure the strategy's effectiveness.`,    
     },
+    {
+        id: "7",
+        title: "Code Security and Cybersecurity",
+        
+        description:
+            `Defending Your Digital Fortress In today's interconnected world, security is paramount. Our cybersecurity experts fortify your software, protecting it from digital threats. We leave no stone unturned in safeguarding your data, ensuring your users trust you with their information.`,
+        description_H1: `Consulting & Strategy`,
+        description_H2: `Defending Your Digital Fortress In today's interconnected world, security is paramount. Our cybersecurity experts fortify your software, protecting it from digital threats. We leave no stone unturned in safeguarding your data, ensuring your users trust you with their information.`,
+        description_H3: `fortify your software, protecting it from digital threats`,
+        details_H1: `Building a Strong Cybersecurity Foundation`,
+        details_H2:`Three Essential Steps to Safeguard Your Organization`,
+        list1_title: `Risk Assessment and Identification`,
+        list1_content: `Begin by conducting a comprehensive risk assessment to identify potential cybersecurity threats and vulnerabilities within your organization's systems and processes. This step involves evaluating your assets, such as data, hardware, and software, to determine their value and sensitivity. Identify potential threats from external sources (e.g., hackers, malware) and internal sources (e.g., employee negligence).`,
+        list2_title: `Implement Security Measures`,
+        list2_content: `Once you've identified risks and vulnerabilities, implement appropriate security measures and controls to mitigate these risks. This includes measures like deploying firewalls, intrusion detection systems, antivirus software, and encryption technologies. Additionally, establish strong access controls, enforce password policies, and regularly update and patch software to address known vulnerabilities.`,
+        list3_title: `Monitoring and Incident Response`,
+        list3_content: `Continuously monitor your network, systems, and applications for signs of unusual or suspicious activity. Implement logging and monitoring tools to detect security breaches or unauthorized access promptly. Develop an incident response plan that outlines the steps to take in case of a cybersecurity incident. This plan should include procedures for containing, analyzing, and mitigating security breaches and for notifying relevant stakeholders.`,    
+    },
 ];
