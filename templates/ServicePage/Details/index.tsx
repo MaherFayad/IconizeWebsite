@@ -3,19 +3,19 @@ import styles from "./Details.module.sass";
 
 const list = [
     {
-        title: "Analysis",
+        title: "User Research",
         content:
-            "What's happening right now in the fields of society, economy, and technology are the main topics of the first section, which focuses on the company, its competitors, and the environment? What does it mean going forward?",
+            "In this initial step, gather data and insights about your target audience. Conduct surveys, interviews, and observations to understand user behaviors, preferences, and pain points. Create user personas to represent different segments of your audience, helping to personalize your design approach.",
     },
     {
-        title: "Exploration",
+        title: "Competitive Analysis",
         content:
-            "As we investigate various potential communication scenarios, the exploration invites reflection.",
+            "Examine competitors and similar products or services in your market. Identify their strengths and weaknesses, and analyze user feedback and reviews. This research helps you understand market trends, benchmark your design against industry standards, and uncover opportunities for differentiation.",
     },
     {
-        title: "Strategy",
+        title: "Information Architecture",
         content:
-            "The strategic phase culminates and lessens uncertainty once a suitable marketing or communication plan is in place. Performance and risk reduction are ensured by the combination of these phases.",
+            "Organize and structure the content and features of your design. Develop site maps and user flows to create a logical hierarchy and navigation system. Conduct a content audit to assess the relevance and effectiveness of existing content, ensuring it aligns with user needs and goals. This step lays the foundation for creating user-friendly interfaces and seamless user experiences.",
     },
 ];
 
@@ -41,7 +41,7 @@ const Details = ({}: DetailsProps) => (
                         <div className={cn("label", styles.number)}>
                             {index < 9 ? `0${index + 1}` : index + 1}
                         </div>
-                        <div className={cn("h6", styles.subtitle)}>
+                        <div className={cn("subtitle", styles.subtitle)}>
                             {item.title}
                         </div>
                         <div className={styles.content}>{item.content}</div>

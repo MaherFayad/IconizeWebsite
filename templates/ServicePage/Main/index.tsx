@@ -25,12 +25,7 @@ const Main = ({ id }: MainProps) => {
                         {service.title}
                     </div>
                     <div className={cn(styles.content, styles.contentMobile)}>
-                        Like a spotlight, strategic marketing communication
-                        enables you to concentrate solely on the audiences you
-                        want to reach and the connections you want to make. You
-                        can develop potent, targeted, and focused messages by
-                        implementing an integrated marketing and communication
-                        strategy.
+                        At Iconize, we start every project with a deep dive into research and analysis. This critical phase lays the foundation for success. Our team meticulously examines market trends, user preferences, and potential challenges. We identify opportunities for innovation and create a strategic roadmap that ensures your software solution aligns perfectly with your business goals. We challenge assumptions, validate concepts, and provide data-driven insights to inform every decision along the way
                     </div>
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
@@ -49,18 +44,11 @@ const Main = ({ id }: MainProps) => {
                                     styles.contentDesktop
                                 )}
                             >
-                                Like a spotlight, strategic marketing
-                                communication enables you to concentrate solely
-                                on the audiences you want to reach and the
-                                connections you want to make. You can develop
-                                potent, targeted, and focused messages by
-                                implementing an integrated marketing and
-                                communication strategy.
+                                At Iconize, we start every project with a deep dive into research and analysis. This critical phase lays the foundation for success. Our team meticulously examines market trends, user preferences, and potential challenges. We identify opportunities for innovation and create a strategic roadmap that ensures your software solution aligns perfectly with your business goals. We challenge assumptions, validate concepts, and provide data-driven insights to inform every decision along the way
                             </div>
                             <div className={styles.details}>
                                 <div className={cn("h7", styles.info)}>
-                                    Get focused with a marketing and
-                                    communication plan
+                                    <b>We provide :</b><br/><br/> Literature Review- User Research - Competitive Analysis
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}

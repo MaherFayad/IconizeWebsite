@@ -22,7 +22,7 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Ready to Bring Your Ideas to Life?
+                    We help companies find their way to greatness.
                     </div>
                 </div>
             </div>

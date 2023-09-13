@@ -24,18 +24,18 @@ const ServicePage = ({ id }: any) => {
             <Main id={id} />
             <Details />
             <Preview className="section-mb120" video="/videos/video-1.mp4" />
-            <Plans />
+            {/* <Plans />
             <Gallery images={gallery} />
             <Preview className="section-mb160" image="/images/image-2.jpg" />
-            <Description />
+            <Description /> */}
             <div className="section-pd section-black">
                 <Companies
                     className="section-mb120 section-separator"
-                    title="We built outstanding marketing and communication plans for them."
+                    title="We built outstanding products for"
                     items={companiesLight}
                 />
                 <Projects
-                    title="Successful marketing and communication plans we developed"
+                    title="Experience Our Success Stories"
                     label="STORIES"
                     items={projects}
                     viewItem={4}
