@@ -121,6 +121,7 @@ export const services = [
     {
         id: "7",
         title: "Code Security and Cybersecurity",
+        
         description:
             `Defending Your Digital Fortress In today's interconnected world, security is paramount. Our cybersecurity experts fortify your software, protecting it from digital threats. We leave no stone unturned in safeguarding your data, ensuring your users trust you with their information.`,
         description_H1: `Consulting & Strategy`,
