@@ -22,10 +22,10 @@ const Main = ({ id }: MainProps) => {
             >
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        {service.title}
+                        {service.description_H1}
                     </div>
                     <div className={cn(styles.content, styles.contentMobile)}>
-                        At Iconize, we start every project with a deep dive into research and analysis. This critical phase lays the foundation for success. Our team meticulously examines market trends, user preferences, and potential challenges. We identify opportunities for innovation and create a strategic roadmap that ensures your software solution aligns perfectly with your business goals. We challenge assumptions, validate concepts, and provide data-driven insights to inform every decision along the way
+                        {service.description_H2}
                     </div>
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
@@ -44,11 +44,11 @@ const Main = ({ id }: MainProps) => {
                                     styles.contentDesktop
                                 )}
                             >
-                                At Iconize, we start every project with a deep dive into research and analysis. This critical phase lays the foundation for success. Our team meticulously examines market trends, user preferences, and potential challenges. We identify opportunities for innovation and create a strategic roadmap that ensures your software solution aligns perfectly with your business goals. We challenge assumptions, validate concepts, and provide data-driven insights to inform every decision along the way
+                                {service.description_H2}
                             </div>
                             <div className={styles.details}>
                                 <div className={cn("h7", styles.info)}>
-                                    <b>We provide :</b><br/><br/> Literature Review- User Research - Competitive Analysis
+                                    <b>We provide :</b><br/><br/> {service.description_H3}
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}

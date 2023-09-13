@@ -10,6 +10,8 @@ import Projects from "@/components/Projects";
 
 import { companiesLight } from "@/mocks/companies";
 import { projects } from "@/mocks/projects";
+import { services } from "@/mocks/services";
+
 
 const gallery = [
     { image: "/images/photo-4.jpg" },
@@ -22,8 +24,7 @@ const ServicePage = ({ id }: any) => {
     return (
         <Layout>
             <Main id={id} />
-            <Details />
-            <Preview className="section-mb120" video="/videos/video-1.mp4" />
+            <Details id={id} />
             {/* <Plans />
             <Gallery images={gallery} />
             <Preview className="section-mb160" image="/images/image-2.jpg" />
