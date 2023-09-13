@@ -15,7 +15,7 @@ const Services = ({ items }: ServicesProps) => (
             <div className={styles.head}>
                 <div className={cn("label", styles.label)}>OUR SERVICE</div>
                 <div className={cn("h5", styles.title)}>
-                    We provide a wide range of services
+                    Diverse Services, Singular Excellence
                 </div>
             </div>
             <div className={styles.list}>

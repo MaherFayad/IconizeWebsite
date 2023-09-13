@@ -9,23 +9,16 @@ const Description = ({}: DescriptionProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.col}>
                 <div className={cn("h5", styles.title)}>
-                    There are no ordinary projects, only extraordinary
-                    situations.
+                    Ready to Bring Your Ideas to Life?
                 </div>
             </div>
             <div className={styles.col}>
                 <div className={styles.content}>
                     <p>
-                        A strategy needs to be scalable and adaptable in order
-                        to be truly effective. We&apos;ll plan your growth,
-                        evolution, and renaissance whether your business
-                        environment is stable or unstable.
+                        Our vision is simple yet powerful: to innovate, create, and transform. We're driven by a passion for turning ideas into reality, leveraging meticulous research, captivating design, precise development, and unwavering quality. Our mission is to lead businesses into a digital future where their visions come to life, ensuring that excellence is at the heart of every project.
                     </p>
                     <p>
-                        Sustainable branding, a distinctive verbal and visual
-                        identity, clever and effective communication, or a
-                        cohesive creative concept—all of these are products of a
-                        pertinent strategy.
+                        We craft software solutions that inspire, engage, and excel. Our vision is to empower businesses, revolutionize industries, and make digital dreams a vibrant, accessible reality.
                     </p>
                 </div>
                 <Link className="button" href="/contact">

@@ -5,6 +5,7 @@ import Image from "@/components/Image";
 
 import { services } from "@/mocks/services";
 
+
 type MainProps = {
     id: any;
 };
@@ -22,15 +23,10 @@ const Main = ({ id }: MainProps) => {
             >
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        {service.title}
+                        {service.description_H1}
                     </div>
                     <div className={cn(styles.content, styles.contentMobile)}>
-                        Like a spotlight, strategic marketing communication
-                        enables you to concentrate solely on the audiences you
-                        want to reach and the connections you want to make. You
-                        can develop potent, targeted, and focused messages by
-                        implementing an integrated marketing and communication
-                        strategy.
+                        {service.description_H2}
                     </div>
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
@@ -49,18 +45,11 @@ const Main = ({ id }: MainProps) => {
                                     styles.contentDesktop
                                 )}
                             >
-                                Like a spotlight, strategic marketing
-                                communication enables you to concentrate solely
-                                on the audiences you want to reach and the
-                                connections you want to make. You can develop
-                                potent, targeted, and focused messages by
-                                implementing an integrated marketing and
-                                communication strategy.
+                                {service.description_H2}
                             </div>
                             <div className={styles.details}>
                                 <div className={cn("h7", styles.info)}>
-                                    Get focused with a marketing and
-                                    communication plan
+                                    <b>We provide :</b><br/><br/> {service.description_H3}
                                 </div>
                                 <Link
                                     className={cn("button", styles.button)}
