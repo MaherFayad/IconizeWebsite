@@ -12,20 +12,6 @@ type DetailsProps = {
 
 const Details = ({ id }: DetailsProps) => {
     const service = services.find((service) => service.id === id);
-    const list = [
-        {
-            title: service.list1_title,
-            content: service.list1_content,
-        },
-        {
-            title: service.list2_title,
-            content: service.list2_content,
-        },
-        {
-            title: service.list3_title,
-            content: service.list3_content,
-        },
-    ];
     return service ? (
         <>
         <div className={cn("section-mb120", styles.section)}>
@@ -39,17 +25,33 @@ const Details = ({ id }: DetailsProps) => {
                     </div>
                 </div>
                 <div className={styles.list}>
-                    {list.map((item, index) => (
-                        <div className={styles.item} key={index}>
+                        <div className={styles.item}>
                             <div className={cn("label", styles.number)}>
-                                {index < 9 ? `0${index + 1}` : index + 1}
+                                1
                             </div>
                             <div className={cn("subtitle", styles.subtitle)}>
-                                {item.title}
+                                {service.list1_title}
                             </div>
-                            <div className={styles.content}>{item.content}</div>
+                            <div className={styles.content}>{service.list1_content}</div>
                         </div>
-                    ))}
+                        <div className={styles.item}>
+                            <div className={cn("label", styles.number)}>
+                                2
+                            </div>
+                            <div className={cn("subtitle", styles.subtitle)}>
+                                {service.list2_title}
+                            </div>
+                            <div className={styles.content}>{service.list2_content}</div>
+                        </div>
+                        <div className={styles.item}>
+                            <div className={cn("label", styles.number)}>
+                                3
+                            </div>
+                            <div className={cn("subtitle", styles.subtitle)}>
+                                {service.list3_title}
+                            </div>
+                            <div className={styles.content}>{service.list3_content}</div>
+                        </div>
                 </div>
             </div>
         </div>
