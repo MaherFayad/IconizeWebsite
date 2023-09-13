@@ -5,6 +5,7 @@ import Image from "@/components/Image";
 
 import { services } from "@/mocks/services";
 
+
 type MainProps = {
     id: any;
 };
