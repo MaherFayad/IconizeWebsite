@@ -29,7 +29,7 @@ class MyDocument extends Document {
                         property="og:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/fb-og-image.png"
+                        content="/fb-og-image.png"
                         property="og:image"
                     />
                     <meta
@@ -49,7 +49,7 @@ class MyDocument extends Document {
                         property="twitter:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/twitter-card.png"
+                        content="/twitter-card.png"
                         property="twitter:image"
                     />
                     <meta property="og:type" content="Article" />
@@ -61,7 +61,7 @@ class MyDocument extends Document {
                         name="viewport"
                         content="width=device-width, initial-scale=1"
                     />
-                    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+                    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
                     <meta name="theme-color" content="#000000" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
