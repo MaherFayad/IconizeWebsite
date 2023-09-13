@@ -61,6 +61,7 @@ class MyDocument extends Document {
                         name="viewport"
                         content="width=device-width, initial-scale=1"
                     />
+                    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
                     <meta name="theme-color" content="#000000" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
