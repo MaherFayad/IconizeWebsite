@@ -12,66 +12,7 @@ const Form = ({}: FormProps) => {
     const [email, setEmail] = useState<string>("");
     const [phone, setPhone] = useState<string>("");
     const [company, setCompany] = useState<string>("");
-    const [service, setService] = useState<string>("");
-    const [budget, setBudget] = useState<string>("");
     const [description, setDescription] = useState<string>("");
-
-    const optionsService = [
-        {
-            title: "Marketing and Communication Plan",
-            value: "marketing-and-communication-plan",
-        },
-        {
-            title: "Branding",
-            value: "branding",
-        },
-        {
-            title: "Digital Campaigns",
-            value: "digital-campaigns",
-        },
-        {
-            title: "Programmatic Advertising",
-            value: "programmatic-advertising",
-        },
-        {
-            title: "Marketing as a Service",
-            value: "marketing-as-a-service",
-        },
-        {
-            title: "Website",
-            value: "website",
-        },
-        {
-            title: "Innovation Spirit",
-            value: "innovation-spirit",
-        },
-        {
-            title: "Public Realations",
-            value: "public-realations",
-        },
-    ];
-
-    const optionsBudget = [
-        {
-            title: "<$50k",
-            value: "<$50k",
-        },
-        {
-            title: "$50k-100k",
-            value: "$50k-100k",
-        },
-        {
-            title: "$100k-200k",
-            value: "$100k-200k",
-        },
-        {
-            title: "$200k+",
-            value: "$200k+",
-        },
-    ];
-
-    const handleChangeService = (value: string) => setService(value);
-    const handleChangeBudget = (value: string) => setBudget(value);
 
     return (
         <form
@@ -124,6 +65,7 @@ const Form = ({}: FormProps) => {
                 label="Tell us about yout project"
                 placeholder="Please type your project description"
                 value={description}
+                textarea={true} 
                 onChange={(e: any) => setDescription(e.target.value)}
                 required
             />
