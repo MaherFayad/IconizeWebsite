@@ -17,39 +17,39 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta
-                        content="Keeper - Digital Agency Website"
-                        name="Perfect design for Digital Agency Website"
+                        content="Iconize"
+                        name="Your Trusted Partner for Innovative Solutions"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                         property="og:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Iconize"
                         property="og:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/fb-og-image.png"
+                        content="/fb-og-image.png"
                         property="og:image"
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/slabdsgn/products/keeper---digital-agency-website"
+                        content=""
                     />
                     <meta
                         property="og:site_name"
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Your Trusted Partner for Innovative Solutions"
                         property="twitter:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Iconize"
                         property="twitter:description"
                     />
                     <meta
-                        content="%PUBLIC_URL%/twitter-card.png"
+                        content="/twitter-card.png"
                         property="twitter:image"
                     />
                     <meta property="og:type" content="Article" />
@@ -61,6 +61,8 @@ class MyDocument extends Document {
                         name="viewport"
                         content="width=device-width, initial-scale=1"
                     />
+                    
+                    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
                     <meta name="theme-color" content="#000000" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />

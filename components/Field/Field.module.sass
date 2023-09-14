@@ -4,6 +4,8 @@
     &.fieldNumber
         position: relative
         padding-left: rem(72)
+        color: $n0
+
         +m
             padding-left: 0
 
@@ -14,6 +16,7 @@
     width: rem(48)
     padding: rem(3) 0 rem(1)
     text-align: center
+    color: $n0
     +m
         position: relative
         margin-bottom: rem(20)
@@ -26,6 +29,35 @@
 
 .wrap
     position: relative
+
+.textarea
+    width: 100%
+    min-height: rem(120) // Adjust the minimum height as needed
+    resize: vertical // Allow vertical resizing
+    border-width: 0 0 rem(1)
+    border-style: solid
+    border-color: $p6
+    padding-left: rem(16)
+    padding-top: rem(16)
+    background: $n2
+    border-radius: rem(2)
+    +bodyM
+    color: $n0
+    transition: border-color .2s
+    +m
+        min-height: rem(56) // Adjust as needed
+        +bodyS
+    &::placeholder
+        color: #898989
+        font-weight: 500
+    &:focus
+        border-color: #333333
+        background: $n1
+        color: #333333
+        font-weight: 500
+    &.error
+        border-color: #F07E60
+
     
 .input
     width: 100%
@@ -33,8 +65,9 @@
     border-width: 0 0 rem(1)
     border-style: solid
     border-color: $p6
-    background: transparent
-    border-radius: 0
+    padding-left: rem(16)
+    background: $n2
+    border-radius: rem(2)
     +bodyM
     color: $n0
     transition: border-color .2s
@@ -42,13 +75,17 @@
         height: rem(56)
         +bodyS
     &::placeholder
-        color: $p4
+        color: #898989
+        font-weight: 500
     &:focus
-        border-color: $s2
+        border-color: #333333
+        background: $n1
+        color: #333333
+        font-weight: 500
     &.error
         border-color: #F07E60
 
 .errorText
     margin-top: rem(12)
     text-align: right
-    color: #F07E60
+    color: #333333
