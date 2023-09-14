@@ -32,23 +32,23 @@ const navigation = [
 const socials = [
     {
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "",
     },
     {
         icon: "twitter",
-        url: "https://twitter.com/ui8",
+        url: "",
     },
     {
         icon: "instagram",
-        url: "https://www.instagram.com/ui8net/",
+        url: "",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "",
     },
 ];
 
-const TEXTS = ["Change", "Progress", "a Revolution"];
+const TEXTS = ["Change", "Progress", "Innovation"];
 
 type FooterProps = {
     empty?: boolean;
@@ -118,7 +118,7 @@ const Footer = ({ empty }: FooterProps) => {
                     </div>
                     <a
                         className={styles.policy}
-                        href="https://ui8.net/"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -126,7 +126,7 @@ const Footer = ({ empty }: FooterProps) => {
                     </a>
                     <a
                         className={styles.author}
-                        href="https://ui8.net/"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                     >
