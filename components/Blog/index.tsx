@@ -21,7 +21,9 @@ const Blog = ({ className, item, light, cell }: BlogProps) => (
             },
             className
         )}
-        href={`/blogs/${item.id}`}
+        href={item.link}
+        target="_blank" // This opens the link in a new tab
+        rel="noopener noreferrer" // Adding these attributes is a security best practice
     >
         <div className={styles.preview}>
             <Image
