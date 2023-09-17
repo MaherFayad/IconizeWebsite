@@ -14,12 +14,13 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
             <div className={styles.wrap}>
                 <div>
                     <b className={cn("h5", styles.title)}>Why Choose Iconize Inc.?</b><br/>
-                    <span className={cn("h7", styles.title)} >Welcome to Iconize Inc., where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses like yours to thrive in the digital age. <br/><br/></span></div>
+                    <span className={cn("h7", styles.title)} > <br /> Welcome to Iconize Inc., where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses like yours to thrive in the digital age. <br/><br/></span></div>
                 <ul className={styles.list}>
-                    <li>
+                    <li> <br />
                     <b>1. Expertise You Can Trust</b><br/>
                     Our team of seasoned IT professionals possesses a deep understanding of the industry's latest trends and technologies. We stay ahead of the curve to ensure your business remains competitive.                    </li>
                     <li>
+                    <br />
                     <b>2. Tailored Solutions</b><br/>
                     We don't believe in one-size-fits-all solutions. At Iconize Inc., we take the time to understand your unique challenges and goals. Then, we craft customized strategies that precisely fit your needs.                    </li>
                 </ul>
