@@ -23,17 +23,17 @@ const ServicePage = ({ id }: any) => {
     return (
         <Layout>
             <Main id={id} />
-            <Overview />
-            <Gallery />
-            <Review className="section-mb160" review={reviewAuthor} />
-            <Preview
+            <Overview id={id} />
+            <Gallery id={id} />
+            {/* <Review className="section-mb160" review={reviewAuthor} /> */}
+            {/* <Preview
                 className="section-mb120"
                 video="/videos/video-1.mp4"
                 wide
-            />
-            <Content />
-            <Results />
-            <Screenshots />
+            /> */}
+            <Content id={id} />
+            <Results id={id}/>
+            {/* <Screenshots /> */}
             <Projects
                 className="section-mb160"
                 title="More cases"

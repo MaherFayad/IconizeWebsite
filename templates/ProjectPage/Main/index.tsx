@@ -40,7 +40,7 @@ const Main = ({ id }: MainProps) => {
             </div>
             <Preview
                 className={cn("section-mb120", styles.preview)}
-                image="/images/image-3.jpg"
+                image={project.image}
             />
         </>
     ) : null;
