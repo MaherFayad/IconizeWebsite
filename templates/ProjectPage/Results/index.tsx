@@ -75,10 +75,10 @@ const Results = ({ id }: ResultsProps) => {
                     <div className={styles.list}>
                         {list.map((item, index) => (
                             <div className={styles.item} key={index}>
-                                <div className={cn("h3", styles.value)}>
+                                <div className={cn("h5", styles.value)}>
                                     {item.value}
                                 </div>
-                                <div className={styles.description}>
+                                <div className={cn("h7B",styles.description)}>
                                     {item.description}
                                 </div>
                             </div>
