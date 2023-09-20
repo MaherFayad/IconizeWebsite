@@ -38,7 +38,7 @@ const HomePage = () => {
             <Reviews items={reviews} />
             <Companies
                 className="section-mb160"
-                info="Partners"
+                info="We built outstanding products for"
                 items={companies}
             />
             <Blogs items={blogs} />

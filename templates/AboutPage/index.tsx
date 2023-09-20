@@ -24,7 +24,7 @@ const AboutPage = () => {
             {/* <Team items={team} /> */}
             <Companies
                 className="section-mb160"
-                title="Trusted with more than 150 Companies since 2012"
+                title="We built outstanding products for"
                 items={companies}
             />
             <Description />

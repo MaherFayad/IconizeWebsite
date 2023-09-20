@@ -13,11 +13,11 @@ const ServicePage = ({ id }: any) => {
             <Main id={id} />
             <Details id={id} />
             <div className="section-pd section-black">
-                <Companies
+                {/* <Companies
                     className="section-mb120 section-separator"
                     title="We built outstanding products for"
                     items={companiesLight}
-                />
+                /> */}
                 <Projects
                     title="Experience Our Success Stories"
                     label="STORIES"
