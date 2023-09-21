@@ -36,8 +36,8 @@ const Projects = ({
             {title && (
                 <div className={styles.head}>
                     {label && (
-                        <div className={styles.label}>
-                            <div className="label">{label}</div>
+                        <div>
+                            <div className={cn("label", styles.label)}>{label}</div>
                         </div>
                     )}
                     <div className={styles.details}>

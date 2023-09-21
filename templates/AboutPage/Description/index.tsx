@@ -35,8 +35,10 @@ const Description = ({}: DescriptionProps) => (
                         />
                     </div>
                     <div className={cn("h6", styles.content)}>
-                        The world of reality has its limits; the world of
-                        imagination is boundless.
+                        I don’t help people with horse problems, I help horses with people problems.
+                    </div>
+                    <div className={cn("h7B", styles.content)}>
+                        <br/> Robert Redford - Horse Whisperer movie.
                     </div>
                 </div>
             </div>

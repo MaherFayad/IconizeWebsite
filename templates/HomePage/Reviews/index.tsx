@@ -26,7 +26,7 @@ const Reviews = ({ items }: ReviewsProps) => (
                 >
                     {items.map((item) => (
                         <SwiperSlide className={styles.slide} key={item.id}>
-                            <div className={cn("h6", styles.content)}>
+                            <div className={cn("h7", styles.content)}>
                                 {item.content}
                             </div>
                             <div className={styles.author}>

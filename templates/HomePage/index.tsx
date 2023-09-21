@@ -28,12 +28,13 @@ const HomePage = () => {
             <Advantages />
             <Services items={services} />
             <Projects
-                className="section-mb160 section-separator"
-                title="Explore the brilliance of our top-performing projects!"
+                className="section-pd"
+                title="Explore the brilliance of our top-performing projects"
                 label="OUR PROJECTS"
                 items={projects}
                 viewItem={4}
                 viewAll="VIEW ALL PROJECT"
+                dark
             />
             <Reviews items={reviews} />
             <Companies

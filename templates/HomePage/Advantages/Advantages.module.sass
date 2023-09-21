@@ -7,6 +7,9 @@
 
 .label
     margin-bottom: rem(40)
+    border: rem(1) solid $p4
+    color: $p4
+
     +t
         margin-bottom: rem(32)
 
@@ -54,6 +57,7 @@
 .list
     display: flex
     justify-content: space-between
+    align-content: center
     +m
         display: block
     
@@ -63,7 +67,6 @@
             margin-bottom: rem(48)
 
 .counter
-    margin-bottom: rem(24)
     +t
         font-size: rem(64)
         line-height: rem(80)
@@ -72,5 +75,8 @@
         +h4R
 
 .subtitle
+    text-align: center
+    font-weight: 200
+
     +t
         font-size: rem(18)
