@@ -30,8 +30,8 @@ const Gallery = ({ id }: GalleryProps) => {
                 <div className={"container"}>
                     <div className={styles.gallery}>
                         {gallery.map((image, index) => (
-                            <div className={cn("image", styles.image)} key={index}>
-                                <Image
+                        <div className={cn("image", styles.image)} key={index}>
+                            <Image
                                     src={image}
                                     fill
                                     style={{ objectFit: "cover" }}

@@ -25,15 +25,8 @@ const ServicePage = ({ id }: any) => {
             <Main id={id} />
             <Overview id={id} />
             <Gallery id={id} />
-            {/* <Review className="section-mb160" review={reviewAuthor} /> */}
-            {/* <Preview
-                className="section-mb120"
-                video="/videos/video-1.mp4"
-                wide
-            /> */}
             <Content id={id} />
             <Results id={id}/>
-            {/* <Screenshots /> */}
             <Projects
                 className="section-mb160"
                 title="More cases"

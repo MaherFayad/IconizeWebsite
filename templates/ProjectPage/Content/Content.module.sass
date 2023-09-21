@@ -28,3 +28,46 @@
     p
         &:not(:last-child)
             margin-bottom: rem(32)
+
+.title
+    width: rem(510)
+    font-weight: 500
+    +bodyL
+    +d
+        flex: 1
+        width: auto
+        &:nth-child(1)
+            padding-right: rem(32)
+        &:nth-child(2)
+            padding-left: rem(32)
+    +t
+        width: 100%
+        &:nth-child(1)
+            margin-bottom: rem(80)
+            padding-right: 0
+        &:nth-child(2)
+            padding-left: 0
+    +m
+        +bodyM
+    p
+        &:not(:last-child)
+            margin-bottom: rem(32)
+
+.box
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    +m
+        display: block
+    &:not(:last-child)
+        margin-bottom: rem(40)
+
+.number
+    flex-shrink: 0
+    min-width: rem(48)
+    margin-right: rem(24)
+    margin-bottom: rem(16)
+    padding: rem(3) 0 rem(2)
+    text-align: center
+    +m
+        margin: 0 0 rem(16)

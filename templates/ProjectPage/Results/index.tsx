@@ -9,45 +9,24 @@ type ResultsProps = {
 
 
 const Results = ({ id }: ResultsProps) => {
-    const project = projects.find((project) => project.id === id) || {
-        client: '',
-        result1: '',
-        result2: '',
-        result3: '',
-        result4: '',
-        list1_value: '',
-        list1_description: '',
-        list2_value: '',
-        list2_description: '',
-        list3_value: '',
-        list3_description: '',    
-    };
-
-    console.log(project);
+    const project = projects.find((project) => project.id === id);
     
-    const result = [
-        project.result1,
-        project.result2,
-        project.result3,
-        project.result4,
+    const result = project?.result || [];
 
-    ];
-    
     const list = [
-        {
-            value: project.list1_value,
-            description: project.list1_description,
-        },
-        {
-            value: project.list2_value,
-            description: project.list2_description,
-        },
-        {
-            value: project.list3_value,
-            description: project.list3_description,
-        },
+      {
+        value: project?.list1_value || "",
+        description: project?.list1_description || "",
+      },
+      {
+        value: project?.list2_value || "",
+        description: project?.list2_description || "",
+      },
+      {
+        value: project?.list3_value || "",
+        description: project?.list3_description || "",
+      },
     ];
-
     return project ? (
         <>
             <div
