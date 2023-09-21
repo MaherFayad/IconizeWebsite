@@ -36,12 +36,14 @@
 
 .titleswrap
     display: flex
-    flex-direction: row
-    gap: rem(24)
+    flex-direction: column
+    gap: rem(8)
     height: auto
+    +m
+        gap:rem(8)
 
 .title
-    margin-bottom: rem(40)
+    margin-bottom: rem(16)
     +t
         margin-bottom: rem(16)
 
@@ -50,7 +52,6 @@
     font-size: rem(28)
     line-height: rem(32)
     margin-bottom: rem(40)
-    margin-top: rem(24)
 
     +t
         margin-bottom: rem(24)
