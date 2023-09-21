@@ -71,18 +71,18 @@ export const companies = [
         id: "17",
         image: "/images/companies/new/HCDL.png",
     },
-    {
-        id: "18",
-        image: "/images/companies/new/CHEO.png",
-    },
-    {
-        id: "19",
-        image: "/images/companies/new/service_Canada.png",
-    },
-    {
-        id: "20",
-        image: "/images/companies/new/ISED.png",
-    },
+    // {
+    //     id: "18",
+    //     image: "/images/companies/new/CHEO.png",
+    // },
+    // {
+    //     id: "19",
+    //     image: "/images/companies/new/service_Canada.png",
+    // },
+    // {
+    //     id: "20",
+    //     image: "/images/companies/new/ISED.png",
+    // },
 ];
 
 export const companiesLight = [
