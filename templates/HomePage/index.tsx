@@ -29,7 +29,7 @@ const HomePage = () => {
             <Services items={services} />
             <Projects
                 className="section-mb160 section-separator"
-                title="Take a look at our most successful projects"
+                title="Explore the brilliance of our top-performing projects!"
                 label="OUR PROJECTS"
                 items={projects}
                 viewItem={4}
