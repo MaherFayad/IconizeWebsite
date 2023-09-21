@@ -15,7 +15,7 @@ const Description = ({}: DescriptionProps) => (
             <div className={styles.col}>
                 <div className={styles.content}>
                     <p>
-                        Our vision is simple yet powerful: to innovate, create, and transform. We're driven by a passion for turning ideas into reality, leveraging meticulous research, captivating design, precise development, and unwavering quality. Our mission is to lead businesses into a digital future where their visions come to life, ensuring that excellence is at the heart of every project.
+                        Our vision is simple yet powerful: to innovate, create, and transform. We are driven by a passion for turning ideas into reality, leveraging meticulous research, captivating design, precise development, and unwavering quality. Our mission is to lead businesses into a digital future where their visions come to life, ensuring that excellence is at the heart of every project.
                     </p>
                     <p>
                         We craft software solutions that inspire, engage, and excel. Our vision is to empower businesses, revolutionize industries, and make digital dreams a vibrant, accessible reality.

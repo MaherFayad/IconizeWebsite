@@ -54,3 +54,11 @@ export type LinksType = {
     value: string;
     counter: number;
 };
+
+export type service_main_type = {
+    id: string;
+    title: string;
+    position: string;
+    photo: string;
+    description?: string;
+};
