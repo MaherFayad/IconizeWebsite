@@ -12,9 +12,9 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
         <div className={cn("container", styles.container)}>
             <div className={cn("label", styles.label)}>ABOUT US</div>
             <div className={styles.wrap}>
-                <div>
-                    <b className={cn("h5", styles.title)}>Why Choose Iconize Inc.?</b><br/>
-                    <span className={cn("h7", styles.title)} > <br /> Welcome to Iconize Inc., where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses like yours to thrive in the digital age. <br/><br/></span>
+                <div className={styles.titleswrap}>
+                    <b className={cn("h5", styles.title)}>Why Choose Iconize?</b><br/>
+                    <span className={cn("h7", styles.title2)} > Welcome to Iconize, where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses like yours to thrive in the digital age. <br/><br/></span>
                 </div>
                 <ul className={styles.list}>
                     <li> <br />
@@ -23,7 +23,7 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
                     <li>
                     <br />
                     <b>2. Tailored Solutions</b><br/>
-                    We dont believe in one-size-fits-all solutions. At Iconize Inc., we take the time to understand your unique challenges and goals. Then, we craft customized strategies that precisely fit your needs.                    </li>
+                    We dont believe in one-size-fits-all solutions. At Iconize, we take the time to understand your unique challenges and goals. Then, we craft customized strategies that precisely fit your needs.                    </li>
                 </ul>
                 <ul className={styles.list}>
                     <li>
