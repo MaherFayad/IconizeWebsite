@@ -69,7 +69,7 @@ const Main = ({}: MainProps) => {
                                 <div className={styles.text}>
                                     <a
                                         className={styles.phone}
-                                        href="email: Contact@iconize.ca"
+                                        href="mailto:Contact@iconize.ca"
                                         rel="noopener noreferrer"
                                     >
                                         Contact@iconize.ca
