@@ -65,31 +65,33 @@ const Main = ({}: MainProps) => {
                     <div className={styles.sidebar}>
                         <div className={styles.list}>
                             <div className={styles.item}>
-                                <div className={styles.category}>CALL US</div>
+                                <div className={styles.category}>Contact Us</div>
                                 <div className={styles.text}>
                                     <a
                                         className={styles.phone}
-                                        href="tel:+112158973027"
+                                        href="email: Contact@iconize.ca"
                                         rel="noopener noreferrer"
                                     >
-                                        +11 2158 973027
+                                        Contact@iconize.ca
                                     </a>
-                                    <a
+                                    {/* <a
                                         className={styles.phone}
-                                        href="tel:+114845996738"
+                                        href="tel:+13439976024"
                                         rel="noopener noreferrer"
                                     >
-                                        +11 4845 996738
+                                        +1 343 997 6024
                                     </a>
                                 </div>
                             </div>
                             <div className={styles.item}>
                                 <div className={styles.category}>ADDRESS</div>
                                 <div className={styles.text}>
-                                    <p>2154 Glen Falls Road</p>
-                                    <p>Plymouth Meeting,</p>
-                                    <p>Pennsylvania(PA), 19462</p>
+                                    <p>5810 Ambler Drive, Unit 14</p>
+                                    <p>CAI 797292,</p>
+                                    <p>Mississauga, Ontario, L4W4J5</p>
                                 </div>
+                             */}
+                            </div>
                             </div>
                             <div className={styles.item}>
                                 <Socials items={socials} />
