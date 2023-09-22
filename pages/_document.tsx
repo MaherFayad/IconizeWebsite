@@ -14,12 +14,13 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html>
+            <Html lang="en">
                 <Head>
                     <meta
                         content="Iconize"
                         name="Your Trusted Partner for Innovative Solutions"
                     />
+                    <meta name="description" content="Your Trusted Partner for Innovative Solutions." />
                     <meta
                         content="Your Trusted Partner for Innovative Solutions"
                         property="og:title"

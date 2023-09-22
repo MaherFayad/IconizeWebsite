@@ -34,6 +34,7 @@ const Socials = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}
+                aria-label={social.icon}
             >
                 <Icon name={social.icon} />
             </a>

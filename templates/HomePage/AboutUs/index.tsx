@@ -34,7 +34,7 @@ const AboutUs = ({ scrollToRef }: AboutUsProps) => (
                     Our success stories speak for themselves. We have helped numerous businesses achieve remarkable growth, streamline operations, and enhance their overall IT capabilities.                    </li>
                 </ul>
                 <Link className={cn("button", styles.button)} href="/about">
-                    LEARN MORE
+                    More about Iconize
                 </Link>
             </div>
         </div>

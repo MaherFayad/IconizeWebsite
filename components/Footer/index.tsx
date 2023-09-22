@@ -32,19 +32,19 @@ const navigation = [
 const socials = [
     {
         icon: "facebook",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "twitter",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "instagram",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "linkedin",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
 ];
 
@@ -114,24 +114,9 @@ const Footer = ({ empty }: FooterProps) => {
                 )}
                 <div className={styles.foot}>
                     <div className={styles.copyright}>
-                        © 2023 Iconize, All rights reserved
+                        © 2023 Iconize, All rights reserved 
                     </div>
-                    <a
-                        className={styles.policy}
-                        href=""
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Privacy Policy
-                    </a>
-                    <a
-                        className={styles.author}
-                        href=""
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Made by Iconize Designer
-                    </a>
+                    
                 </div>
             </div>
         </footer>

@@ -34,19 +34,19 @@ const navigation = [
 const socials = [
     {
         icon: "facebook",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "twitter",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "instagram",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
     {
         icon: "linkedin",
-        url: "",
+        url: "https://www.linkedin.com/in/maherfayad/",
     },
 ];
 

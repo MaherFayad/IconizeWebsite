@@ -31,7 +31,7 @@ const Blog = ({ className, item, light, cell }: BlogProps) => (
                 fill
                 style={{ objectFit: "cover" }}
                 sizes="(max-width: 767px) 100vw, 50vw"
-                alt=""
+                alt={item.title}
             />
         </div>
         <div className={styles.details}>

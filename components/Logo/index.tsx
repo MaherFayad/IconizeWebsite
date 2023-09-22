@@ -8,7 +8,7 @@ type LogoProps = {
 };
 
 const Logo = ({ className, dark }: LogoProps) => (
-    <Link className={cn(className, styles.logo)} href="/">
+    <Link className={cn(className, styles.logo)} href="/" aria-label="Iconize Logo">
         <svg
             width="142"
             height="42"
