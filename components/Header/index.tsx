@@ -114,6 +114,7 @@ const Header = ({}: HeaderProps) => {
                         [styles.active]: visible,
                     })}
                     onClick={toggleMenu}
+                    aria-label="Toggle Menu"
                 >
                     <span></span>
                 </button>
