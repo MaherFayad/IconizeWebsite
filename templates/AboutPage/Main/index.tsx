@@ -59,7 +59,6 @@ const Main = ({}: MainProps) => {
             >
                 <video
                     className={styles.videoModal}
-                    muted
                     loop
                     playsInline
                     autoPlay
