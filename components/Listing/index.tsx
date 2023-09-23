@@ -1,6 +1,8 @@
 import { useState } from "react";
 import cn from "classnames";
 import styles from "./Listing.module.sass";
+import ButtonCircle from "@/components/ButtonCircle";
+
 
 import { LinksType } from "@/types/index";
 
@@ -30,7 +32,15 @@ const Listing = ({ title, links, scrollToRef }: ListingProps) => {
         >
             <div className={cn("container", styles.container)}>
                 <div className={cn("h4", styles.title)}>{title}</div>
-                
+                <div className={styles.actions}>
+                    <ButtonCircle
+                        className={styles.button}
+                        icon="arrow-up-right"
+                        image="/images/get-in-touch.svg"
+                        href="/contact"
+                    />
+                </div>
+
             </div>
         </div>
     );

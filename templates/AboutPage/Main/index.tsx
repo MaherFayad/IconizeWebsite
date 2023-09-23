@@ -16,23 +16,30 @@ const Main = ({}: MainProps) => {
                     <div className={cn("h4", styles.title)}>
                         Empowering Companies on the Path to Growth
                     </div>
+                    <div className={styles.actions}>
+                        <ButtonCircle
+                            className={styles.button1}
+                            icon="arrow-up-right"
+                            image="/images/get-in-touch.svg"
+                            href="/contact"
+                        />
+                    </div>
                 </div>
             </div>
             <div className={cn("section-mb120", styles.sectionVideo)}>
                 <div className={cn("container", styles.container)}>
-                    <div className={styles.wrap}>
-                        <div className={styles.preview}>
+                    <div className={styles.wrap} onClick={() => setVisibleModal(true)}>
+                        <div className={styles.preview}  onClick={() => setVisibleModal(true)}>
                             <video
-                                className={styles.video}
-                                autoPlay
+                                className={`${styles.video} ${styles.clickable}`}
                                 muted
                                 loop
                                 playsInline
+                                autoPlay
                             >
                                 <source
                                     src="/videos/video-2.mp4"
-                                    type="video/mp4"
-                                />
+                                    type="video/mp4"/>
                             </video>
                         </div>
                         <ButtonCircle
@@ -55,6 +62,7 @@ const Main = ({}: MainProps) => {
                     muted
                     loop
                     playsInline
+                    autoPlay
                     controls
                 >
                     <source src="/videos/video-2.mp4" type="video/mp4" />

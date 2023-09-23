@@ -2,18 +2,21 @@
 
 .section
     padding-bottom: rem(300)
+    width: 100vw
     +m
         padding-bottom: rem(200)
 
 .container
     display: flex
-    align-items: flex-end
+    align-items: flex-start
+    width: 100vw
     +t
         display: block
 
 .title
     flex-grow: 1
     font-weight: 500
+    width: auto
     margin-right: rem(110)
     +w
         margin-right: rem(60)
@@ -69,6 +72,7 @@
 
 .image
     flex-shrink: 0
+    user-select: none
     &:nth-child(2n+1)
         width: rem(480)
         height: rem(320)
@@ -117,3 +121,29 @@
         top: 0
         right: rem(20)
         transform: translate(0,0)
+
+.actions
+    padding: 0 rem(20) rem(14) 0
+    text-align: right
+    +w
+        padding-right: 0
+    +m
+        padding: 0
+        text-align: left
+
+.button1
+    margin: 0 rem(30) rem(126) 0
+    +d
+        margin-bottom: rem(156)
+    +r(1179)
+        margin-right: 0
+    +m
+        margin-bottom: rem(46)
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.imagesContainer 
+    white-space: nowrap
+    -webkit-overflow-scrolling: touch
+

@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import cn from "classnames";
 import styles from "./Main.module.sass";
 import Image from "@/components/Image";
@@ -16,6 +17,8 @@ const images = [
 
 type MainProps = {};
 
+
+
 const Main = ({}: MainProps) => {
     return (
         <>
@@ -24,21 +27,31 @@ const Main = ({}: MainProps) => {
                     <div className={cn("h4", styles.title)}>
                     We help companies find their way to greatness.
                     </div>
+                    <div className={styles.actions}>
+                        <ButtonCircle
+                            className={styles.button1}
+                            icon="arrow-up-right"
+                            image="/images/get-in-touch.svg"
+                            href="/contact"
+                        />
+                    </div>
                 </div>
             </div>
             <div className={cn("section-mb160", styles.gallery)}>
-                <div className={styles.images}>
-                    {images.map((image, index) => (
-                        <div className={cn("image", styles.image)} key={index}>
-                            <Image
-                                src={image}
-                                fill
-                                style={{ objectFit: "cover" }}
-                                sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33.33vw"
-                                alt=""
-                            />
-                        </div>
-                    ))}
+                <div className={styles.imagesContainer} >
+                    <div className={styles.images}>
+                        {images.map((image, index) => (
+                            <div className={cn("image", styles.image)} key={index}>
+                                <Image
+                                    src={image}
+                                    fill
+                                    style={{ objectFit: "cover" }}
+                                    alt="Project Images"
+                                />
+                            </div>
+                        ))}
+                </div>
+
                 </div>
                 <ButtonCircle
                     className={styles.button}

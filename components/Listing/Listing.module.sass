@@ -2,30 +2,26 @@
 
 .section
     display: flex
-    align-items: flex-end
-    padding-bottom: rem(132)
-    +d
-        min-height: auto
-        padding-bottom: rem(96)
-    +t
-        padding-bottom: rem(60)
+    align-items: flex-start
+    height: auto
+    min-height: 0
 
+    
 .container
     display: flex
     justify-content: space-between
-    align-items: flex-end
+    align-items: flex-start
+    gap: rem(60)
     width: 100%
     +t
         display: block
 
 .title
-    max-width: rem(668)
-    font-weight: 500
-    padding-right: rem(48)
+    margin-bottom: rem(62)
     +t
-        max-width: 100%
-        margin: 0 0 rem(48)
-        padding-right: 0
+        margin-bottom: rem(46)
+    +m
+        margin-bottom: rem(38)
 
 .links
     display: flex
@@ -79,3 +75,24 @@
     +bodyL
     +m
         +bodyM
+
+.actions
+    padding: 0 rem(20) rem(14) 0
+    text-align: right
+    +w
+        padding-right: 0
+    +m
+        padding: 0
+        text-align: left
+
+.button
+    margin: 0 rem(30) rem(126) 0
+    +d
+        margin-bottom: rem(156)
+    +r(1179)
+        margin-right: 0
+    +m
+        margin-bottom: rem(46)
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
