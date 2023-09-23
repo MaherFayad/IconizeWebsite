@@ -81,3 +81,30 @@
 
 .clickable 
     cursor: pointer
+
+.actions
+    padding: 0 rem(20) rem(14) 0
+    text-align: right
+    +w
+        padding-right: 0
+    +m
+        padding: 0
+        text-align: left
+
+.button1
+    margin: 0 rem(30) rem(126) 0
+    +d
+        margin-bottom: rem(156)
+    +r(1179)
+        margin-right: 0
+    +m
+        margin-bottom: rem(46)
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.imagesContainer 
+    white-space: nowrap
+    -webkit-overflow-scrolling: touch
+
+
