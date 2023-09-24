@@ -19,8 +19,7 @@ const Main = ({}: MainProps) => {
                         </div>
                         <div className={styles.content}>
                             We have received your message and will contact you
-                            shortly to follow up. If you would like to speak to
-                            someone immediately feel free to call.
+                            shortly to follow up.
                         </div>
                         <Link
                             className={cn("button-light", styles.button)}
