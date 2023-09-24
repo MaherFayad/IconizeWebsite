@@ -37,7 +37,7 @@ const Projects = ({
                 <div className={styles.head}>
                     {label && (
                         <div>
-                            <div className={cn("label", styles.label)}>{label}</div>
+                            <div className={cn("label", { [styles.label]: dark, [styles.label1]: !dark })}>{label}</div>
                         </div>
                     )}
                     <div className={styles.details}>

@@ -13,7 +13,7 @@ type CompaniesProps = {
 
 const Companies = ({ className, title, info, items }: CompaniesProps) => (
     <div className={cn(styles.section, className)}>
-        <div className={"container"}>
+        <div className={"container1"}>
             {title && <div className={cn("h6", styles.title)}>{title}</div>}
             {info && <div className={cn("h7", styles.info)}>{info}</div>}
             <div className={styles.list}>

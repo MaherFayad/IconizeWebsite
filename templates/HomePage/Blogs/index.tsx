@@ -26,7 +26,7 @@ const Blogs = ({ items }: BlogsProps) => (
             <div className={styles.btns}>
                 <Link
                     className={cn("button-light", styles.button)}
-                    href="/blogs"
+                    href="/blog"
                 >
                     VIEW ALL POSTS
                 </Link>

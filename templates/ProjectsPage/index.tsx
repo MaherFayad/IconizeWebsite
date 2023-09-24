@@ -1,4 +1,6 @@
 import { useRef } from "react";
+import cn from "classnames";
+import styles from "./Main.module.sass";
 import Layout from "@/components/Layout";
 import Listing from "@/components/Listing";
 import Projects from "@/components/Projects";
@@ -18,17 +20,18 @@ const ProjectsPage = () => {
                 links={linksProject}
                 scrollToRef={scrollToRef}
             />
-            <Projects
-                className="section-mb160 section-separator"
-                items={projects}
-                more
-                scrollToRef={scrollToRef}
-            />
-            <Companies
-                className="section-mb160"
-                title="We built outstanding products for"
-                items={companies}
-            />
+                <Projects
+                    className="section-mb160"
+                    items={projects}
+                    more
+                    scrollToRef={scrollToRef}
+                /> 
+            <div className={cn("container1", styles.container)}>
+                <Companies
+                    className="section-mb160"
+                    title="We built outstanding products for"
+                    items={companies}
+                /> </div>
         </Layout>
     );
 };

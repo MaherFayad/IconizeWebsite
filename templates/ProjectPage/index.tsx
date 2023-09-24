@@ -34,7 +34,7 @@ const ServicePage = ({ id }: any) => {
                 description="We work with both small startups and large corporations."
                 items={projects}
                 viewItem={2}
-                viewAll="VIEW ALL PROJECT"
+                viewAll="VIEW ALL PROJECTS"
             />
         </Layout>
     );
