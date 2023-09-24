@@ -34,23 +34,25 @@ const redirectTo404 = () => {
 
 const form = useRef<HTMLFormElement>(null); // Specify the type of useRef
 
-const sendEmail = (e: FormEvent) => { // Specify the type of e as FormEvent
+const sendEmail = (e: FormEvent) => {
     e.preventDefault();
-
-    emailjs
+  
+    if (form.current) {
+      emailjs
         .sendForm('service_lwri32l', 'template_74fhrkw', form.current, 'EX_A9-j_JtnnH7oPd')
         .then(
-        (result) => {
+          (result) => {
             console.log(result.text);
             redirectToThanks();
-        },
-        (error) => {
+          },
+          (error) => {
             console.log(error.text);
             redirectTo404();
-        }
+          }
         );
-};
-
+    }
+  };
+  
 
     return (
         <form
