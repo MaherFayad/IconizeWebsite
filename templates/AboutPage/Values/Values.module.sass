@@ -1,4 +1,14 @@
 @import @/styles/helpers
+.section
+    background-color: #F1F1E4
+    margin-top: rem(-169)
+    padding-top: rem(120)
+    padding-bottom: rem(120)
+    +m
+        margin-top: rem(-120)
+        padding-top: rem(80)
+        padding-bottom: rem(80)
+
 
 .label
     margin-bottom: rem(40)
@@ -11,6 +21,8 @@
     +t
         margin-bottom: rem(64)
     +m
+        font-size: rem(32)
+        line-height: rem(40)
         +bodyXL
 
 .list
@@ -30,25 +42,27 @@
     margin-top: rem(96)
     +d
         flex: 0 0 calc(50% - rem(72))
+        margin-top: rem(40)
         width: calc(50% - rem(72))
         margin: rem(72) rem(36) 0
     +t
         width: 100%
+        margin-top: rem(40)
         margin: 0
         &:not(:last-child)
             margin-bottom: rem(56)
 
 .title
     max-width: rem(400)
-    margin-bottom: rem(40)
+    margin-bottom: rem(16)
     +d
-        margin-bottom: rem(24)
+        margin-bottom: rem(8)
         font-size: rem(56)
         line-height: rem(64)
     +t
         max-width: 100%
-        font-size: rem(48)
-        line-height: rem(64)
+        font-size: rem(32)
+        line-height: rem(40)
 
 .content
     +m

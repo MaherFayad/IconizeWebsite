@@ -34,6 +34,6 @@ export const blogs = [
         category: "UX research",
         image: "/images/blogs/blog-pic-4.jpg",
         date: "August 19, 2022",
-        link: "https://docs.google.com/presentation/d/1XMgLKh2cRgoL2mOHt4db5sQXuuQ6h0Q4rD51Xwd55a8/edit#slide=id.p"
+        link: "https://drive.google.com/file/d/16frX64iFhrkSZqSBx2h5UH2q_LKgEiRt/view"
     },
 ];

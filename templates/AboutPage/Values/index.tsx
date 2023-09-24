@@ -31,7 +31,7 @@ const Values = ({}: ValuesProps) => (
         <div className={"container"}>
             <div className={cn("label", styles.label)}>OUR VALUES</div>
             <div className={cn("h7", styles.subtitle)}>
-                These values capture the essence of Iconize Inc. – friendly, forward-thinking, and committed to making a positive impact
+                These values capture the essence of Iconize - friendly, forward-thinking, and committed to making a positive impact
             </div>
             <div className={styles.list}>
                 {list.map((item, index) => (
