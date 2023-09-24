@@ -13,7 +13,7 @@ const Posts = ({ items }: PostsProps) => (
     <div className={cn("section-pd section-black", styles.section)}>
         <div className={cn("container", styles.container)}>
             <div className={styles.head}>
-                <div className={cn("h5", styles.title)}>Related Posts</div>
+                <div className={cn("h5", styles.title)}>Our Blogs</div>
                 <Link
                     className={cn("button-light", styles.button)}
                     href="/blogs"

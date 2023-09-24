@@ -2,6 +2,7 @@ import cn from "classnames";
 import styles from "./Field.module.sass";
 
 type FieldProps = {
+    name?: string;
     className?: string;
     label?: string;
     number?: string;
@@ -14,6 +15,7 @@ type FieldProps = {
 };
 
 const Field = ({
+    name,
     className,
     label,
     number,
@@ -40,6 +42,7 @@ const Field = ({
             {textarea ? (
                 <textarea
                     className={styles.textarea}
+                    name={name}
                     value={value}
                     onChange={onChange}
                     placeholder={placeholder}
@@ -48,6 +51,7 @@ const Field = ({
             ) : (
                 <input
                     className={styles.input}
+                    name={name}
                     type={type || "text"}
                     value={value}
                     onChange={onChange}

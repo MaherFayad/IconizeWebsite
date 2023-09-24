@@ -31,12 +31,6 @@ const Main = ({}: MainProps) => {
                     </div>
                 </div>
             </div>
-            <Preview
-                className={styles.preview}
-                classInner={styles.inner}
-                image="/images/image-6.jpg"
-                wide
-            />
         </>
     );
 };
