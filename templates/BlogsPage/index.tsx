@@ -12,7 +12,7 @@ const BlogsPage = () => {
     return (
         <Layout>
             <Listing
-                title="Sharing is caring so we make time to write about our experience."
+                title="Unveiling Our World: Because Experiences Are Meant to Be Shared."
                 links={linksBlogs}
                 scrollToRef={scrollToRef}
             />

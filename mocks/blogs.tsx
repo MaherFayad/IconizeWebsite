@@ -25,15 +25,6 @@ export const blogs = [
         category: "UX research",
         image: "/images/blogs/blog-pic-3.jpg",
         date: "April 15, 2023",
-        link: "https://docs.google.com/document/d/1ZNPG0uV3Te3L2dEf5UYNZI2YH5tCSljvFw9Lva6fM9w/edit"
-    },
-    {
-        id: "3",
-        author: "Noha Abdelrahman",
-        title: "communicating Timely Measures of type-2 Diabetes?",
-        category: "UX research",
-        image: "/images/blogs/blog-pic-4.jpg",
-        date: "August 19, 2022",
         link: "https://drive.google.com/file/d/16frX64iFhrkSZqSBx2h5UH2q_LKgEiRt/view"
     },
 ];
