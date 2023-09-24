@@ -13,6 +13,7 @@ const Mistake = ({ number, title }: MistakeProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={cn("label", styles.label)}>ERROR {number}</div>
                 <div className={cn("h4", styles.title)}>{title}</div>
+                <div className={cn("h7", styles.subtitle)}>neither do we</div>
                 <Link className="button-light" href="/">
                     BACK TO HOME
                 </Link>

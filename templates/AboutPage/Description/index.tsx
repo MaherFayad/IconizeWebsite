@@ -35,7 +35,7 @@ const Description = ({}: DescriptionProps) => (
                         />
                     </div>
                     <div className={cn("h6", styles.content)}>
-                        I don’t help people with horse problems, I help horses with people problems.
+                        We don’t help people with horse problems, We help horses with people problems.
                     </div>
                     <div className={cn("h7B", styles.content)}>
                         <br/> Robert Redford - Horse Whisperer movie.

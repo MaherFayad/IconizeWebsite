@@ -6,7 +6,7 @@ const Error404Page = () => {
         <Layout emptyFooter>
             <Mistake
                 number={404}
-                title="Sorry, but the page you are looking for might have been removed or is temporarily unavailable."
+                title="you don't know where you are? Neither do we"
             />
         </Layout>
     );

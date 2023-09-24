@@ -33,7 +33,7 @@ const HomePage = () => {
                 label="OUR PROJECTS"
                 items={projects}
                 viewItem={4}
-                viewAll="VIEW ALL PROJECT"
+                viewAll="VIEW ALL PROJECTS"
                 dark
             />
             <Reviews items={reviews} />

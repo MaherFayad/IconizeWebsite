@@ -3,22 +3,22 @@ import styles from "./Values.module.sass";
 
 const list = [
     {
-        title: "We Value Accessibility",
+        title: "We value accessibility",
         content:
             'We create tech solutions that are inclusive and accessible to everyone',
     },
     {
-        title: "We're Ethical Always",
+        title: "We're ethical always",
         content:
             "integrity is our compass; we navigate the tech world with honesty and transparency.",
     },
     {
-        title: "We leave egos at the door.",
+        title: "We leave egos at the door",
         content:
             "We challenge ideas, give candid feedback, and focus on what we agree on. Our goal? Better work, not just curiosity. Time's too valuable for that.",
     },
     {
-        title: "We Embrace Diversity",
+        title: "We embrace diversity",
         content:
             "We celebrate uniqueness and foster a diverse, inclusive environment where every voice matters.",
     },

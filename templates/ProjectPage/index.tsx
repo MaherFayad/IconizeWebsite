@@ -13,10 +13,10 @@ import { projects } from "@/mocks/projects";
 
 const reviewAuthor = {
     avatar: "/images/avatar-1.jpg",
-    man: "Buster Johnson",
-    position: "Director",
+    man: "Iconize Designers",
+    position: "Agency",
     content:
-        "Our old website was dated and confusing. We went to Keeper to ask what they could do about it. And they succeeded: The website has a convenient backend and a user flow that is humane and results in higher engagement and conversion.",
+        "We work with both small startups and large corporations.",
 };
 
 const ServicePage = ({ id }: any) => {

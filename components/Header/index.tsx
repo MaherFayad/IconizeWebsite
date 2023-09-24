@@ -23,7 +23,7 @@ const navigation = [
     },
     {
         title: "Blogs",
-        url: "/blogs",
+        url: "/blog",
     },
     {
         title: "Contact",
