@@ -1,55 +1,56 @@
-import React, { useState, useRef } from 'react';
-import emailjs from 'emailjs-com'; // Import emailjs-com
-import Link from "next/link";
-import cn from "classnames";
-import styles from "./Form.module.sass";
-import Field from "@/components/Field";
-import Select from "@/components/Select";
+import React, { useState, useRef, FormEvent } from 'react'; // Import FormEvent type
+import emailjs from 'emailjs-com';
+import Link from 'next/link';
+import cn from 'classnames';
+import styles from './Form.module.sass';
+import Field from '@/components/Field';
+import Select from '@/components/Select';
 
 type FormProps = {};
 
 const Form = () => {
-    const [name, setName] = useState<string>("");
-    const [email, setEmail] = useState<string>("");
-    const [phone, setPhone] = useState<string>("");
-    const [company, setCompany] = useState<string>("");
-    const [description, setDescription] = useState<string>("");
-    const [redirecting, setRedirecting] = useState(false);
+const [name, setName] = useState<string>('');
+const [email, setEmail] = useState<string>('');
+const [phone, setPhone] = useState<string>('');
+const [company, setCompany] = useState<string>('');
+const [description, setDescription] = useState<string>('');
+const [redirecting, setRedirecting] = useState<boolean>(false); // Specify boolean type
 
-    const redirectToThanks = () => {
-      // Set redirecting to true to trigger the delay
-      setRedirecting(true);
-  
-      // After a delay (e.g., 3000 milliseconds or 3 seconds), redirect to "/thanks"
-      setTimeout(() => {
+const redirectToThanks = () => {
+    setRedirecting(true);
+
+    setTimeout(() => {
         window.location.href = '/thanks';
-      }, 1000); // Adjust the delay time as needed (in milliseconds)
-    };
+    }, 1000);
+};
 
-    const redirectTo404 = () => {
-        // Set redirecting to true to trigger the delay
-        setRedirecting(true);
-    
-        // After a delay (e.g., 3000 milliseconds or 3 seconds), redirect to "/thanks"
-        setTimeout(() => {
-          window.location.href = '/404';
-        }, 1000); // Adjust the delay time as needed (in milliseconds)
-      };
-  
-    const form = useRef(); // Use useRef to get a reference to the form element
+const redirectTo404 = () => {
+    setRedirecting(true);
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    setTimeout(() => {
+        window.location.href = '/404';
+    }, 1000);
+};
 
-        emailjs.sendForm('service_lwri32l', 'template_74fhrkw', form.current, 'EX_A9-j_JtnnH7oPd') // Replace with your actual service ID, template ID, and user ID
-            .then((result) => {
-                console.log(result.text);
-                redirectToThanks();
-            }, (error) => {
-                console.log(error.text);
-                redirectTo404();
-            });
-    };
+const form = useRef<HTMLFormElement>(null); // Specify the type of useRef
+
+const sendEmail = (e: FormEvent) => { // Specify the type of e as FormEvent
+    e.preventDefault();
+
+    emailjs
+        .sendForm('service_lwri32l', 'template_74fhrkw', form.current, 'EX_A9-j_JtnnH7oPd')
+        .then(
+        (result) => {
+            console.log(result.text);
+            redirectToThanks();
+        },
+        (error) => {
+            console.log(error.text);
+            redirectTo404();
+        }
+        );
+};
+
 
     return (
         <form
