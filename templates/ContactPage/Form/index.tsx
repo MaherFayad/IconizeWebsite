@@ -18,18 +18,12 @@ const [redirecting, setRedirecting] = useState<boolean>(false); // Specify boole
 
 const redirectToThanks = () => {
     setRedirecting(true);
-
-    setTimeout(() => {
-        window.location.href = '/thanks';
-    }, 1000);
+    window.location.href = '/thanks';
 };
 
 const redirectTo404 = () => {
     setRedirecting(true);
-
-    setTimeout(() => {
-        window.location.href = '/404';
-    }, 1000);
+    window.location.href = '/404';
 };
 
 const form = useRef<HTMLFormElement>(null); // Specify the type of useRef

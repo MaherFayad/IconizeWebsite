@@ -38,7 +38,7 @@ const Advantages = ({}: AdvantagesProps) => (
                         className={cn("button-light", styles.button)}
                         href="/projects"
                     >
-                        LET’S WORK TOGETHER
+                        LET'S WORK TOGETHER
                     </Link>
                 </div>
                 <div className={styles.content}>
