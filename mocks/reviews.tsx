@@ -3,8 +3,8 @@ export const reviews = [
         id: "0",
         author: "Grigory",
         position: "CEO of Mindfulness magic",
-        avatar: "/images/avatar.jpg",
+        avatar: "/images/avatar.png",
         content:
-            "Maher is one of the best designers and overall people I have collaborated with, We need more people like him in this space. I had the pleasure of hiring Maher on multiple occasions for various tasks a few times and now for my own project too. He honestly became my go-to for design services.",
+            "the best designers and overall professionals I have had the pleasure of collaborating with. We need more people like them in this space. I had the pleasure of hiring them on multiple occasions for various tasks and even for my own project. They honestly became my go-to for design services.",
     },
 ];
