@@ -14,7 +14,7 @@ const Main = ({}: MainProps) => {
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={cn("h4", styles.title)}>
-                        Empowering Companies on the Path to Growth
+                    <b>Get to Know Us:</b> <br/> Our Story, Our Team, Our Passion.
                     </div>
                     <div className={styles.actions}>
                         <ButtonCircle

@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import Layout from "@/components/Layout";
-import Listing from "@/components/Listing";
 import Blogs from "./Blogs";
+import Main from "./Main";
 
-import { linksBlogs } from "@/mocks/links";
+
 import { blogs } from "@/mocks/blogs";
 
 const BlogsPage = () => {
@@ -11,11 +11,7 @@ const BlogsPage = () => {
 
     return (
         <Layout>
-            <Listing
-                title="Unveiling Our World: Because Experiences Are Meant to Be Shared."
-                links={linksBlogs}
-                scrollToRef={scrollToRef}
-            />
+            <Main />
             <Blogs items={blogs} scrollToRef={scrollToRef} />
         </Layout>
     );

@@ -34,13 +34,12 @@ const Main = ({}: MainProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.row}>
                     <div className={styles.wrap}>
-                        <div className={cn("h2", styles.title)}>
-                            Let’s work together!
+                        <div className={cn("h4", styles.title)}>
+                            Reach Out and Connect:
                         </div>
                         <div className={styles.content}>
                             <p>
-                                Let us help you become even greater at what you
-                                do.
+                                We are Here to Hear From You.
                             </p>
                             <p>
                                 Fill out the following form and we will get back

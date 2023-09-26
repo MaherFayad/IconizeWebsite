@@ -1,0 +1,107 @@
+@import @/styles/helpers
+
+.section
+    height: auto
+    min-height: 0
+    margin-bottom: rem( 80)
+
+.sectionVideo
+    margin-top: rem(-200)
+    +m
+        margin-top: rem(-96)
+
+.container
+    display: flex
+    align-items: flex-start
+    width: 100vw
+    +t
+        display: block
+
+.title
+    flex-grow: 1
+    font-weight: 500
+    width: auto
+    margin-right: rem(110)
+    +w
+        margin-right: rem(60)
+    +d
+        margin-right: rem(40)
+    +t
+        margin: 0 0 rem(48)
+
+.wrap
+    position: relative
+    margin-left: auto
+    cursor: pointer
+    width: rem(660)
+    +t
+        width: rem(600)
+    +m
+        width: rem(246)
+    .button
+        position: absolute
+        top: rem(-32)
+        left: rem(-88)
+        z-index: 2
+        +m
+            left: rem(-56)
+        &:hover
+            svg
+                transform: translate(-50%,-50%) scale(1.1)
+    &:after
+        content: ""
+        position: absolute
+        inset: 0
+        z-index: 1
+        background: rgba(#88725E, .2)
+
+.preview
+    position: relative
+    height: rem(400)
+    overflow: hidden
+    cursor: pointer
+    +m
+        height: rem(160)
+
+.video
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 110%
+    height: 110%
+    object-fit: cover
+    cursor: pointer
+
+.videoModal
+    width: 100%
+
+.clickable 
+    cursor: pointer
+
+.actions
+    padding: 0 rem(20) rem(14) 0
+    text-align: right
+    +w
+        padding-right: 0
+    +m
+        padding: 0
+        text-align: left
+
+.button1
+    margin: 0 rem(30) rem(126) 0
+    +d
+        margin-bottom: rem(156)
+    +r(1179)
+        margin-right: 0
+    +m
+        margin-bottom: rem(46)
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.imagesContainer 
+    white-space: nowrap
+    -webkit-overflow-scrolling: touch
+
+
