@@ -16,7 +16,7 @@ const ServicesPage = () => {
             <Services items={services} />
             <Projects
                 className="section-pd"
-                title="Explore the brilliance of our top-performing projects"
+                title="Explore the brilliance of our top-performing projects"
                 label="OUR PROJECTS"
                 items={projects}
                 viewItem={4}
