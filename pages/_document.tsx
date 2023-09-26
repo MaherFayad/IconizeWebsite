@@ -6,6 +6,7 @@ import Document, {
     DocumentContext,
 } from "next/document";
 import GoogleTagManagerScript from "./api/GoogleTagManager";
+import ClarityScript from "./api/Clarity";
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
@@ -69,6 +70,7 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
                     < GoogleTagManagerScript />
+                    <ClarityScript />
                 </Head>
                 <body className="app">
                     {/* Google Tag Manager (noscript) */}
