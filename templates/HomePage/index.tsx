@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import Layout from "@/components/Layout";
 import Main from "./Main";
-import Preview from "@/components/Preview";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Advantages from "./Advantages";
