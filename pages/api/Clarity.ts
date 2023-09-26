@@ -1,9 +1,15 @@
 import React, { useEffect } from 'react';
 
+declare global {
+  interface Window {
+    clarity: any; // Declare the Clarity object on the Window object
+  }
+}
+
 function ClarityScript() {
   useEffect(() => {
     // Define the Clarity script as a function
-    (function(c: any, l: any, a: string, r: string, i: string) {
+    (function (c: any, l: any, a: string, r: string, i: string) {
       c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
       const t = l.createElement(r);
       t.async = true;

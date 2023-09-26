@@ -1,18 +1,31 @@
 import React, { useEffect } from 'react';
 
+declare global {
+  interface Window {
+    dataLayer: any[]; // Declare the dataLayer property
+  }
+}
+
 function GoogleTagManagerScript() {
   useEffect(() => {
-    // Define the Google Tag Manager script as a function
-    (function(w: any, d: any, s: string, l: string, i: string) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      const f = d.getElementsByTagName(s)[0];
-      const j = d.createElement(s);
-      const dl = l !== 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode!.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-59LSX77H');
+    // Create a script element
+    const script = document.createElement('script');
+    script.src = `https://www.googletagmanager.com/gtm.js?id=GTM-59LSX77H`;
+    script.async = true;
+
+    // Append the script to the document's head
+    document.head.appendChild(script);
+
+    // Push an event to the dataLayer when the script has loaded
+    script.addEventListener('load', () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'gtm.js' });
+    });
+
+    // Remove the script element when the component unmounts
+    return () => {
+      document.head.removeChild(script);
+    };
   }, []);
 
   return null; // or you can return a React fragment if needed

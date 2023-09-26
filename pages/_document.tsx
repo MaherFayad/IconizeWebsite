@@ -69,7 +69,7 @@ class MyDocument extends Document {
                     <meta name="theme-color" content="#000000" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
-                    < GoogleTagManagerScript />
+                    <GoogleTagManagerScript />
                     <ClarityScript />
                 </Head>
                 <body className="app">
