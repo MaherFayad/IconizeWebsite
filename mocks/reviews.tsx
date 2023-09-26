@@ -1,7 +1,7 @@
 export const reviews = [
     {
         id: "0",
-        author: "Grigory",
+        author: "Grigory Yusufov",
         position: "CEO of Mindfulness magic",
         avatar: "/images/avatar.png",
         content:
