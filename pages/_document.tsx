@@ -5,6 +5,8 @@ import Document, {
     NextScript,
     DocumentContext,
 } from "next/document";
+import { clarity } from 'react-microsoft-clarity';
+
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
@@ -84,6 +86,7 @@ class MyDocument extends Document {
                     `,
                         }}
                     />
+                    clarity.init(j1aw65gcrm);
 
                     </Head>
                 <body className="app">
