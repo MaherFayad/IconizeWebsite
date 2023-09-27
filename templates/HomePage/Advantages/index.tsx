@@ -5,19 +5,19 @@ import styles from "./Advantages.module.sass";
 const list = [
     {
         title: "Projects completed",
-        value: "500+",
+        value: "30+",
     },
     {
-        title: "Year on year growth",
-        value: "200%",
+        title: "Years of tech. experience",
+        value: "5",
     },
     {
-        title: "Funded",
-        value: "10+",
+        title: "Clients Served",
+        value: "20+",
     },
     {
-        title: "Funded",
-        value: "200+",
+        title: "Surveyed users",
+        value: "1132",
     },
 ];
 
