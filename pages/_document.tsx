@@ -69,9 +69,25 @@ class MyDocument extends Document {
                     <meta name="theme-color" content="#000000" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
-                    <GoogleTagManagerScript />
-                    <ClarityScript />
-                </Head>
+                    {/* Global Site Tag (gtag.js) - Google Analytics */}
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=GTM-59LSX77H`}
+                    />
+                    <script
+                        dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'GTM-59LSX77H', {
+                        page_path: window.location.pathname,
+                        });
+                    `,
+                        }}
+                    />
+
+                    </Head>
                 <body className="app">
                     {/* Google Tag Manager (noscript) */}
                     <noscript>
