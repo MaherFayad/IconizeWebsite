@@ -5,8 +5,6 @@ import Document, {
     NextScript,
     DocumentContext,
 } from "next/document";
-import GoogleTagManagerScript from "./api/GoogleTagManager";
-import ClarityScript from "./api/Clarity";
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
