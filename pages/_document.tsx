@@ -7,12 +7,16 @@ import Document, {
 } from "next/document";
 import { clarity } from 'react-microsoft-clarity';
 
+clarity.init("j1aw65gcrm");
+
+
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
         const initialProps = await Document.getInitialProps(ctx);
         return { ...initialProps };
     }
+
 
     render() {
         return (
@@ -86,7 +90,6 @@ class MyDocument extends Document {
                     `,
                         }}
                     />
-                    clarity.init(j1aw65gcrm);
 
                     </Head>
                 <body className="app">
