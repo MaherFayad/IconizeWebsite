@@ -16,6 +16,10 @@ const navigation = [
         url: "/services",
     },
     {
+        title: "Partners",
+        url: "/Partners",
+    },
+    {
         title: "Projects",
         url: "/projects",
     },
