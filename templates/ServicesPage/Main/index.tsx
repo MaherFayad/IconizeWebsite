@@ -44,7 +44,7 @@ const Main = ({}: MainProps) => {
                 <div className={styles.imagesContainer} >
                     <Swiper
                         slidesPerView={'auto'}
-                        loop={'true'}
+                        loop
                         className={styles.images}>
 
                         {images.map((image, index) => (
