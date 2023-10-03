@@ -6,6 +6,8 @@
         DocumentContext,
     } from "next/document";
     import ClarityScript from "./api/ClarityScript";
+    import BeusableScript from "./api/BeusableScript";
+
 
 
 
@@ -95,6 +97,7 @@
                         />
                         
                         <ClarityScript />
+                        <BeusableScript />
 
                         </Head>
                     <body className="app">
