@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import cn from "classnames";
 import styles from "./Main.module.sass";
 import Image from "@/components/Image";
 import ButtonCircle from "@/components/ButtonCircle";
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const images = [
     "/images/services/service-photo-1.jpg",
@@ -39,18 +42,22 @@ const Main = ({}: MainProps) => {
             </div>
             <div className={cn("section-mb160", styles.gallery)}>
                 <div className={styles.imagesContainer} >
-                    <div className={styles.images}>
+                    <Swiper
+                        slidesPerView={'auto'}
+                        loop={'true'}
+                        className={styles.images}>
+
                         {images.map((image, index) => (
-                            <div className={cn("image", styles.image)} key={index}>
+                            <SwiperSlide className={cn("image", styles.image)} key={index}>
                                 <Image
                                     src={image}
                                     fill
                                     style={{ objectFit: "cover" }}
                                     alt="Project Images"
                                 />
-                            </div>
+                            </SwiperSlide>
                         ))}
-                </div>
+                </Swiper>
 
                 </div>
                 <ButtonCircle
