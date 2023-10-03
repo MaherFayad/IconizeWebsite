@@ -1,4 +1,4 @@
-const ClarityScript = () => {
+const BeusableScript = () => {
     if (typeof window !== "undefined") {
       (function (w: Window, d: Document, a: string) {
         (w as any).__beusablerumclient__ = {
@@ -17,5 +17,5 @@ const ClarityScript = () => {
     return null; // You can return null since this component doesn't render anything
   };
   
-  export default ClarityScript;
+  export default BeusableScript;
   
