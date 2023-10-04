@@ -6,8 +6,7 @@
         DocumentContext,
     } from "next/document";
     import ClarityScript from "./api/ClarityScript";
-    import BeusableScript from "./api/BeusableScript";
-    
+    import BeusableScript from "./api/BeusableScript";    
 
 
 
@@ -23,7 +22,7 @@
 
         render() {
             return (
-                <Html lang="en">
+                <Html lang="en" id="root">
                     <Head>
                         <meta
                             content="Iconize"
