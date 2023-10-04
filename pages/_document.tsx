@@ -7,7 +7,7 @@
     } from "next/document";
     import ClarityScript from "./api/ClarityScript";
     import BeusableScript from "./api/BeusableScript";
-
+    
 
 
 
@@ -18,12 +18,10 @@
             const initialProps = await Document.getInitialProps(ctx);
             return { ...initialProps };
         }
-
-        
+               
 
 
         render() {
-            
             return (
                 <Html lang="en">
                     <Head>
@@ -95,9 +93,13 @@
                         `,
                             }}
                         />
-                        
-                        <ClarityScript />
-                        <BeusableScript />
+                        <script type="text/javascript">
+                            ReactDOM.render(<ClarityScript />, document.getElementById(`root`));
+                        </script>
+                        <script type="text/javascript">
+                            ReactDOM.render(<BeusableScript />, document.getElementById(`root`));
+                        </script>
+
 
                         </Head>
                     <body className="app">
