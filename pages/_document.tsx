@@ -5,6 +5,7 @@
         NextScript,
         DocumentContext,
     } from "next/document";
+    import Script from 'next/script'
     class MyDocument extends Document {
         static async getInitialProps(ctx: DocumentContext) {
             const initialProps = await Document.getInitialProps(ctx);
@@ -68,23 +69,16 @@
                         <meta name="theme-color" content="#000000" />
                         <meta name="msapplication-TileColor" content="#da532c" />
                         <meta name="theme-color" content="#ffffff" />
-                        {/* Global Site Tag (gtag.js) - Google Analytics */}
-                        <script
-                            async
-                            src={`https://www.googletagmanager.com/gtag/js?id=GTM-59LSX77H`}
-                        />
-                        <script
-                            dangerouslySetInnerHTML={{
-                            __html: `
+                        <Script src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" />
+                        <Script id="google-analytics">
+                            {`
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
-                            gtag('config', 'GTM-59LSX77H', {
-                            page_path: window.location.pathname,
-                            });
-                        `,
-                            }}
-                        />
+                    
+                            gtag('config', 'G-H27RSW8ED1');
+                            `}
+                        </Script>
                         <script
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
