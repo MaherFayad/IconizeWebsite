@@ -5,13 +5,6 @@
         NextScript,
         DocumentContext,
     } from "next/document";
-    import ClarityScript from "./api/ClarityScript";
-    import BeusableScript from "./api/BeusableScript";    
-
-
-
-
-
     class MyDocument extends Document {
         static async getInitialProps(ctx: DocumentContext) {
             const initialProps = await Document.getInitialProps(ctx);
@@ -92,12 +85,6 @@
                         `,
                             }}
                         />
-                        <script type="text/javascript">
-                            ReactDOM.render(<ClarityScript />, document.getElementById(`root`));
-                        </script>
-                        <script type="text/javascript">
-                            ReactDOM.render(<BeusableScript />, document.getElementById(`root`));
-                        </script>
                         <script
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
