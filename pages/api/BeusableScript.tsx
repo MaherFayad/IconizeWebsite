@@ -1,6 +1,6 @@
 const BeusableScript = () => {
     if (typeof window !== "undefined") {
-      (function (w: Window, d: Document, a: string) {
+      (function (w: any, d: any, a: any) {
         (w as any).__beusablerumclient__ = {
           load: function (src: string) {
             var b: HTMLScriptElement = d.createElement("script");

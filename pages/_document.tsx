@@ -98,6 +98,36 @@
                         <script type="text/javascript">
                             ReactDOM.render(<BeusableScript />, document.getElementById(`root`));
                         </script>
+                        <script
+                            type="text/javascript"
+                            dangerouslySetInnerHTML={{
+                                __html: `
+                                (function(w, d, a) {
+                                    w.__beusablerumclient__ = {
+                                    load: function(src) {
+                                        var b = d.createElement("script");
+                                        b.src = src;
+                                        b.async = true;
+                                        b.type = "text/javascript";
+                                        d.getElementsByTagName("head")[0].appendChild(b);
+                                    }
+                                    };
+                                    w.__beusablerumclient__.load(a + "?url=" + encodeURIComponent(d.URL));
+                                })(window, document, "//rum.beusable.net/load/b230930e134632u394");
+                                `,
+                            }}
+                            />
+                        <script
+                            type="text/javascript"
+                            dangerouslySetInnerHTML={{
+                                __html: `
+                                (function(c,l,a,r,i,t,y){
+                                    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                                    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                                    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                                })(window, document, "clarity", "script", "j1aw65gcrm");`,
+                            }}
+                            />
 
 
                         </Head>
