@@ -1,5 +1,5 @@
-const fs = require('fs');
-const { create, XmlElement } = require('xmlbuilder2');
+import fs from 'fs';
+import { create } from 'xmlbuilder2';
 
 // Define your website's URLs
 const urls = [
@@ -42,3 +42,5 @@ const root = create({ version: '1.0' })
 fs.writeFileSync('public/sitemap.xml', root.end({ prettyPrint: true }));
 
 console.log('Sitemap generated successfully!');
+
+export {};

@@ -27,6 +27,6 @@
       "@/mocks/*": ["mocks/*"]
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sitemap.mjs"],
   "exclude": ["node_modules"]
 }
