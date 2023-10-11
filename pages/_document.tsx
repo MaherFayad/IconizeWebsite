@@ -67,19 +67,19 @@
                         <meta name="theme-color" content="#000000" />
                         <meta name="msapplication-TileColor" content="#da532c" />
                         <meta name="theme-color" content="#ffffff" />
-                        <Script
-                            src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1"
-                            strategy="afterInteractive" // Use "afterInteractive" strategy for async loading
-                        />
-                        <Script id="google-analytics">
-                            {`
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                    
-                            gtag('config', 'G-H27RSW8ED1');
-                            `}
-                        </Script>
+                        <script src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" async></script>
+                        <script
+                            type="text/javascript"
+                            dangerouslySetInnerHTML={{
+                                __html: `
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+                              
+                                gtag('config', 'G-H27RSW8ED1');
+                                                              `,
+                            }}
+                            />
                         <script
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
