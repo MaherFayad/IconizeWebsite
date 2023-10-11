@@ -6,6 +6,7 @@
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "types": ["xmlbuilder2"],
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -26,6 +27,6 @@
       "@/mocks/*": ["mocks/*"]
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sitemap.mjs"],
   "exclude": ["node_modules"]
 }

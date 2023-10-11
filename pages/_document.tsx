@@ -57,8 +57,8 @@
                         />
                         <meta property="og:type" content="Article" />
                         <meta content="summary" name="twitter:card" />
-                        <meta name="twitter:site" content="@ui8" />
-                        <meta name="twitter:creator" content="@ui8" />
+                        <meta name="twitter:site" content="@Iconize.ca" />
+                        <meta name="twitter:creator" content="@Iconize.ca" />
                         <meta property="fb:admins" content="132951670226590" />
                         <meta
                             name="viewport"
@@ -66,6 +66,9 @@
                         />
                         
                         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+                        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+                        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
                         <meta name="theme-color" content="#000000" />
                         <meta name="msapplication-TileColor" content="#da532c" />
                         <meta name="theme-color" content="#ffffff" />
