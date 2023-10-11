@@ -20,7 +20,7 @@ const HomePage = () => {
 
     return (
         
-        <Layout>
+        <Layout title="Iconize" Description="Welcome to Iconize, where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses, like yours to thrive in the digital age.">
 
             <Main scrollToRef={scrollToRef} />
             <AboutUs scrollToRef={scrollToRef} />

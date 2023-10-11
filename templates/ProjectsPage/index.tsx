@@ -14,7 +14,7 @@ const ProjectsPage = () => {
     const scrollToRef = useRef<any>(null);
 
     return (
-        <Layout>
+        <Layout title="Project - Iconize" Description="Past, Present, Future: Explore Our Portfolio of Projects.">
             <Main />
             <Projects
                 className="section-mb160"
