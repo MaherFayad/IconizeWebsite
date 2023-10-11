@@ -114,19 +114,6 @@
 
                         </Head>
                     <body className="app">
-                        <Script
-                            src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1"
-                            strategy="afterInteractive" // Use "afterInteractive" strategy for async loading
-                        />
-                        <Script id="google-analytics">
-                            {`
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                    
-                            gtag('config', 'G-H27RSW8ED1');
-                            `}
-                        </Script>
                         <Main />
                         <NextScript />
                     </body>
