@@ -71,10 +71,10 @@ export const companies = [
         id: "17",
         image: "/images/companies/new/HCDL.png",
     },
-    // {
-    //     id: "18",
-    //     image: "/images/companies/new/CHEO.png",
-    // },
+    {
+        id: "18",
+        image: "/images/companies/new/scobrea.png",
+    },
     // {
     //     id: "19",
     //     image: "/images/companies/new/service_Canada.png",

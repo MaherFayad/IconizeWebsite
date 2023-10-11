@@ -1,6 +1,14 @@
 export const reviews = [
     {
         id: "0",
+        author: "Mostafa Gamal",
+        position: "CEO of Scobrea",
+        avatar: "/images/avatar-1.png",
+        content:
+            "Iconize and their remarkable team brought a personal touch to my project. Their professionalism, expertise, and friendly approach made every interaction a delight. They delivered impressive results, and I couldn't be happier. I wholeheartedly recommend Iconize for their unique blend of personal care and top-notch software development expertise.",
+    },
+    {
+        id: "1",
         author: "Grigory Yusufov",
         position: "CEO of Mindfulness magic",
         avatar: "/images/avatar.png",
