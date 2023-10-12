@@ -69,6 +69,7 @@
                         <meta name="theme-color" content="#ffffff" />
                         <script src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" async></script>
                         <script
+                            async
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
                                 __html: `
@@ -81,6 +82,7 @@
                             }}
                             />
                         <script
+                            async
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
                                 __html: `
@@ -100,6 +102,7 @@
                             }}
                             />
                         <script
+                            async
                             type="text/javascript"
                             dangerouslySetInnerHTML={{
                                 __html: `
