@@ -9,6 +9,11 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
+"@builder.io/partytown@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.npmjs.org/@builder.io/partytown/-/partytown-0.8.1.tgz"
+  integrity sha512-p4xhEtQCPe8YFJ8e7KT9RptnT+f4lvtbmXymbp1t0bLp+USkNMTxrRMNc3Dlr2w2fpxyX7uA0CyAeU3ju84O4A==
+
 "@emailjs/browser@^3.11.0":
   version "3.11.0"
   resolved "https://registry.npmjs.org/@emailjs/browser/-/browser-3.11.0.tgz"

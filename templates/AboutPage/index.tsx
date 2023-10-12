@@ -3,11 +3,9 @@ import Main from "./Main";
 import Story from "./Story";
 import Preview from "@/components/Preview";
 import Values from "./Values";
-import Team from "./Team";
 import Companies from "@/components/Companies";
 import Description from "./Description";
 
-import { team } from "@/mocks/team";
 import { companies } from "@/mocks/companies";
 
 const AboutPage = () => {

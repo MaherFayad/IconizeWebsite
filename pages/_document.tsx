@@ -5,15 +5,13 @@
         NextScript,
         DocumentContext,
     } from "next/document";
-    import Script from 'next/script'
+    import { Partytown } from '@builder.io/partytown/react';
+
     class MyDocument extends Document {
         static async getInitialProps(ctx: DocumentContext) {
             const initialProps = await Document.getInitialProps(ctx);
             return { ...initialProps };
         }
-               
-
-
         render() {
             return (
                 <Html lang="en" id="root">
@@ -67,10 +65,11 @@
                         <meta name="theme-color" content="#000000" />
                         <meta name="msapplication-TileColor" content="#da532c" />
                         <meta name="theme-color" content="#ffffff" />
-                        <script src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" async></script>
+                        <Partytown debug={true} forward={['dataLayer.push']} />
+                        <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" async></script>
                         <script
                             async
-                            type="text/javascript"
+                            type="text/partytown"
                             dangerouslySetInnerHTML={{
                                 __html: `
                                 window.dataLayer = window.dataLayer || [];
@@ -83,7 +82,7 @@
                             />
                         <script
                             async
-                            type="text/javascript"
+                            type="text/partytown"
                             dangerouslySetInnerHTML={{
                                 __html: `
                                 (function(w, d, a) {
@@ -103,7 +102,7 @@
                             />
                         <script
                             async
-                            type="text/javascript"
+                            type="text/partytown"
                             dangerouslySetInnerHTML={{
                                 __html: `
                                 (function(c,l,a,r,i,t,y){

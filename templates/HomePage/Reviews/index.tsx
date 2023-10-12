@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import {Navigation} from "swiper";
 import "swiper/css/navigation";
 import cn from "classnames";
 import styles from "./Reviews.module.sass";

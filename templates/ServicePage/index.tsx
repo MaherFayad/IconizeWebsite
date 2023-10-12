@@ -1,9 +1,7 @@
 import Layout from "@/components/Layout";
 import Main from "./Main";
 import Details from "./Details";
-import Companies from "@/components/Companies";
 import Projects from "@/components/Projects";
-import { companiesLight } from "@/mocks/companies";
 import { projects } from "@/mocks/projects";
 
 

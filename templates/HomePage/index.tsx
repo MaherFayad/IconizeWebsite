@@ -8,6 +8,7 @@ import Projects from "@/components/Projects";
 import Reviews from "./Reviews";
 import Companies from "@/components/Companies";
 import Blogs from "./Blogs";
+import dynamic from "next/dynamic";
 
 import { services } from "@/mocks/services";
 import { projects } from "@/mocks/projects";

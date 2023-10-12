@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.8.1",
     "@emailjs/browser": "^3.11.0",
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@next/font": "13.1.2",
