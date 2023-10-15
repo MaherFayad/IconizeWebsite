@@ -21,7 +21,7 @@ const reviewAuthor = {
 
 const ServicePage = ({ id }: any) => {
     return (
-        <Layout>
+        <Layout title="Project - Iconize" Description="Past, Present, Future: Explore Our Portfolio of Projects.">
             <Main id={id} />
             <Overview id={id} />
             <Gallery id={id} />

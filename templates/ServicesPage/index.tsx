@@ -10,7 +10,7 @@ import { projects } from "@/mocks/projects";
 
 const ServicesPage = () => {
     return (
-        <Layout>
+        <Layout title="Services - Iconize" Description="Our Expertise, Your Solutions: Discover Our Range of Services.">
             <Main />
             <Description />
             <Services items={services} />

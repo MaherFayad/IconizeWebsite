@@ -6,7 +6,7 @@ import { blogs } from "@/mocks/blogs";
 
 const ThanksPage = () => {
     return (
-        <Layout>
+        <Layout title="Thanks - Iconize" Description="Thanks for reaching out to us.">
             <Main />
             <Posts items={blogs.slice(0, 2)} />
         </Layout>

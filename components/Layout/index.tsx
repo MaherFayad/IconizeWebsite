@@ -10,9 +10,11 @@ type LayoutProps = {
     background?: string;
     emptyFooter?: boolean;
     children: React.ReactNode;
+    title: string;
+    Description: string;
 };
 
-const Layout = ({ background, emptyFooter, children }: LayoutProps) => {
+const Layout = ({ background, emptyFooter, children, title, Description }: LayoutProps) => {
     const { pathname } = useRouter();
 
     useEffect(() => {
@@ -24,8 +26,13 @@ const Layout = ({ background, emptyFooter, children }: LayoutProps) => {
         <>
             <Head>
                 <title>
-                    Iconize
+                    {title}
                 </title>
+                <meta name="description" content={Description} />
+                <meta
+                    content={title}
+                    name={Description}
+                />
             </Head>
             <div
                 className={styles.layout}

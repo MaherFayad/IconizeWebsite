@@ -1,15 +1,13 @@
 import Layout from "@/components/Layout";
 import Main from "./Main";
 import Details from "./Details";
-import Companies from "@/components/Companies";
 import Projects from "@/components/Projects";
-import { companiesLight } from "@/mocks/companies";
 import { projects } from "@/mocks/projects";
 
 
 const ServicePage = ({ id }: any) => {
     return (
-        <Layout>
+        <Layout title="Services - Iconize" Description="Our Expertise, Your Solutions: Discover Our Range of Services.">
             <Main id={id} />
             <Details id={id} />
             <div className="section-pd section-black">
