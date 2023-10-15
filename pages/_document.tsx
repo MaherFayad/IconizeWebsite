@@ -6,11 +6,6 @@ import Document, {
     DocumentContext,
 } from "next/document";
 import { Partytown } from '@builder.io/partytown/react';
-const compression = require('compression')
-const express = require('express')
-
-const app = express()
-app.use(compression())
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {

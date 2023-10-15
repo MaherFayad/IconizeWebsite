@@ -11,23 +11,23 @@ import Socials from "../Socials";
 const navigation = [
     {
         title: "About",
-        url: "/about",
+        url: "/about/",
     },
     {
         title: "Services",
-        url: "/services",
+        url: "/services/",
     },
     {
         title: "Projects",
-        url: "/projects",
+        url: "/projects/",
     },
     {
         title: "Blogs",
-        url: "/blog",
+        url: "/blogs/",
     },
     {
         title: "Contact",
-        url: "/contact",
+        url: "/contact/",
     },
 ];
 

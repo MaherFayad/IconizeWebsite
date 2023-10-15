@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["xmlbuilder2"],
+    "types": [
+      "xmlbuilder2"
+    ],
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -17,16 +23,48 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/templates/*": ["templates/*"],
-      "@/styles/*": ["styles/*"],
-      "@/utils/*": ["utils/*"],
-      "@/hooks/*": ["hooks/*"],
-      "@/types/*": ["types/*"],
-      "@/constants/*": ["constants/*"],
-      "@/mocks/*": ["mocks/*"]
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/templates/*": [
+        "templates/*"
+      ],
+      "@/styles/*": [
+        "styles/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/types/*": [
+        "types/*"
+      ],
+      "@/constants/*": [
+        "constants/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/mocks/*": [
+        "mocks/*"
+      ]
     },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "sitemap.mjs"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "sitemap.mjs",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
