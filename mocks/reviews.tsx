@@ -1,5 +1,5 @@
-const avatar = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Favatar.png?alt=media&token=440b6aeb-0932-472c-9578-0c383eef4af4&_gl=1*1y0z2wo*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MjM0Mi42MC4wLjA.";
-const avatar1 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Favatar-1.png?alt=media&token=10f84a30-c2ac-433e-9784-b3bf8628cbf2&_gl=1*12dhwo9*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MjIy9LjA5NzU3LjA0LjA.";
+const avatar = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Favatar.png?alt=media&token=d4af46dc-c0bf-468e-a0c4-b83c75603abe&_gl=1*1fjjan0*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQ0My42MC4wLjA.";
+const avatar1 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Favatar-1.png?alt=media&token=ef0cdcc5-f6e4-4038-ad70-ddb0fa5cbb02&_gl=1*fj35ou*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQyOC4xLjAuMA..";
 
 export const reviews = [
     {

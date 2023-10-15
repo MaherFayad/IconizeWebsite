@@ -3,9 +3,9 @@ import styles from "./Description.module.sass";
 import Image from "@/components/Image";
 
 const images = [
-    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-1.jpg?alt=media&token=7a97017f-4019-4812-9fd9-1a74c67e87a5&_gl=1*ft1o87*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzYxNi42MC4wLjA.",
-    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-2.jpg?alt=media&token=7ec0db58-c1e4-4414-b981-60cbf47af5e4&_gl=1*2ntuv4*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzYyMy41My4wLjA.",
-    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-3.jpg?alt=media&token=a007b1cd-1e32-44c9-9e73-f8bd56c30460&_gl=1*xrcoff*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzYzNC40Mi4wLjA.",
+    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-1.jpg?alt=media&token=a87c798f-a9d6-4f1f-8b08-c26fd0425bed&_gl=1*1omlzrx*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQ4NC4xOS4wLjA.",
+    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-2.jpg?alt=media&token=cf21c6b9-1f09-48d2-92cf-c716edddfc64&_gl=1*1v45353*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjUwMS4yLjAuMA..",
+    "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-3.jpg?alt=media&token=e0ad0c05-df13-4a4f-93e4-c61bdc56d008&_gl=1*f4q6au*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjUwOC42MC4wLjA.",
 ];
 
 type DescriptionProps = {};

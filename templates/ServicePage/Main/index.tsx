@@ -31,7 +31,7 @@ const Main = ({ id }: MainProps) => {
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
                             <Image
-                                src="/images/photo-3.jpg"
+                                src="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-3.jpg?alt=media&token=e0ad0c05-df13-4a4f-93e4-c61bdc56d008&_gl=1*hn3ch1*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjY3OC40Ni4wLjA."
                                 fill
                                 style={{ objectFit: "cover" }}
                                 sizes="(max-width: 767px) 100vw, 50vw"

@@ -35,7 +35,7 @@ const Main = ({}: MainProps) => {
                             {/* Replace the video with the Vimeo iframe */}
                             <div style={{ padding: "70% 0 0 0", position: "relative" }}>
                             <Image
-                                src="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/Videos%2FVideo%20preview.jpg?alt=media&token=a2d84ff8-8df8-4e01-80df-9af8545e916a&_gl=1*1g43vna*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2NjU5Ni40OC4wLjA."
+                                src="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/Videos%2FVideo%20preview.jpg?alt=media&token=a2d84ff8-8df8-4e01-80df-9af8545e916a&_gl=1*bf6bj*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjU0My4yNS4wLjA."
                                 fill
                                 style={{ objectFit: "cover" }}
                                 sizes="(max-width: 767px) 100vw, 50vw"
