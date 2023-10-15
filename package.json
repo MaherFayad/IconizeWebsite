@@ -45,5 +45,17 @@
     "@types/react-transition-group": "^4.4.5",
     "@types/scroll-lock": "^2.1.0",
     "react-compress": "^3.6.4"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaherFayad/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaherFayad/react/issues"
+  },
+  "homepage": "https://github.com/MaherFayad/react#readme"
 }

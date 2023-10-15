@@ -23,13 +23,26 @@ interface props {
     image_3: string;
     image_4: string;
 };
+const project0_1 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-0%2F1.jpg?alt=media&token=4db4a3d5-edb4-4563-a57c-b97e284c2116&_gl=1*1g3c8iu*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjI3OS43LjAuMA..";
+const project0_2 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-0%2F2.jpg?alt=media&token=ee65136e-93ab-4604-808b-e2757bd24673&_gl=1*1u7p92x*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjMwNS42MC4wLjA.";
+const project0_3 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-0%2F3.jpg?alt=media&token=beb505d0-8dac-4e34-be6e-7ab20c396e4b&_gl=1*11sw2bc*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjMxMy41Mi4wLjA.";
+const project0_4 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-0%2F4.jpg?alt=media&token=3ec0371e-4fa8-4f6c-b0dd-0d935319e490&_gl=1*ijiw72*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjMyMy40Mi4wLjA.";
+const project0_5 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-0%2F5.jpg?alt=media&token=5f7faa3b-fc98-400a-8f9c-7634b95d12c8&_gl=1*yu3rcc*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjMzMi4zMy4wLjA.";
+const project1_1 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-1%2F1.jpg?alt=media&token=1ec0a9fd-3419-419b-9a7f-a77cc34ef733&_gl=1*12j5jzs*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM0Ni4xOS4wLjA.";
+const project1_2 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-1%2F2.jpg?alt=media&token=232668cd-4bd1-4b7e-a9ed-3d964d1b9df8&_gl=1*19q55op*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM1OC43LjAuMA..";
+const project1_3 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-1%2F3.jpg?alt=media&token=a70fb4d4-204d-4477-8b75-e3fdeeedb903&_gl=1*xts5mo*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM2OS42MC4wLjA.";
+const project1_4 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-1%2F4.jpg?alt=media&token=edf68991-a317-46bf-bbfd-145a53602bd2&_gl=1*njjuth*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM3OC41MS4wLjA.";
+const project2_1 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-2%2F1.jpg?alt=media&token=a8ad5cbf-a62a-4893-bf69-9ad72f660b26&_gl=1*1lnocv9*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM5MS4zOC4wLjA.";
+const project2_2 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-2%2F2.jpg?alt=media&token=506163e8-6f9e-437c-b001-f583bc91d26b&_gl=1*r5647b*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjM5OS4zMC4wLjA.";
+const project2_3 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-2%2F3.jpg?alt=media&token=1953d014-1f5a-4f71-87e1-9e6748b19443&_gl=1*pypg0d*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQwNy4yMi4wLjA.";
+const project2_4 = "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fprojects%2FProject-2%2F4.jpg?alt=media&token=234a3bd6-d36c-49e6-b7a1-7e6e6a6c0ca1&_gl=1*1tqgswp*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQxNS4xNC4wLjA.";
 
 export const projects : props[] = [
     {
         id: "0",
         client: "R3 Project",
         title: "Enhancing the Student Experience at Algonquin College",
-        image: "/images/projects/Project-0/1.jpg",
+        image: project0_1,
         categories: ["UX Research",],
         year: "2023",
         overview_1: "Making the leap to a new student platform a breeze! We're crafting a communication and support plan that'll guide you through the transition.",
@@ -55,16 +68,16 @@ export const projects : props[] = [
         list2_description: "No. of participants opted in to be interviewed.",
         list3_value: "27",
         list3_description: "No. of Participants during interviews and workshopping in focus groups.",
-        image_1: "/images/projects/Project-0/2.jpg",
-        image_2: "/images/projects/Project-0/3.jpg",
-        image_3: "/images/projects/Project-0/4.jpg",
-        image_4: "/images/projects/Project-0/5.jpg",
+        image_1: project0_2,
+        image_2: project0_3,
+        image_3: project0_4,
+        image_4: project0_5,
     },
     {
         id: "1",
         client: "Sanarte",
         title: "Research and design of Sanarte Mobile app, for sounds that enhances remote workers Productivity",
-        image: "/images/projects/Project-2/1.jpg",
+        image: project1_1,
         categories: ["UI Design", "Mobile App", "AI", "Flutter Development"],
         year: "2023",
         overview_1: "The client is a researcher at a university in Canada, and he wants to use this project in both research purpose and as a source of income. he has that idea that we can improve remote workspaces using sounds, and different techniques.Also have good connections in the research market, so he wants to use that to generate more income.",
@@ -86,16 +99,16 @@ export const projects : props[] = [
         list2_description: "of the researched users' needs are satisfied in the MVP.",
         list3_value: "$97.6 B",
         list3_description: "Current global mindfulness application market size.",
-        image_1: "/images/projects/Project-2/1.jpg",
-        image_2: "/images/projects/Project-2/2.jpg",
-        image_3: "/images/projects/Project-2/3.jpg",
-        image_4: "/images/projects/Project-2/4.jpg",
+        image_1: project1_1,
+        image_2: project1_2,
+        image_3: project1_3,
+        image_4: project1_4,
     },
     {
         id: "2",
         client: "BoxBYLD",
         title: "CRM System for Solar Panel Contractors: BoxBYLD for BYLDer Bank",
-        image: "/images/projects/Project-1/2.jpg",
+        image: project2_1,
         categories: ["UI Design", "SAAS Product", "Web App", "React"],
         year: "2023",
         overview_1: "Iconize proudly announces its partnership with the BoxBYLD Network, a comprehensive platform uniting vendors, contractors, designers, distributors, and sales professionals in the solar, home improvement, and home services sectors. Our collaborative effort aims to provide real-time solutions for proposals, contracts, and project monitoring.",
@@ -117,10 +130,10 @@ export const projects : props[] = [
         list2_description: "potential business expansion locations",
         list3_value: "$157.75 B",
         list3_description: "Current global PV panel market size",
-        image_1: "/images/projects/Project-1/1.jpg",
-        image_2: "/images/projects/Project-1/2.jpg",
-        image_3: "/images/projects/Project-1/3.jpg",
-        image_4: "/images/projects/Project-1/4.jpg",
+        image_1: project2_1,
+        image_2: project2_2,
+        image_3: project2_3,
+        image_4: project2_4,
     },
     
 ];
