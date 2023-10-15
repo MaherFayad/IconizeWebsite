@@ -21,7 +21,6 @@ const HomePage = () => {
     return (
         
         <Layout>
-
             <Main scrollToRef={scrollToRef} />
             <AboutUs scrollToRef={scrollToRef} />
             <Advantages />
