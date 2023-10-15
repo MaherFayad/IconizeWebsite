@@ -15,7 +15,7 @@ const AboutPage = () => {
             <Story />
             <Preview
                 className="section-mb160"
-                image="/images/image-1.jpg"
+                image="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fimage-1.jpg?alt=media&token=f4b28803-a922-497e-95fd-d71818d61a24&_gl=1*1sm34tr*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzU4Mi44LjAuMA.."
                 wide
             />
             <Values />

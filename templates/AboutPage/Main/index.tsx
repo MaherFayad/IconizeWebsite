@@ -38,7 +38,7 @@ const Main = ({}: MainProps) => {
                                 autoPlay
                             >
                                 <source
-                                    src="/videos/video-2.mp4"
+                                    src="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/Videos%2Fvideo-2.mp4?alt=media&token=e114b66e-25d7-4de0-b928-d99101957a9d&_gl=1*w7f1i2*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzUzMy41Ny4wLjA."
                                     type="video/mp4"/>
                             </video>
                         </div>
@@ -64,7 +64,7 @@ const Main = ({}: MainProps) => {
                     autoPlay
                     controls
                 >
-                    <source src="/videos/video-2.mp4" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/Videos%2Fvideo-2.mp4?alt=media&token=e114b66e-25d7-4de0-b928-d99101957a9d&_gl=1*w7f1i2*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM1Njg4Ni4xLjEuMTY5NzM2MzUzMy41Ny4wLjA." type="video/mp4" />
                 </video>
             </Modal>
         </>
