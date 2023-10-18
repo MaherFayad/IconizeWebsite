@@ -28,24 +28,24 @@ const Advantages = ({}: AdvantagesProps) => (
         className={cn("section-mb160 section-pd section-black", styles.section)}
     >
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>Achievements at a Glance</div>
+            <h2 className={cn("label", styles.label)}>Achievements at a Glance</h2>
             <div className={cn("section-mb120", styles.row)}>
                 <div className={styles.wrap}>
-                    <div className={cn("h5", styles.title)}>
+                    <h5 className={cn("h5", styles.title)}>
                         We deliver for you whatever you need
-                    </div>
+                    </h5>
                     <Link
                         className={cn("button-light", styles.button)}
                         href="/projects"
                     >
-                        LET'S WORK TOGETHER
+                        LET`S WORK TOGETHER
                     </Link>
                 </div>
-                <div className={styles.content}>
+                <h4 className={styles.content}>
                     <p>
                     At Iconize, we believe in measurable success. Our commitment to excellence is reflected in the numbers - real, tangible results that showcase our dedication to helping businesses thrive in the digital world.                    </p>
 
-                </div>
+                </h4>
             </div>
             <div className={styles.list}>
                 {list.map((item, index) => (

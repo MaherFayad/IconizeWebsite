@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import ServicePage from "@/templates/ServicePage";
+import ProjectPage from "@/templates/ProjectPage";
 
-const Service: NextPage  = () => {
+const Project: NextPage = () => {
     const router = useRouter();
     const { id } = router.query;
 
-    return <ServicePage id={id} />;
+    return <ProjectPage id='2' />;
 };
 
-export default Service;
+export default Project;

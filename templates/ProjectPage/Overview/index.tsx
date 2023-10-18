@@ -1,6 +1,6 @@
 import cn from "classnames";
 import styles from "./Overview.module.sass";
-import Project from "pages/projects/[id]";
+// import Project from "pages/projects/[id]";
 import { projects } from "@/mocks/projects";
 
 
@@ -15,16 +15,16 @@ const Overview = ({ id }: OverviewProps) => {
         <>
                 <div className={cn("section-mb120", styles.section)}>
                 <div className={"container"}>
-                    <div className={cn("label", styles.label)}>OVERVIEW</div>
+                    <h2 className={cn("label", styles.label)}>OVERVIEW</h2>
                     <div className={styles.row}>
-                        <div className={cn("h7", styles.title)}>
+                        <h3 className={cn("h7", styles.title)}>
                             {project.overview_1}
-                        </div>
-                        <div className={styles.content}>
+                        </h3>
+                        <h4 className={styles.content}>
                             <p>
                                 {project.overview_2}
                             </p>
-                        </div>
+                        </h4>
                     </div>
                 </div>
             </div>

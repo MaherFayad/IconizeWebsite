@@ -13,10 +13,10 @@ const Services = ({ items }: ServicesProps) => (
     <div className={cn("section-mb136", styles.section)}>
         <div className={"container"}>
             <div className={styles.head}>
-                <div className={cn("label", styles.label)}>OUR SERVICE</div>
-                <div className={cn("h5", styles.title)}>
+                <h2 className={cn("label", styles.label)}>OUR SERVICE</h2>
+                <h4 className={cn("h5", styles.title)}>
                     Diverse Services, Singular Excellence
-                </div>
+                </h4>
             </div>
             <div className={styles.list}>
                 {items.map((service, index) => (
@@ -25,13 +25,13 @@ const Services = ({ items }: ServicesProps) => (
                             {index < 9 ? `0${index + 1}` : index + 1}
                         </div>
                         <div className={styles.row}>
-                            <div className={cn("h4", styles.subtitle)}>
+                            <h4 className={cn("h4", styles.subtitle)}>
                                 {service.title}
-                            </div>
+                            </h4>
                             <div className={styles.wrap}>
-                                <div className={styles.description}>
+                                <h5 className={styles.description}>
                                     {service.description}
-                                </div>
+                                </h5>
                                 <Link
                                     className={cn("button", styles.button)}
                                     href={`/services/${service.id}`}

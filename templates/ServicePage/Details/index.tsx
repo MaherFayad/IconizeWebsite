@@ -17,39 +17,39 @@ const Details = ({ id }: DetailsProps) => {
         <div className={cn("section-mb120", styles.section)}>
             <div className={"container"}>
                 <div className={styles.head}>
-                    <div className={cn("h5", styles.title)}>
+                    <h4 className={cn("h5", styles.title)}>
                         {service.details_H1}
-                    </div>
-                    <div className={styles.text}>
+                    </h4>
+                    <h6 className={styles.text}>
                         {service.details_H2}
-                    </div>
+                    </h6>
                 </div>
                 <div className={styles.list}>
                         <div className={styles.item}>
                             <div className={cn("label", styles.number)}>
                                 1
                             </div>
-                            <div className={cn("subtitle", styles.subtitle)}>
+                            <h4 className={cn("subtitle", styles.subtitle)}>
                                 {service.list1_title}
-                            </div>
+                            </h4>
                             <div className={styles.content}>{service.list1_content}</div>
                         </div>
                         <div className={styles.item}>
                             <div className={cn("label", styles.number)}>
                                 2
                             </div>
-                            <div className={cn("subtitle", styles.subtitle)}>
+                            <h4 className={cn("subtitle", styles.subtitle)}>
                                 {service.list2_title}
-                            </div>
+                            </h4>
                             <div className={styles.content}>{service.list2_content}</div>
                         </div>
                         <div className={styles.item}>
                             <div className={cn("label", styles.number)}>
                                 3
                             </div>
-                            <div className={cn("subtitle", styles.subtitle)}>
+                            <h4 className={cn("subtitle", styles.subtitle)}>
                                 {service.list3_title}
-                            </div>
+                            </h4>
                             <div className={styles.content}>{service.list3_content}</div>
                         </div>
                 </div>

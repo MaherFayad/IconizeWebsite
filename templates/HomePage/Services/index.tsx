@@ -12,10 +12,10 @@ type ServicesProps = {
 const Services = ({ items }: ServicesProps) => (
     <div className={cn("section-mb144", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR SERVICE</div>
-            <div className={cn("h7", styles.info)}>
+            <h2 className={cn("label", styles.label)}>OUR SERVICE</h2>
+            <h3 className={cn("h7", styles.info)}>
                 Elevating Your Software Vision: Our Expertise Spans Strategy, Research, Design, Development, Code Security, and Beyond!
-            </div>
+            </h3>
             <div className={styles.list}>
                 {items.slice(0, 5).map((service, index) => (
                     <Link

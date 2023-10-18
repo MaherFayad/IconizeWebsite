@@ -14,13 +14,13 @@ const Main = ({}: MainProps) => {
                         Thank you for contacting us!
                     </h1>
                     <div className={styles.wrap}>
-                        <div className={cn("h7", styles.subtitle)}>
+                        <h3 className={cn("h7", styles.subtitle)}>
                             We have received your message.
-                        </div>
-                        <div className={styles.content}>
+                        </h3>
+                        <h3 className={styles.content}>
                             We have received your message and will contact you
                             shortly to follow up.
-                        </div>
+                        </h3>
                         <Link
                             className={cn("button-light", styles.button)}
                             href="/"

@@ -37,7 +37,7 @@ const Main = ({}: MainProps) => {
                         <h1 className={cn("h4", styles.title)}>
                             Reach Out and Connect:
                         </h1>
-                        <div className={styles.content}>
+                        <h2 className={styles.content}>
                             <p>
                                 We are Here to Hear From You.
                             </p>
@@ -45,7 +45,7 @@ const Main = ({}: MainProps) => {
                                 Fill out the following form and we will get back
                                 to you in the next 24 hours.
                             </p>
-                        </div>
+                        </h2>
                     </div>
                     <ButtonCircle
                         className={styles.button}

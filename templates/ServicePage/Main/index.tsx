@@ -48,9 +48,9 @@ const Main = ({ id }: MainProps) => {
                                 {service.description_H2}
                             </div>
                             <div className={styles.details}>
-                                <div className={cn("h7", styles.info)}>
+                                <h4 className={cn("h7", styles.info)}>
                                     <b>We provide :</b><br/><br/> {service.description_H3}
-                                </div>
+                                </h4>
                                 <Link
                                     className={cn("button", styles.button)}
                                     href="/contact"

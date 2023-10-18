@@ -29,17 +29,17 @@ type ValuesProps = {};
 const Values = ({}: ValuesProps) => (
     <div className={cn("section-mb160", styles.section)}>
         <div className={"container"}>
-            <div className={cn("label", styles.label)}>OUR VALUES</div>
-            <div className={cn("h7", styles.subtitle)}>
+            <h2 className={cn("label", styles.label)}>OUR VALUES</h2>
+            <h3 className={cn("h7", styles.subtitle)}>
                 These values capture the essence of Iconize - friendly, forward-thinking, and committed to making a positive impact
-            </div>
+            </h3>
             <div className={styles.list}>
                 {list.map((item, index) => (
                     <div className={styles.item} key={index}>
-                        <div className={cn("h5", styles.title)}>
+                        <h4 className={cn("h5", styles.title)}>
                             {item.title}
-                        </div>
-                        <div className={styles.content}>{item.content}</div>
+                        </h4>
+                        <h5 className={styles.content}>{item.content}</h5>
                     </div>
                 ))}
             </div>

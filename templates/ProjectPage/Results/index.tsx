@@ -34,18 +34,18 @@ const Results = ({ id }: ResultsProps) => {
             >
                 <div className={"container"}>
                     <div className={styles.row}>
-                        <div className={cn("label", styles.label)}>RESULTS</div>
+                        <h2 className={cn("label", styles.label)}>RESULTS</h2>
                         <div className={styles.wrap}>
-                            <div className={cn("h6", styles.title)}>
+                            <h3 className={cn("h6", styles.title)}>
                                 This is what we have achieved for {project.client}
-                            </div>
+                            </h3>
                             <div className={styles.result}>
                                 {result.map((item, index) => (
                                     <div className={styles.box} key={index}>
-                                        <div className={cn("label", styles.number)}>
+                                        <h5 className={cn("label", styles.number)}>
                                             {index < 9 ? `0${index + 1}` : index + 1}
-                                        </div>
-                                        <div className={styles.content}>{item}</div>
+                                        </h5>
+                                        <h6 className={styles.content}>{item}</h6>
                                     </div>
                                 ))}
                             </div>

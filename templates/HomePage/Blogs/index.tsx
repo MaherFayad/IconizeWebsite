@@ -13,10 +13,10 @@ const Blogs = ({ items }: BlogsProps) => (
     <div className={cn("section-black section-pd128", styles.section)}>
         <div className={"container"}>
             <div className={styles.head}>
-                <div className={cn("label", styles.label)}>OUR BLOGS</div>
-                <div className={cn("h5", styles.title)}>
+                <h2 className={cn("label", styles.label)}>OUR BLOGS</h2>
+                <h3 className={cn("h5", styles.title)}>
                     At Iconize, our blogs are more than just articles; they are windows into our hearts and minds. We believe in the power of storytelling and sharing insights because we genuinely care about our readers, clients, and the broader community
-                </div>
+                </h3>
             </div>
             <div className={styles.list}>
                 {items.slice(0, 4).map((blog) => (
