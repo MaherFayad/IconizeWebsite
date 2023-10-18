@@ -17,7 +17,7 @@ const Main = ({ id }: MainProps) => {
                 <div className={cn("container", styles.container)}>
                     <div className={styles.list}>
                         <div className={styles.item}>
-                            <div className={styles.category}>Project Name</div>
+                            <h1 className={styles.category}>Project Name</h1>
                             <div className={styles.value}>{project.client}</div>
                         </div>
                         <div className={styles.item}>

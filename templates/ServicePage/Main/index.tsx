@@ -22,12 +22,12 @@ const Main = ({ id }: MainProps) => {
                 )}
             >
                 <div className={cn("container", styles.container)}>
-                    <div className={cn("h4", styles.title)}>
+                    <h1 className={cn("h4", styles.title)}>
                         {service.description_H1}
-                    </div>
-                    <div className={cn(styles.content, styles.contentMobile)}>
+                    </h1>
+                    <h2 className={cn(styles.content, styles.contentMobile)}>
                         {service.description_H2}
-                    </div>
+                    </h2>
                     <div className={styles.row}>
                         <div className={cn("image", styles.image)}>
                             <Image

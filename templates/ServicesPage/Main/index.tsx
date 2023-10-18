@@ -27,9 +27,9 @@ const Main = ({}: MainProps) => {
         <>
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
-                    <div className={cn("h4", styles.title)}>
+                    <h1 className={cn("h4", styles.title)}>
                     <b>Our Expertise, Your Solutions:</b> <br/> <span className={cn("h5", styles.title)}>Discover Our Range of Services.</span>
-                    </div>
+                    </h1>
                     <div className={styles.actions}>
                         <ButtonCircle
                             className={styles.button1}

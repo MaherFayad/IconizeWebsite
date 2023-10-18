@@ -10,9 +10,9 @@ const Main = ({}: MainProps) => {
         <>
             <div className={cn("section-main section-brown", styles.section)}>
                 <div className={cn("container", styles.container)}>
-                    <div className={cn("h4", styles.title)}>
+                    <h1 className={cn("h4", styles.title)}>
                         Thank you for contacting us!
-                    </div>
+                    </h1>
                     <div className={styles.wrap}>
                         <div className={cn("h7", styles.subtitle)}>
                             We have received your message.

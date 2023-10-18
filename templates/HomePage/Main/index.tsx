@@ -33,10 +33,10 @@ const Main = ({ scrollToRef }: MainProps) => {
                             </TextTransition>
                         </div>
                     </div>
-                    <div className={styles.info}>
+                    <h1 className={styles.info}>
                     <b>Elevate Your Business with Iconize.</b> <br></br>
                     Iconize - Your Trusted Partner for Innovative Solutions
-                    </div>
+                    </h1>
                 </div>
                 <div className={styles.actions}>
                     <ButtonCircle

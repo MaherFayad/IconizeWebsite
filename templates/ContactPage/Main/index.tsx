@@ -34,9 +34,9 @@ const Main = ({}: MainProps) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.row}>
                     <div className={styles.wrap}>
-                        <div className={cn("h4", styles.title)}>
+                        <h1 className={cn("h4", styles.title)}>
                             Reach Out and Connect:
-                        </div>
+                        </h1>
                         <div className={styles.content}>
                             <p>
                                 We are Here to Hear From You.
