@@ -4,7 +4,7 @@ import ProjectPage from "@/templates/ProjectPage";
 
 const Project: NextPage = () => {
     const router = useRouter();
-    const { id } = router.query;
+    const { client } = router.query;
 
     return <ProjectPage id='0' />;
 };
