@@ -25,7 +25,7 @@ class MyDocument extends Document {
                         property="og:description"
                     />
                     <meta
-                        content="/fb-og-image.png"
+                        content="/fb-og-image.jpg"
                         property="og:image"
                     />
                     <meta
@@ -45,7 +45,7 @@ class MyDocument extends Document {
                         property="twitter:description"
                     />
                     <meta
-                        content="/twitter-card.png"
+                        content="/twitter-card.jpg"
                         property="twitter:image"
                     />
                     <meta property="og:type" content="Article" />
