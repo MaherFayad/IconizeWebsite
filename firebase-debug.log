@@ -1,0 +1,14 @@
+[debug] [2023-10-23T19:12:01.534Z] ----------------------------------------------------------------------
+[debug] [2023-10-23T19:12:01.536Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maher Fayad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-23T19:12:01.536Z] CLI Version:   12.7.0
+[debug] [2023-10-23T19:12:01.536Z] Platform:      win32
+[debug] [2023-10-23T19:12:01.537Z] Node Version:  v18.17.1
+[debug] [2023-10-23T19:12:01.537Z] Time:          Mon Oct 23 2023 22:12:01 GMT+0300 (Eastern European Summer Time)
+[debug] [2023-10-23T19:12:01.537Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-23T19:12:01.593Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-23T19:12:01.594Z] > authorizing via signed-in user (maherfayad55@gmail.com)
+[debug] [2023-10-23T19:12:01.594Z] [iam] checking project iconize-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-23T19:12:01.596Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/iconize-website:testIamPermissions [none]
+[debug] [2023-10-23T19:12:01.596Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/iconize-website:testIamPermissions x-goog-quota-user=projects/iconize-website
+[debug] [2023-10-23T19:12:01.597Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/iconize-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
