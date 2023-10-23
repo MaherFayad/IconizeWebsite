@@ -66,20 +66,19 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
                     <Partytown debug={true} forward={['dataLayer.push']} />
-                    <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" async></script>
-                    <script
+                    <script async type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" />
+                    <script                         
                         async
                         type="text/partytown"
                         dangerouslySetInnerHTML={{
                             __html: `
-                                window.dataLayer = window.dataLayer || [];
-                                function gtag(){dataLayer.push(arguments);}
-                                gtag('js', new Date());
-                              
-                                gtag('config', 'G-H27RSW8ED1');
-                                                              `,
-                        }}
-                    />
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                          
+                            gtag('config', 'G-H27RSW8ED1');
+                                                          `,
+                        }}/>
                     <script
                         async
                         type="text/partytown"

@@ -44,10 +44,10 @@ export const companies = [
         id: "11",
         image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2Fkonica-minolta.png?alt=media&token=55fdea9e-09f0-4b7f-be91-d054a46e0e80&_gl=1*qq0e3m*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjIxMy4xMi4wLjA.",
     },
-    {
-        id: "12",
-        image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FLayer_1.png?alt=media&token=3a9cf4b2-a150-462c-88de-37d079bb9ba9&_gl=1*p8wvpn*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjA1NC4zMS4wLjA.",
-    },
+    // {
+    //     id: "12",
+    //     image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FLayer_1.png?alt=media&token=3a9cf4b2-a150-462c-88de-37d079bb9ba9&_gl=1*p8wvpn*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjA1NC4zMS4wLjA.",
+    // },
     {
         id: "13",
         image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FMit-olin.png?alt=media&token=2c9d7ff0-08f6-4523-b936-ca5324ea25ec&_gl=1*125f9fz*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjA3MC4xNS4wLjA.",
