@@ -66,7 +66,7 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff" />
                     <Partytown debug={true} forward={['dataLayer.push']} />
-                    <script async type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" />
+                    {/* <script async type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-H27RSW8ED1" />
                     <script                         
                         async
                         type="text/partytown"
@@ -78,7 +78,7 @@ class MyDocument extends Document {
                           
                             gtag('config', 'G-H27RSW8ED1');
                                                           `,
-                        }}/>
+                        }}/> */}
                     <script
                         async
                         type="text/partytown"
