@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import cn from "classnames";
 import Link from "next/link";
 import styles from "./Advantages.module.sass";
@@ -38,7 +39,7 @@ const Advantages = ({}: AdvantagesProps) => (
                         className={cn("button-light", styles.button)}
                         href="/projects"
                     >
-                        LET`S WORK TOGETHER
+                        LET'S WORK TOGETHER
                     </Link>
                 </div>
                 <h4 className={styles.content}>
