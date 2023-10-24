@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run partytown && next build",
     "start": "next start",
     "lint": "next lint",
-    "output": "next export -o build"
+    "output": "next build & next export -o build",
+    "partytown": "partytown copylib public/~partytown"
   },
   "dependencies": {
     "@builder.io/partytown": "^0.8.1",
