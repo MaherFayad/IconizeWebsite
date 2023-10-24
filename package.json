@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "output": "next build & next export -o build",
-    "partytown": "partytown copylib public/~partytown"
+    "partytown": "partytown copylib build/~partytown"
   },
   "dependencies": {
     "@builder.io/partytown": "^0.8.1",
