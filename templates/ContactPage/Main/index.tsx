@@ -41,7 +41,7 @@ const Main = ({}: MainProps) => {
                             <p>
                                 We are Here to Hear From You.
                             </p>
-                            <p>
+                            <p className={styles.content1}>
                                 Fill out the following form and we will get back
                                 to you in the next 24 hours.
                             </p>
