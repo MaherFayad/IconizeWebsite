@@ -4,10 +4,10 @@ export const companies = [
         id: "0",
         image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FAsset_1_1.png?alt=media&token=1dff95e3-af47-4f5d-8b6a-6c2a2b9701f5&_gl=1*1ktmkd3*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NTgyNC42LjAuMA..",
     },
-    {
-        id: "1",
-        image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FContact.png?alt=media&token=6e4bc493-213c-4937-bf66-44471c42fcb0&_gl=1*vkhkmq*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NTk2NC42MC4wLjA.",
-    },
+    // {
+    //     id: "1",
+    //     image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FContact.png?alt=media&token=6e4bc493-213c-4937-bf66-44471c42fcb0&_gl=1*vkhkmq*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NTk2NC42MC4wLjA.",
+    // },
     {
         id: "3",
         image: "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fcompanies%2Fnew%2FFrame%2019555.png?alt=media&token=f263c690-cf85-46f6-be38-0f009fe3df9e&_gl=1*1kbph3q*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NTk3Ny40Ny4wLjA.",

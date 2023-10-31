@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import cn from "classnames";
 import styles from "./Description.module.sass";
 import Image from "@/components/Image";
@@ -35,7 +36,7 @@ const Description = ({}: DescriptionProps) => (
                         />
                     </div>
                     <h3 className={cn("h6", styles.content)}>
-                        We don`t help people with horse problems, We help horses with people problems.
+                        We don't help people with horse problems, We help horses with people problems.
                     </h3>
                     <div className={cn("h7B", styles.content)}>
                         <br/> Robert Redford - Horse Whisperer movie.
