@@ -7,6 +7,7 @@ import Advantages from "./Advantages";
 import Projects from "@/components/Projects";
 import Reviews from "./Reviews";
 import Companies from "@/components/Companies";
+import Mockup from "@/components/Mockup";
 import Blogs from "./Blogs";
 
 import { services } from "@/mocks/services";
@@ -22,6 +23,7 @@ const HomePage = () => {
         <Layout title="Iconize" Description="Welcome to Iconize, where technology meets expertise! We are a premier software company specializing in comprehensive IT services and consultation. With a proven track record of success, we empower businesses, like yours to thrive in the digital age.">
 
             <Main scrollToRef={scrollToRef} />
+            <Mockup />
             <AboutUs scrollToRef={scrollToRef} />
             <Advantages />
             <Services items={services} />

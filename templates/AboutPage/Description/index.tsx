@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./Description.module.sass";
 import Image from "@/components/Image";
 
+
 const images = [
     "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-1.jpg?alt=media&token=a87c798f-a9d6-4f1f-8b08-c26fd0425bed&_gl=1*1omlzrx*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjQ4NC4xOS4wLjA.",
     "https://firebasestorage.googleapis.com/v0/b/iconize-website.appspot.com/o/images%2Fphoto-2.jpg?alt=media&token=cf21c6b9-1f09-48d2-92cf-c716edddfc64&_gl=1*1v45353*_ga*MjAyNTM5Nzk0Mi4xNjk3MzU2ODg2*_ga_CW55HF8NVT*MTY5NzM3MzY1Ny4yLjEuMTY5NzM3NjUwMS4yLjAuMA..",
