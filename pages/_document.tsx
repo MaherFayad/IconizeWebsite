@@ -7,6 +7,7 @@ import Document, {
 } from "next/document";
 import { Partytown } from '@builder.io/partytown/react';
 
+
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
         const initialProps = await Document.getInitialProps(ctx);
@@ -100,7 +101,8 @@ class MyDocument extends Document {
                     />
                     <script
                         async
-                        type="text/partytown"
+                        id="ms-clarity"
+                        type="text/javascript"
                         dangerouslySetInnerHTML={{
                             __html: `
                                 (function(c,l,a,r,i,t,y){
