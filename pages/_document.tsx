@@ -102,6 +102,7 @@ class MyDocument extends Document {
                     />
                     <script
                         async
+                        defer
                         id="ms-clarity"
                         type="text/javascript"
                         dangerouslySetInnerHTML={{
@@ -113,8 +114,6 @@ class MyDocument extends Document {
                                 })(window, document, "clarity", "script", "j1aw65gcrm");`,
                         }}
                     />
-
-
                 </Head>
                 <body className="app">
                     <Main />
